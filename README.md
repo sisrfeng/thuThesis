@@ -9,7 +9,6 @@ FAQ重点:
 
 * 发布版：
   * [GitHub Releases](https://github.com/tuna/thuthesis/releases)：最新版的及时发布途径。
-  * [Overleaf](https://www.overleaf.com/latex/templates/thuthesis-tsinghua-university-thesis-latex-template/wddqnwbyhtnk)：Overleaf 的模板。
 
 
 ## 更新日志
