@@ -1,0 +1,566 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/data2/wf2/thuX/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+$(CLSFILE)	Makefile	/^$(CLSFILE): $(SOURCES)$/;"	t
+$(PACKAGE).pdf	Makefile	/^$(PACKAGE).pdf: cls FORCE_MAKE$/;"	t
+$(SPINE).pdf	Makefile	/^$(SPINE).pdf: cls FORCE_MAKE$/;"	t
+$(THESIS).pdf	Makefile	/^$(THESIS).pdf: cls FORCE_MAKE$/;"	t
+0	.vscode/settings.json	/^                "-file-line-error",$/;"	s	array:latex-workshop.latex.tools.0.args
+0	.vscode/settings.json	/^                "-xelatex",$/;"	s	array:latex-workshop.latex.tools.1.args
+0	.vscode/settings.json	/^                "make-thesis"$/;"	s	array:latex-workshop.latex.recipes.1.tools
+0	.vscode/settings.json	/^                "xetex-thuthesis",$/;"	s	array:latex-workshop.latex.recipes.0.tools
+0	.vscode/settings.json	/^        "**\/thuthesis.cls",$/;"	s	array:latex-workshop.latex.watch.files.ignore
+0	.vscode/settings.json	/^        {$/;"	o	array:latex-workshop.latex.recipes
+0	.vscode/settings.json	/^        {$/;"	o	array:latex-workshop.latex.tools
+0	package.json	/^    "LaTeX",$/;"	s	array:keywords
+1	.vscode/settings.json	/^                "-file-line-error",$/;"	s	array:latex-workshop.latex.tools.1.args
+1	.vscode/settings.json	/^                "-halt-on-error",$/;"	s	array:latex-workshop.latex.tools.0.args
+1	.vscode/settings.json	/^                "latexmk-xelatex"$/;"	s	array:latex-workshop.latex.recipes.0.tools
+1	.vscode/settings.json	/^        "**\/*.bbx",$/;"	s	array:latex-workshop.latex.watch.files.ignore
+1	.vscode/settings.json	/^        {$/;"	o	array:latex-workshop.latex.recipes
+1	.vscode/settings.json	/^        {$/;"	o	array:latex-workshop.latex.tools
+1	package.json	/^    "ThuThesis"$/;"	s	array:keywords
+10	.vscode/settings.json	/^        "**\/*.fd",$/;"	s	array:latex-workshop.latex.watch.files.ignore
+11	.vscode/settings.json	/^        "**\/*.fmt",$/;"	s	array:latex-workshop.latex.watch.files.ignore
+12	.vscode/settings.json	/^        "**\/*.lbx",$/;"	s	array:latex-workshop.latex.watch.files.ignore
+13	.vscode/settings.json	/^        "**\/*.map",$/;"	s	array:latex-workshop.latex.watch.files.ignore
+14	.vscode/settings.json	/^        "**\/*.mkii",$/;"	s	array:latex-workshop.latex.watch.files.ignore
+15	.vscode/settings.json	/^        "**\/*.pfb",$/;"	s	array:latex-workshop.latex.watch.files.ignore
+16	.vscode/settings.json	/^        "**\/*.tfm",$/;"	s	array:latex-workshop.latex.watch.files.ignore
+17	.vscode/settings.json	/^        "**\/*.vf",$/;"	s	array:latex-workshop.latex.watch.files.ignore
+18	.vscode/settings.json	/^        "**\/*.code.tex",$/;"	s	array:latex-workshop.latex.watch.files.ignore
+19	.vscode/settings.json	/^        "**\/*.sty",$/;"	s	array:latex-workshop.latex.watch.files.ignore
+2	.vscode/settings.json	/^                "-halt-on-error",$/;"	s	array:latex-workshop.latex.tools.1.args
+2	.vscode/settings.json	/^                "-interaction=nonstopmode",$/;"	s	array:latex-workshop.latex.tools.0.args
+2	.vscode/settings.json	/^        "**\/*.bbl",$/;"	s	array:latex-workshop.latex.watch.files.ignore
+2	.vscode/settings.json	/^        {$/;"	o	array:latex-workshop.latex.tools
+20	.vscode/settings.json	/^        "**\/texmf-{dist,var}\/**",$/;"	s	array:latex-workshop.latex.watch.files.ignore
+21	.vscode/settings.json	/^        "**\/Local\/MiKTeX\/**",$/;"	s	array:latex-workshop.latex.watch.files.ignore
+22	.vscode/settings.json	/^        "**\/Local\/Programs\/MiKTeX\/**",$/;"	s	array:latex-workshop.latex.watch.files.ignore
+23	.vscode/settings.json	/^        "**\/Roaming\/MiKTeX\/**",$/;"	s	array:latex-workshop.latex.watch.files.ignore
+24	.vscode/settings.json	/^        "**\/Program*\/MiKTeX*\/**",$/;"	s	array:latex-workshop.latex.watch.files.ignore
+25	.vscode/settings.json	/^        "**\/.miktex\/texmfs\/**",$/;"	s	array:latex-workshop.latex.watch.files.ignore
+26	.vscode/settings.json	/^        "\/var\/cache\/miktex-texmf\/**",$/;"	s	array:latex-workshop.latex.watch.files.ignore
+27	.vscode/settings.json	/^        "\/usr\/local\/share\/miktex-texmf\/**",$/;"	s	array:latex-workshop.latex.watch.files.ignore
+28	.vscode/settings.json	/^        "**\/Library\/Application Support\/MiKTeX\/texmfs\/**",$/;"	s	array:latex-workshop.latex.watch.files.ignore
+29	.vscode/settings.json	/^        "\/dev\/null"$/;"	s	array:latex-workshop.latex.watch.files.ignore
+3	.vscode/settings.json	/^                "-interaction=nonstopmode",$/;"	s	array:latex-workshop.latex.tools.1.args
+3	.vscode/settings.json	/^                "thuthesis.ins"$/;"	s	array:latex-workshop.latex.tools.0.args
+3	.vscode/settings.json	/^        "**\/*.cbx",$/;"	s	array:latex-workshop.latex.watch.files.ignore
+4	.vscode/settings.json	/^                "-synctex=1",$/;"	s	array:latex-workshop.latex.tools.1.args
+4	.vscode/settings.json	/^        "**\/*.cfg",$/;"	s	array:latex-workshop.latex.watch.files.ignore
+5	.vscode/settings.json	/^                "-outdir=%OUTDIR%",$/;"	s	array:latex-workshop.latex.tools.1.args
+5	.vscode/settings.json	/^        "**\/*.clo",$/;"	s	array:latex-workshop.latex.watch.files.ignore
+6	.vscode/settings.json	/^                "%DOC%"$/;"	s	array:latex-workshop.latex.tools.1.args
+6	.vscode/settings.json	/^        "**\/*.cnf",$/;"	s	array:latex-workshop.latex.watch.files.ignore
+7	.vscode/settings.json	/^        "**\/*.def",$/;"	s	array:latex-workshop.latex.watch.files.ignore
+8	.vscode/settings.json	/^        "**\/*.dfu",$/;"	s	array:latex-workshop.latex.watch.files.ignore
+9	.vscode/settings.json	/^        "**\/*.enc",$/;"	s	array:latex-workshop.latex.watch.files.ignore
+Abrams2004mirror	testfiles/support/refs-mla.bib	/^@book{Abrams2004mirror,$/;"	b
+Beamer	wiki/做slides.md	/^## Beamer$/;"	s
+CLSFILE	Makefile	/^CLSFILE = dtx-style.sty $(PACKAGE).cls$/;"	m
+CTeX 2.9.2 明明版本号比 CTeX 2.2 要高，为什么是「旧版本」呢？	wiki/FAQ.md	/^### CTeX 2.9.2 明明版本号比 CTeX 2.2 要高，为什么是「旧版本」呢？ $/;"	S
+Citations	data/appendix-survey.tex	/^\\section{Citations}$/;"	s	chapter:Title
+DWF 设计原则对污水系统性能评估结果的影响	testfiles/06-contents.tex	/^\\subsection{DWF 设计原则对污水系统性能评估结果的影响}$/;"	u	section:不确定条件下城市排水系统设计规律识别与分析""污水系统
+EOH	wiki/update-tlmgr-latest.sh	/^    cat << EOH >&2$/;"	h
+EOLSM	wiki/update-tlmgr-latest.sh	/^cat << EOLSM$/;"	h
+Equations	data/appendix-survey.tex	/^\\section{Equations}$/;"	s	chapter:Title
+Figures	data/appendix-survey.tex	/^\\subsection{Figures}$/;"	u	section:Title""Figures and Tables
+Figures and Tables	data/appendix-survey.tex	/^\\section{Figures and Tables}$/;"	s	chapter:Title
+Grady层裂模型	testfiles/09-main-postdoc.tex	/^\\subsection{Grady层裂模型}$/;"	u	section:材料动态断裂研究概述""动态损伤理论
+LATEXMK	Makefile	/^LATEXMK = latexmk$/;"	m
+MS_Check	wiki/update-tlmgr-latest.sh	/^MS_Check()$/;"	f
+MS_Help	wiki/update-tlmgr-latest.sh	/^MS_Help()$/;"	f
+MS_PrintLicense	wiki/update-tlmgr-latest.sh	/^MS_PrintLicense()$/;"	f
+MS_Printf	wiki/update-tlmgr-latest.sh	/^MS_Printf()$/;"	f
+MS_dd	wiki/update-tlmgr-latest.sh	/^MS_dd()$/;"	f
+MS_dd_Progress	wiki/update-tlmgr-latest.sh	/^MS_dd_Progress()$/;"	f
+MS_diskspace	wiki/update-tlmgr-latest.sh	/^MS_diskspace()$/;"	f
+Makefile的用法	README.md	/^## Makefile的用法$/;"	s	chapter:ThuThesis
+NAG统计断裂力学模型	testfiles/09-main-postdoc.tex	/^\\subsection{NAG统计断裂力学模型}$/;"	u	section:材料动态断裂研究概述""动态损伤理论
+NPM	Makefile	/^NPM    ?= npm$/;"	m
+Nomenclatures	testfiles/08-notation-nomencl/08-notation-nomencl.tex	/^\\chapter{Nomenclatures}$/;"	c
+Overleaf	wiki/新手指南.md	/^# Overleaf$/;"	c
+PACKAGE	Makefile	/^PACKAGE = thuthesis$/;"	m
+Perzyna过应力损伤模型	testfiles/09-main-postdoc.tex	/^\\subsection{Perzyna过应力损伤模型}$/;"	u	section:材料动态断裂研究概述""动态损伤理论
+RM	Makefile	/^	RM = del \/Q$/;"	m
+RM	Makefile	/^	RM = rm -f$/;"	m
+SHELL	Makefile	/^SHELL  := \/bin\/bash$/;"	m
+SOURCES	Makefile	/^SOURCES = $(PACKAGE).ins $(PACKAGE).dtx$/;"	m
+SPINE	Makefile	/^SPINE   = spine$/;"	m
+THESIS	Makefile	/^THESIS  = thuthesis-example$/;"	m
+Tables	data/appendix-survey.tex	/^\\subsection{Tables}$/;"	u	section:Title""Figures and Tables
+TeX Live	wiki/新手指南.md	/^## TeX Live$/;"	s	chapter:安装 LaTeX 发行版
+ThuThesis	README.md	/^# ThuThesis$/;"	c
+Title	testfiles/09-main-en.tex	/^\\chapter{Title}$/;"	c
+Title	testfiles/09-main-en.tex	/^\\section{Title}$/;"	s	chapter:Title
+Title	testfiles/09-main-en.tex	/^\\subsection{Title}$/;"	u	section:Title""Title
+UnTAR	wiki/update-tlmgr-latest.sh	/^UnTAR()$/;"	f
+\\BWmaintain	testfiles/09-main.tex	/^\\newcommand\\BWmaintain{\\mathit{BW}_{\\text{maintain}}}$/;"	C
+\\BWsearch	testfiles/09-main.tex	/^\\newcommand\\BWsearch{\\mathit{BW}_{\\text{search}}}$/;"	C
+\\BWtotal	testfiles/09-main.tex	/^\\newcommand\\BWtotal{\\mathit{BW}_{\\text{total}}}$/;"	C
+\\algorithmicensure	data/chap02.tex	/^\\renewcommand{\\algorithmicensure}{\\textbf{输出：}\\unskip}$/;"	C
+\\algorithmicrequire	data/chap02.tex	/^\\renewcommand{\\algorithmicrequire}{\\textbf{输入：}\\unskip}$/;"	C
+\\bwpeer	testfiles/09-main.tex	/^\\newcommand\\bwpeer{\\mathit{bw}_{\\text{peer}}}$/;"	C
+\\dif	thusetup.tex	/^\\newcommand\\dif{%  % 微分符号$/;"	C
+\\dummy	testfiles/09-main.tex	/^\\newcommand\\dummy{%$/;"	C
+\\dummy	testfiles/09-main.tex	/^\\renewcommand\\dummy{%$/;"	C
+\\test	testfiles/package-longtable.tex	/^\\newcommand\\test{%$/;"	C
+\\test	testfiles/package-siunitx.tex	/^\\newcommand\\test{\\par$/;"	C
+_default	gulpfile.js	/^function _default(callback) {$/;"	f
+abrahams99tex	ref/appendix.bib	/^@book{abrahams99tex,$/;"	b
+alg1	data/chap02.tex	/^  \\label{alg1}$/;"	l
+alg1	testfiles/package-algorithms.tex	/^  \\label{alg1}$/;"	l
+all	Makefile	/^all: thesis spine$/;"	t
+all-dev	Makefile	/^all-dev: doc all$/;"	t
+ansi-colors	package.json	/^    "ansi-colors": "^4.1.1",$/;"	s	object:devDependencies
+args	.vscode/settings.json	/^            "args": [$/;"	a	object:latex-workshop.latex.tools.0
+args	.vscode/settings.json	/^            "args": [$/;"	a	object:latex-workshop.latex.tools.1
+args	.vscode/settings.json	/^            "args": [],$/;"	a	object:latex-workshop.latex.tools.2
+argv	gulpfile.js	/^const argv = require('minimist')(process.argv.slice(2));$/;"	C
+atkinson1982experimental	ref/refs.bib	/^@article{atkinson1982experimental,$/;"	a
+atkinson1982experimental	testfiles/support/refs-numeric.bib	/^@article{atkinson1982experimental,$/;"	a
+author	package.json	/^  "author": "Tsinghua University TUNA Association",$/;"	s
+baishunong1998zhiwu	ref/refs.bib	/^@incollection{baishunong1998zhiwu,$/;"	I
+baishunong1998zhiwu	testfiles/support/refs-numeric.bib	/^@incollection{baishunong1998zhiwu,$/;"	I
+baker1995future	testfiles/support/refs-author-year.bib	/^@book{baker1995future,$/;"	b
+bib1	testfiles/09-main-en.tex	/^  \\bibitem{bib1} Lin S D. Water and wastewater calculations manual[M]. New York: McGraw-Hill, 2/;"	B
+bib10	testfiles/09-main-en.tex	/^  \\bibitem{bib10} U.S. Environmental Protection Agency. Environment Fluid Dynamics Code: EPA ve/;"	B
+bib11	testfiles/09-main-en.tex	/^  \\bibitem{bib11} Environment Agency, Department for Environment, Food \\& Rural Affairs. Disch/;"	B
+bib2	testfiles/09-main-en.tex	/^  \\bibitem{bib2} Nath R, Jain R. Insulin chart prediction for diabetic patients using hidden Ma/;"	B
+bib3	testfiles/09-main-en.tex	/^  \\bibitem{bib3} Gao H, Gallagher K P. World needs stronger financial safety net[N\/OL]. China /;"	B
+bib4	testfiles/09-main-en.tex	/^  \\bibitem{bib4} Jha M, Gassman P W, Secchi S, et al. Effect of watershed subdivision on SWAT f/;"	B
+bib5	testfiles/09-main-en.tex	/^  \\bibitem{bib5} Koechling M T. Assessment and modeling of chlorine reactions with natural orga/;"	B
+bib6	testfiles/09-main-en.tex	/^  \\bibitem{bib6} U.S. Environmental Protection Agency. Guidelines for ecological risk assessmen/;"	B
+bib7	testfiles/09-main-en.tex	/^  \\bibitem{bib7} U.S. Environmental Protection Agency. 2018 Edition of the drinking water stand/;"	B
+bib8	testfiles/09-main-en.tex	/^  \\bibitem{bib8} Rowland G, Clinton A. Waste water treatment plant: US, 4526685[P\/OL]. 1985-07/;"	B
+bib9	testfiles/09-main-en.tex	/^  \\bibitem{bib9} U.S. Environmental Protection Agency. ECOTOX Knowledgebase[DB\/OL]. Washington/;"	B
+bixon1996dynamics	ref/refs.bib	/^@article{bixon1996dynamics,$/;"	a
+bixon1996dynamics	testfiles/support/refs-numeric.bib	/^@article{bixon1996dynamics,$/;"	a
+boethius1918theological	testfiles/support/refs-mla.bib	/^@book{boethius1918theological,$/;"	b
+bootstrap	gulpfile.js	/^function bootstrap(callback) {$/;"	f
+borthen2010we	testfiles/support/refs-apa.bib	/^@article{borthen2010we,$/;"	a
+bugs	package.json	/^  "bugs": {$/;"	o
+build	gulpfile.js	/^        build: '',$/;"	p	class:config.dist
+build	gulpfile.js	/^const build = gulp.series(bootstrap, build_self);$/;"	C
+build	package.json	/^    "build": "gulp build"$/;"	s	object:scripts
+build_ctan	gulpfile.js	/^const build_ctan = gulp.series(init_ctan, copy, compress, cleanup);$/;"	C
+build_self	gulpfile.js	/^const build_self = gulp.series(init_self, copy, compress, cleanup);$/;"	C
+carlson1981two	ref/refs.bib	/^@article{carlson1981two,$/;"	a
+carlson1981two	testfiles/support/refs-numeric.bib	/^@article{carlson1981two,$/;"	a
+cha:survey	data/appendix-survey.tex	/^\\label{cha:survey}$/;"	l
+cha:translation	data/appendix-translation.tex	/^\\label{cha:translation}$/;"	l
+chaucer1999canterbury	testfiles/support/refs-mla.bib	/^@book{chaucer1999canterbury,$/;"	b
+check	Makefile	/^check: FORCE_MAKE$/;"	t
+chen2011less	testfiles/support/refs-apa.bib	/^@article{chen2011less,$/;"	a
+chubanzhuanye2004	ref/refs.bib	/^@book{chubanzhuanye2004,$/;"	b
+chubanzhuanye2004	testfiles/support/refs-numeric.bib	/^@book{chubanzhuanye2004,$/;"	b
+clean	Makefile	/^clean:$/;"	t
+cleanall	Makefile	/^cleanall: clean$/;"	t
+cleanup	gulpfile.js	/^function cleanup(callback) {$/;"	f
+cls	Makefile	/^cls: $(CLSFILE)$/;"	t
+color	gulpfile.js	/^const color = require('ansi-colors');$/;"	C
+command	.vscode/settings.json	/^            "command": "latexmk",$/;"	s	object:latex-workshop.latex.tools.1
+command	.vscode/settings.json	/^            "command": "make",$/;"	s	object:latex-workshop.latex.tools.2
+command	.vscode/settings.json	/^            "command": "xetex",$/;"	s	object:latex-workshop.latex.tools.0
+compress	gulpfile.js	/^function compress(callback) {$/;"	f
+config	gulpfile.js	/^const config = {$/;"	c
+copy	gulpfile.js	/^function copy(callback) {$/;"	f
+crane1972invisible	testfiles/support/refs-author-year.bib	/^@book{crane1972invisible,$/;"	b
+damrosch1999longman	testfiles/support/refs-mla.bib	/^@book{damrosch1999longman,$/;"	b
+del	gulpfile.js	/^const del = require('del');$/;"	C
+del	package.json	/^    "del": "^6.0.0",$/;"	s	object:devDependencies
+dependencies	package.json	/^  "dependencies": {}$/;"	o
+description	package.json	/^  "description": "Tsinghua University Thesis LaTeX Template",$/;"	s
+devDependencies	package.json	/^  "devDependencies": {$/;"	o
+dist	Makefile	/^dist: check all-dev$/;"	t
+dist	gulpfile.js	/^    dist: {$/;"	c	class:config
+distclean	Makefile	/^distclean: cleanall$/;"	t
+do_test	testfiles/test.sh	/^do_test () {$/;"	f
+doc	Makefile	/^doc: $(PACKAGE).pdf$/;"	t
+docinit_hook	build.lua	/^function docinit_hook()$/;"	f
+dupont1974bone	ref/refs.bib	/^@inproceedings{dupont1974bone,$/;"	j
+dupont1974bone	testfiles/support/refs-numeric.bib	/^@inproceedings{dupont1974bone,$/;"	j
+env	.vscode/settings.json	/^            "env": {}$/;"	o	object:latex-workshop.latex.tools.0
+env	.vscode/settings.json	/^            "env": {}$/;"	o	object:latex-workshop.latex.tools.1
+env	.vscode/settings.json	/^            "env": {}$/;"	o	object:latex-workshop.latex.tools.2
+eq:1.1	testfiles/09-main-en.tex	/^  \\label{eq:1.1}$/;"	l
+eq:A.1	testfiles/09-main-en.tex	/^  \\label{eq:A.1}$/;"	l
+eq:appendix-equation	data/appendix.tex	/^  \\label{eq:appendix-equation}$/;"	l
+eq:appendix-survey-equation	data/appendix-survey.tex	/^  \\label{eq:appendix-survey-equation}$/;"	l
+eq:appendix-translation-equation	data/appendix-translation.tex	/^  \\label{eq:appendix-translation-equation}$/;"	l
+eq:example	data/chap03.tex	/^  \\label{eq:example}$/;"	l
+example	gulpfile.js	/^    example: {$/;"	c	class:config
+fancy-log	package.json	/^    "fancy-log": "^1.3.3",$/;"	s	object:devDependencies
+fig:1.1	testfiles/09-main-en.tex	/^  \\label{fig:1.1}$/;"	l
+fig:A.1	testfiles/09-main-en.tex	/^  \\label{fig:A.1}$/;"	l
+fig:appendix-figure	data/appendix.tex	/^  \\label{fig:appendix-figure}$/;"	l
+fig:appendix-survey-figure	data/appendix-survey.tex	/^  \\label{fig:appendix-survey-figure}$/;"	l
+fig:appendix-translation-figure	data/appendix-translation.tex	/^  \\label{fig:appendix-translation-figure}$/;"	l
+fig:example	data/chap02.tex	/^  \\label{fig:example}$/;"	l
+fig:multi-image	data/chap02.tex	/^  \\label{fig:multi-image}$/;"	l
+fig:subfig-a	data/chap02.tex	/^  \\subcaptionbox{分图 A\\label{fig:subfig-a}}$/;"	l
+fig:subfig-b	data/chap02.tex	/^  \\subcaptionbox{分图 B\\label{fig:subfig-b}}$/;"	l
+files	gulpfile.js	/^        files: [$/;"	p	class:config.example
+files	gulpfile.js	/^        files: [$/;"	p	class:config.template
+files	gulpfile.js	/^        files: [],$/;"	p	class:config.dist
+fmK	wiki/update-tlmgr-latest.sh	/^~�Z��^k�N}{�yλ.O�jQ1�W̐͛RxM��o>?�������\\�������<<fmK�ףU$/;"	h
+generated	gulpfile.js	/^        generated: ['thuthesis.cls']$/;"	p	class:config.template
+greenblatt1997norton	testfiles/support/refs-mla.bib	/^@book{greenblatt1997norton,$/;"	b
+guangxi1993	ref/refs.bib	/^@book{guangxi1993,$/;"	b
+guangxi1993	testfiles/support/refs-numeric.bib	/^@book{guangxi1993,$/;"	b
+gulp	gulpfile.js	/^const gulp = require('gulp');$/;"	C
+gulp	package.json	/^    "gulp": "^4.0.2",$/;"	s	object:devDependencies
+gulp-zip	package.json	/^    "gulp-zip": "^5.0.1",$/;"	s	object:devDependencies
+hanjiren1985lun	ref/refs.bib	/^@inproceedings{hanjiren1985lun,$/;"	j
+hanjiren1985lun	testfiles/support/refs-numeric.bib	/^@inproceedings{hanjiren1985lun,$/;"	j
+harwood2005nowhere	testfiles/support/refs-apa.bib	/^@article{harwood2005nowhere,$/;"	a
+hieatt1978function	testfiles/support/refs-mla.bib	/^@article{hieatt1978function,$/;"	a
+homepage	package.json	/^  "homepage": "https:\/\/github.com\/tuna\/thuthesis",$/;"	s
+housley2010we	testfiles/support/refs-apa.bib	/^@article{housley2010we,$/;"	a
+hu2001lishi	testfiles/support/refs-mla.bib	/^@book{hu2001lishi,$/;"	b
+huosini1989guwu	ref/refs.bib	/^@book{huosini1989guwu,$/;"	b
+huosini1989guwu	testfiles/support/refs-numeric.bib	/^@book{huosini1989guwu,$/;"	b
+init_ctan	gulpfile.js	/^function init_ctan(callback) {$/;"	f
+init_self	gulpfile.js	/^function init_self(callback) {$/;"	f
+jha2004effect	testfiles/support/refs-author-year.bib	/^@article{jha2004effect,$/;"	a
+kennedy1975chalks	testfiles/support/refs-author-year.bib	/^@article{kennedy1975chalks,$/;"	a
+keywords	package.json	/^  "keywords": [$/;"	a
+kuo1999use	testfiles/support/refs-apa.bib	/^@article{kuo1999use,$/;"	a
+kusch1975perturbations	ref/refs.bib	/^@article{kusch1975perturbations,$/;"	a
+kusch1975perturbations	testfiles/support/refs-numeric.bib	/^@article{kusch1975perturbations,$/;"	a
+latex-workshop.latex.recipes	.vscode/settings.json	/^    "latex-workshop.latex.recipes": [$/;"	a
+latex-workshop.latex.tools	.vscode/settings.json	/^    "latex-workshop.latex.tools": [$/;"	a
+latex-workshop.latex.watch.files.ignore	.vscode/settings.json	/^    "latex-workshop.latex.watch.files.ignore": [$/;"	a
+license	package.json	/^  "license": "LPPL-1.3c",$/;"	s
+liu2005dangdai	testfiles/support/refs-apa.bib	/^@book{liu2005dangdai,$/;"	b
+log	gulpfile.js	/^const log = require('fancy-log');$/;"	C
+lovejoy1964great	testfiles/support/refs-mla.bib	/^@book{lovejoy1964great,$/;"	b
+mahui1995	ref/refs.bib	/^@article{mahui1995,$/;"	a
+mahui1995	testfiles/support/refs-numeric.bib	/^@article{mahui1995,$/;"	a
+main	package.json	/^  "main": "gulpfile.js",$/;"	s
+mellinger1996laser	ref/refs.bib	/^@article{mellinger1996laser,$/;"	a
+mellinger1996laser	testfiles/support/refs-numeric.bib	/^@article{mellinger1996laser,$/;"	a
+merkt1995rotational	ref/refs.bib	/^@article{merkt1995rotational,$/;"	a
+merkt1995rotational	testfiles/support/refs-numeric.bib	/^@article{merkt1995rotational,$/;"	a
+minimist	package.json	/^    "minimist": "^1.2.5"$/;"	s	object:devDependencies
+name	.vscode/settings.json	/^            "name": "latexmk for thuthesis",$/;"	s	object:latex-workshop.latex.recipes.0
+name	.vscode/settings.json	/^            "name": "latexmk-xelatex",$/;"	s	object:latex-workshop.latex.tools.1
+name	.vscode/settings.json	/^            "name": "make thesis",$/;"	s	object:latex-workshop.latex.recipes.1
+name	.vscode/settings.json	/^            "name": "make-thesis",$/;"	s	object:latex-workshop.latex.tools.2
+name	.vscode/settings.json	/^            "name": "xetex-thuthesis",$/;"	s	object:latex-workshop.latex.tools.0
+name	package.json	/^  "name": "thuthesis",$/;"	s
+packageName	gulpfile.js	/^const packageName = 'thuthesis';$/;"	C
+path	gulpfile.js	/^const path = require('path');$/;"	C
+peebles2001probability	ref/refs.bib	/^@book{peebles2001probability,$/;"	b
+peebles2001probability	testfiles/support/refs-numeric.bib	/^@book{peebles2001probability,$/;"	b
+pref	gulpfile.js	/^	pref: [$/;"	p	class:config.example
+ptolemy2005tetrabiblos	testfiles/support/refs-mla.bib	/^@book{ptolemy2005tetrabiblos,$/;"	b
+repository	package.json	/^  "repository": {$/;"	o
+root	gulpfile.js	/^        root: '.\/dist',$/;"	p	class:config.dist
+runtest_tasks	testfiles/config-biblatex.lua	/^function runtest_tasks(name, run)$/;"	f
+runtest_tasks	testfiles/config-bibtex.lua	/^function runtest_tasks(name, run)$/;"	f
+runtest_tasks	testfiles/config-nomencl.lua	/^function runtest_tasks(name, run)$/;"	f
+salomon1995advanced	ref/appendix.bib	/^@book{salomon1995advanced,$/;"	b
+save	Makefile	/^save:$/;"	t
+save_config	testfiles/save.sh	/^save_config () {$/;"	f
+save_file	testfiles/save.sh	/^save_file () {$/;"	f
+scripts	package.json	/^  "scripts": {$/;"	o
+shimizu1983laser	ref/refs.bib	/^@article{shimizu1983laser,$/;"	a
+shimizu1983laser	testfiles/support/refs-numeric.bib	/^@article{shimizu1983laser,$/;"	a
+spine	Makefile	/^spine: $(SPINE).pdf$/;"	t
+stieg1981information	testfiles/support/refs-author-year.bib	/^@article{stieg1981information,$/;"	a
+tab:1.1	testfiles/09-main-en.tex	/^  \\label{tab:1.1}$/;"	l
+tab:A.1	testfiles/09-main-en.tex	/^  \\label{tab:A.1}$/;"	l
+tab:appendix-survey-table	data/appendix-survey.tex	/^  \\label{tab:appendix-survey-table}$/;"	l
+tab:appendix-table	data/appendix.tex	/^  \\label{tab:appendix-table}$/;"	l
+tab:appendix-translation-table	data/appendix-translation.tex	/^  \\label{tab:appendix-translation-table}$/;"	l
+tab:longtable	data/chap02.tex	/^    \\label{tab:longtable} \\\\$/;"	l
+tab:notations	testfiles/09-main.tex	/^  \\label{tab:notations}$/;"	l
+tab:three-line	data/chap02.tex	/^  \\label{tab:three-line}$/;"	l
+tab:three-part-table	data/chap02.tex	/^    \\label{tab:three-part-table}$/;"	l
+taylor1981study	ref/refs.bib	/^@article{taylor1981study,$/;"	a
+taylor1981study	testfiles/support/refs-numeric.bib	/^@article{taylor1981study,$/;"	a
+taylor1983scanning	ref/refs.bib	/^@article{taylor1983scanning,$/;"	a
+taylor1983scanning	testfiles/support/refs-numeric.bib	/^@article{taylor1983scanning,$/;"	a
+template	gulpfile.js	/^    template: {$/;"	c	class:config
+test	Makefile	/^test:$/;"	t
+thesis	Makefile	/^thesis: $(THESIS).pdf$/;"	t
+tools	.vscode/settings.json	/^            "tools": [$/;"	a	object:latex-workshop.latex.recipes.0
+tools	.vscode/settings.json	/^            "tools": [$/;"	a	object:latex-workshop.latex.recipes.1
+type	package.json	/^    "type": "git",$/;"	s	object:repository
+update_tag	build.lua	/^function update_tag(file, content, tagname, tagdate)$/;"	f
+url	package.json	/^    "url": "git+https:\/\/github.com\/tuna\/thuthesis.git"$/;"	s	object:repository
+url	package.json	/^    "url": "https:\/\/github.com\/tuna\/thuthesis\/issues"$/;"	s	object:bugs
+usage	gulpfile.js	/^function usage() {$/;"	f
+version	package.json	/^  "version": "7.2.4",$/;"	s
+viewdoc	Makefile	/^viewdoc: doc$/;"	t
+viewspine	Makefile	/^viewspine: spine$/;"	t
+viewthesis	Makefile	/^viewthesis: thesis$/;"	t
+wang2010hanyu	testfiles/support/refs-apa.bib	/^@article{wang2010hanyu,$/;"	a
+wangbing1997dianzi	testfiles/support/refs-author-year.bib	/^@book{wangbing1997dianzi,$/;"	b
+wangfuzhi1865songlun	ref/refs.bib	/^@book{wangfuzhi1865songlun,$/;"	b
+wangfuzhi1865songlun	testfiles/support/refs-numeric.bib	/^@book{wangfuzhi1865songlun,$/;"	b
+weinstein1974pathogenic	ref/refs.bib	/^@incollection{weinstein1974pathogenic,$/;"	I
+weinstein1974pathogenic	testfiles/support/refs-numeric.bib	/^@incollection{weinstein1974pathogenic,$/;"	I
+who1970factors	ref/refs.bib	/^@techreport{who1970factors,$/;"	t
+who1970factors	testfiles/support/refs-numeric.bib	/^@techreport{who1970factors,$/;"	t
+y	wiki/update-tlmgr-latest.sh	/^�tq�v��{�滗���O��������o�{����p�i�"\/�7i�zY�S���(��#�6��b�-D��������	�g��"+߾x�|����<�/;"	h
+yangzongying1996dianzi	testfiles/support/refs-author-year.bib	/^@article{yangzongying1996dianzi,$/;"	a
+zhangkun1994	ref/refs.bib	/^@article{zhangkun1994,$/;"	a
+zhangkun1994	testfiles/support/refs-numeric.bib	/^@article{zhangkun1994,$/;"	a
+zhaoyaodong1998xinshidai	ref/refs.bib	/^@book{zhaoyaodong1998xinshidai,$/;"	b
+zhaoyaodong1998xinshidai	testfiles/support/refs-numeric.bib	/^@book{zhaoyaodong1998xinshidai,$/;"	b
+zhengkaiqing1987	ref/refs.bib	/^@mastersthesis{zhengkaiqing1987,$/;"	M
+zhengkaiqing1987	testfiles/support/refs-numeric.bib	/^@mastersthesis{zhengkaiqing1987,$/;"	M
+zhukezhen1973	ref/refs.bib	/^@book{zhukezhen1973,$/;"	b
+zhukezhen1973	testfiles/support/refs-numeric.bib	/^@book{zhukezhen1973,$/;"	b
+zip	gulpfile.js	/^        zip: ''$/;"	p	class:config.dist
+zip	gulpfile.js	/^const zip = require('gulp-zip');$/;"	C
+�oȉ�aĖ2RjCϫ4��^\vm�b�1m6[�w%~H䄤�^�ĵᭀF�S�m͵z�Ɗ��1\b|	wiki/update-tlmgr-latest.sh	/^B�p[I������	T*(�M�0m�5u�����]C�ȍ��MPT�9�O�EA��Du)�Aoeڽ����]�������Z��Z[<�oȉ�aĖ2Rj/;"	f
+“网+厂”的传统规划	testfiles/06-contents.tex	/^\\subsection{“网+厂”的传统规划}$/;"	u	section:文献综述""城市排水系统规划设计内容的研究进展综述
+“网+厂”的传统规划方法和模型	testfiles/06-contents.tex	/^\\subsection{“网+厂”的传统规划方法和模型}$/;"	u	section:文献综述""城市排水系统设计方法和模型的应用综述
+“网”的简单构建	testfiles/06-contents.tex	/^\\subsection{“网”的简单构建}$/;"	u	section:文献综述""城市排水系统规划设计内容的研究进展综述
+“面+网+厂”的空间设计	testfiles/06-contents.tex	/^\\subsection{“面+网+厂”的空间设计}$/;"	u	section:文献综述""城市排水系统规划设计内容的研究进展综述
+“面+网+厂”的空间设计方法和模型	testfiles/06-contents.tex	/^\\subsection{“面+网+厂”的空间设计方法和模型}$/;"	u	section:文献综述""城市排水系统设计方法和模型的应用综述
+一维层裂数值模拟	testfiles/09-main-postdoc.tex	/^\\section{一维层裂数值模拟}$/;"	s	chapter:延性材料一维二维层裂数值模拟
+一般应力作用下的孔洞演化	testfiles/09-main-postdoc.tex	/^\\section{一般应力作用下的孔洞演化}$/;"	s	chapter:延性动态断裂模型
+不确定性评估情景集合	testfiles/06-contents.tex	/^\\subsection{不确定性评估情景集合}$/;"	u	section:案例研究：昆明市城北片区排水系统设计""设计输入信息
+不确定条件下分流制城市排水系统优化设计方法研究	testfiles/06-contents.tex	/^\\chapter{不确定条件下分流制城市排水系统优化设计方法研究}$/;"	c
+不确定条件下分流制城市排水系统优化设计方法研究	testfiles/07-1-figures-tables.tex	/^\\chapter{不确定条件下分流制城市排水系统优化设计方法研究}$/;"	c
+不确定条件下分流制城市排水系统优化设计方法研究	testfiles/07-2-figures.tex	/^\\chapter{不确定条件下分流制城市排水系统优化设计方法研究}$/;"	c
+不确定条件下分流制城市排水系统优化设计方法研究	testfiles/07-3-tables.tex	/^\\chapter{不确定条件下分流制城市排水系统优化设计方法研究}$/;"	c
+不确定条件下城市排水系统设计规律识别与分析	testfiles/06-contents.tex	/^\\chapter{不确定条件下城市排水系统设计规律识别与分析}$/;"	c
+不确定条件下城市排水系统设计规律识别与分析	testfiles/07-2-figures.tex	/^\\chapter{不确定条件下城市排水系统设计规律识别与分析}$/;"	c
+不确定条件下城市排水系统设计规律识别与分析	testfiles/07-3-tables.tex	/^\\chapter{不确定条件下城市排水系统设计规律识别与分析}$/;"	c
+不确定条件下的系统性能评估	testfiles/06-contents.tex	/^\\section{不确定条件下的系统性能评估}$/;"	s	chapter:案例研究：昆明市城北片区排水系统设计
+不确定条件下系统性能评估	testfiles/06-contents.tex	/^\\section{不确定条件下系统性能评估}$/;"	s	chapter:不确定条件下分流制城市排水系统优化设计方法研究
+不确定条件量化预测生成评估情景集合	testfiles/06-contents.tex	/^\\subsection{不确定条件量化预测生成评估情景集合}$/;"	u	section:不确定条件下分流制城市排水系统优化设计方法研究""数据收集和不确定条件量化预测
+与城北片区现状系统的性能比较	testfiles/06-contents.tex	/^\\section{与城北片区现状系统的性能比较}$/;"	s	chapter:案例研究：昆明市城北片区排水系统设计
+与温度相关的孔洞演化方程	testfiles/09-main-postdoc.tex	/^\\subsection{与温度相关的孔洞演化方程}$/;"	u	section:延性动态断裂模型""温度效应对孔洞动态演化的影响
+专利	data/resume.tex	/^  \\subsection*{专利}$/;"	u	section:Title""在学期间完成的相关学术成果
+专利	testfiles/14-resume.tex	/^  \\subsection*{专利}$/;"	u	section:定理""在学期间完成的相关学术成果
+个人简历	data/resume.tex	/^  \\section*{个人简历}$/;"	s	chapter:Title
+个人简历	testfiles/09-main-postdoc.tex	/^\\chapter{个人简历}$/;"	c
+个人简历	testfiles/14-resume.tex	/^  \\section*{个人简历}$/;"	s	chapter:定理
+为什么我使用 CTeX 2.9.2 套件无法编译？	wiki/FAQ.md	/^### 为什么我使用 CTeX 2.9.2 套件无法编译？$/;"	S
+为何更新了模板后编译出的结果还是旧版的格式？	wiki/FAQ.md	/^### 为何更新了模板后编译出的结果还是旧版的格式？$/;"	S
+为何编译出的文档中字体跟官方 Word 模板中的不一样？	wiki/FAQ.md	/^### 为何编译出的文档中字体跟官方 Word 模板中的不一样？$/;"	S
+二维层裂数值模拟	testfiles/09-main-postdoc.tex	/^\\section{二维层裂数值模拟}$/;"	s	chapter:延性材料一维二维层裂数值模拟
+产流拟合参数数据	testfiles/06-contents.tex	/^\\subsection{产流拟合参数数据}$/;"	u	section:含有不确定性参数的城市排水系统优化设计模型""模型输入
+传统规划方法的局限与不足	testfiles/06-contents.tex	/^\\subsection{传统规划方法的局限与不足}$/;"	u	section:引言""研究背景
+入门资料	wiki/新手指南.md	/^# 入门资料$/;"	c
+公开评阅人名单	data/committee.tex	/^  \\section*{公开评阅人名单}$/;"	s	chapter:补充内容
+公开评阅人名单	testfiles/02-committee.tex	/^  \\section*{公开评阅人名单}$/;"	s	chapter:Title
+关于基体塑性不可压假设	testfiles/09-main-postdoc.tex	/^\\subsection{关于基体塑性不可压假设}$/;"	u	section:延性动态断裂模型""动态拉伸应力作用下的孔洞演化
+其他基本假设	testfiles/06-contents.tex	/^\\subsection{其他基本假设}$/;"	u	section:含有不确定性参数的城市排水系统优化设计模型""基本假设
+其它模型	testfiles/09-main-postdoc.tex	/^\\subsection{其它模型}$/;"	u	section:材料动态断裂研究概述""动态损伤理论
+前言	testfiles/09-main-postdoc.tex	/^\\section{前言}$/;"	s	chapter:延性动态断裂模型
+前言	testfiles/09-main-postdoc.tex	/^\\section{前言}$/;"	s	chapter:延性材料一维二维层裂数值模拟
+前言	testfiles/09-main-postdoc.tex	/^\\section{前言}$/;"	s	chapter:材料动态断裂研究概述
+前言	testfiles/09-main-postdoc.tex	/^\\section{前言}$/;"	s	chapter:脆性动态断裂模型
+前言	testfiles/09-main-postdoc.tex	/^\\section{前言}$/;"	s	chapter:金属材料动态断裂实验研究
+动态拉伸应力作用下的孔洞演化	testfiles/09-main-postdoc.tex	/^\\section{动态拉伸应力作用下的孔洞演化}$/;"	s	chapter:延性动态断裂模型
+动态损伤理论	testfiles/09-main-postdoc.tex	/^\\section{动态损伤理论}$/;"	s	chapter:材料动态断裂研究概述
+升级	README.md	/^## 升级$/;"	s	chapter:ThuThesis
+单次搜索的带宽开销以及系统总带宽开销	testfiles/09-main.tex	/^\\subsection{单次搜索的带宽开销以及系统总带宽开销}$/;"	u	section:对等网络中宽松约束的一般性搜索的理论模型""宽松约束的一般性搜索性能理论模型
+博士后期间发表的学术论文，专著	testfiles/09-main-postdoc.tex	/^\\chapter{博士后期间发表的学术论文，专著}$/;"	c
+博士生期间发表的学术论文，专著	testfiles/09-main-postdoc.tex	/^\\chapter{博士生期间发表的学术论文，专著}$/;"	c
+参考文献	testfiles/09-main-postdoc.tex	/^\\chapter{参考文献}$/;"	c
+参考文献出错之后怎么改都不对了	wiki/FAQ.md	/^### 参考文献出错之后怎么改都不对了$/;"	S
+发布版	README.md	/^#### 发布版$/;"	t	section:ThuThesis""升级
+含损伤的宏观本构关系	testfiles/09-main-postdoc.tex	/^\\section{含损伤的宏观本构关系}$/;"	s	chapter:脆性动态断裂模型
+含有不确定性参数的城市排水系统优化设计模型	testfiles/06-contents.tex	/^\\chapter{含有不确定性参数的城市排水系统优化设计模型}$/;"	c
+含有不确定性参数的城市排水系统优化设计模型	testfiles/07-1-figures-tables.tex	/^\\chapter{含有不确定性参数的城市排水系统优化设计模型}$/;"	c
+含有不确定性参数的城市排水系统优化设计模型	testfiles/07-2-figures.tex	/^\\chapter{含有不确定性参数的城市排水系统优化设计模型}$/;"	c
+含有不确定性参数的城市排水系统优化设计模型	testfiles/07-3-tables.tex	/^\\chapter{含有不确定性参数的城市排水系统优化设计模型}$/;"	c
+图	data/appendix-translation.tex	/^\\subsection{图}$/;"	u	section:数学符号和公式""图表示例
+图	data/appendix.tex	/^\\subsection{图}$/;"	u	section:补充内容""图表示例
+图表示例	data/appendix-translation.tex	/^\\section{图表示例}$/;"	s	chapter:数学符号和公式
+图表示例	data/appendix.tex	/^\\section{图表示例}$/;"	s	chapter:补充内容
+图表示例	data/chap02.tex	/^\\chapter{图表示例}$/;"	c
+在学期间完成的相关学术成果	data/resume.tex	/^  \\section*{在学期间完成的相关学术成果}$/;"	s	chapter:Title
+在学期间完成的相关学术成果	testfiles/14-resume.tex	/^  \\section*{在学期间完成的相关学术成果}$/;"	s	chapter:定理
+城市地块与设计单元	testfiles/06-contents.tex	/^\\subsection{城市地块与设计单元}$/;"	u	section:含有不确定性参数的城市排水系统优化设计模型""基本假设
+城市排水系统的复杂性	testfiles/06-contents.tex	/^\\subsection{城市排水系统的复杂性}$/;"	u	section:引言""研究背景
+城市排水系统规划设计内容的研究进展综述	testfiles/06-contents.tex	/^\\section{城市排水系统规划设计内容的研究进展综述}$/;"	s	chapter:文献综述
+城市排水系统设计中考虑不确定性的实践综述	testfiles/06-contents.tex	/^\\section{城市排水系统设计中考虑不确定性的实践综述}$/;"	s	chapter:文献综述
+城市排水系统设计方法和模型的应用综述	testfiles/06-contents.tex	/^\\section{城市排水系统设计方法和模型的应用综述}$/;"	s	chapter:文献综述
+城市精细化管理对城市排水系统设计提出新要求	testfiles/06-contents.tex	/^\\subsection{城市精细化管理对城市排水系统设计提出新要求}$/;"	u	section:引言""研究背景
+基准条件下多目标优化	testfiles/06-contents.tex	/^\\section{基准条件下多目标优化}$/;"	s	chapter:不确定条件下分流制城市排水系统优化设计方法研究
+基准条件下的系统设计输出	testfiles/06-contents.tex	/^\\section{基准条件下的系统设计输出}$/;"	s	chapter:案例研究：昆明市城北片区排水系统设计
+基准设计条件	testfiles/06-contents.tex	/^\\subsection{基准设计条件}$/;"	u	section:案例研究：昆明市城北片区排水系统设计""设计输入信息
+基本假设	testfiles/06-contents.tex	/^\\section{基本假设}$/;"	s	chapter:含有不确定性参数的城市排水系统优化设计模型
+基础数据收集和不确定条件量化预测	testfiles/06-contents.tex	/^\\subsection{基础数据收集和不确定条件量化预测}$/;"	u	section:案例研究：昆明市城北片区排水系统设计""研究区域概化及数据收集
+孔洞准静态增长和压缩关系	testfiles/09-main-postdoc.tex	/^\\subsection{孔洞准静态增长和压缩关系}$/;"	u	section:延性动态断裂模型""动态拉伸应力作用下的孔洞演化
+孔洞动态增长和压缩关系	testfiles/09-main-postdoc.tex	/^\\subsection{孔洞动态增长和压缩关系}$/;"	u	section:延性动态断裂模型""动态拉伸应力作用下的孔洞演化
+孔洞的形核	testfiles/09-main-postdoc.tex	/^\\section{孔洞的形核}$/;"	s	chapter:延性动态断裂模型
+学术论文	data/resume.tex	/^  \\subsection*{学术论文}$/;"	u	section:Title""在学期间完成的相关学术成果
+学术论文	testfiles/14-resume.tex	/^  \\subsection*{学术论文}$/;"	u	section:定理""在学期间完成的相关学术成果
+安装 LaTeX 发行版	wiki/新手指南.md	/^# 安装 LaTeX 发行版$/;"	c
+定理	testfiles/package-amsthm.tex	/^\\chapter{定理}$/;"	c
+定理	testfiles/package-ntheorem.tex	/^\\chapter{定理}$/;"	c
+宽松约束的一般性搜索性能理论模型	testfiles/09-main.tex	/^\\section{宽松约束的一般性搜索性能理论模型}$/;"	s	chapter:对等网络中宽松约束的一般性搜索的理论模型
+对等网络中宽松约束的一般性搜索的理论模型	testfiles/09-main.tex	/^\\chapter{对等网络中宽松约束的一般性搜索的理论模型}$/;"	c
+层裂实验	testfiles/09-main-postdoc.tex	/^\\section{层裂实验}$/;"	s	chapter:金属材料动态断裂实验研究
+层裂破坏数值模型	testfiles/09-main-postdoc.tex	/^\\subsection{层裂破坏数值模型}$/;"	u	section:材料动态断裂研究概述""本文工作简介
+工程领导力调查问卷	testfiles/11-appendix.tex	/^\\chapter{工程领导力调查问卷}$/;"	c
+延性动态断裂模型	testfiles/09-main-postdoc.tex	/^\\chapter{延性动态断裂模型}$/;"	c
+延性动态断裂细观分析模型	testfiles/09-main-postdoc.tex	/^\\subsection{延性动态断裂细观分析模型}$/;"	u	section:材料动态断裂研究概述""动态损伤理论
+延性和脆性动态断裂理论模型的建立	testfiles/09-main-postdoc.tex	/^\\subsection{延性和脆性动态断裂理论模型的建立}$/;"	u	section:材料动态断裂研究概述""本文工作简介
+延性材料一维二维层裂数值模拟	testfiles/09-main-postdoc.tex	/^\\chapter{延性材料一维二维层裂数值模拟}$/;"	c
+延性细观损伤模型	testfiles/09-main-postdoc.tex	/^\\subsection{延性细观损伤模型}$/;"	u	section:材料动态断裂研究概述""静态损伤理论
+建议	testfiles/06-contents.tex	/^\\section{建议}$/;"	s	chapter:结论与建议
+开发版	README.md	/^#### 开发版$/;"	t	section:ThuThesis""升级
+引用文献的标注	data/chap04.tex	/^\\chapter{引用文献的标注}$/;"	c
+引言	testfiles/06-contents.tex	/^\\chapter{引言}$/;"	c
+引言	testfiles/07-1-figures-tables.tex	/^\\chapter{引言}$/;"	c
+引言	testfiles/07-2-figures.tex	/^\\chapter{引言}$/;"	c
+引言	testfiles/07-3-tables.tex	/^\\chapter{引言}$/;"	c
+引言的写法	data/chap01.tex	/^\\section{引言的写法}$/;"	s	chapter:论文主要部分的写法
+影响城市排水系统设计的不确定性因素及其分类	testfiles/06-contents.tex	/^\\subsection{影响城市排水系统设计的不确定性因素及其分类}$/;"	u	section:文献综述""城市排水系统设计中考虑不确定性的实践综述
+径流调蓄设施的能力及其空间分布	testfiles/06-contents.tex	/^\\subsection{径流调蓄设施的能力及其空间分布}$/;"	u	section:含有不确定性参数的城市排水系统优化设计模型""基本假设
+微损伤的增长	testfiles/09-main-postdoc.tex	/^\\subsection{微损伤的增长}$/;"	u	section:材料动态断裂研究概述""材料断裂的微观机制
+微损伤的形核	testfiles/09-main-postdoc.tex	/^\\subsection{微损伤的形核}$/;"	u	section:材料动态断裂研究概述""材料断裂的微观机制
+微损伤的聚合	testfiles/09-main-postdoc.tex	/^\\subsection{微损伤的聚合}$/;"	u	section:材料动态断裂研究概述""材料断裂的微观机制
+微损伤系统演化统计模型	testfiles/09-main-postdoc.tex	/^\\subsection{微损伤系统演化统计模型}$/;"	u	section:材料动态断裂研究概述""动态损伤理论
+微裂纹的动态增长	testfiles/09-main-postdoc.tex	/^\\subsection{微裂纹的动态增长}$/;"	u	section:脆性动态断裂模型""微裂纹的动态演化方程
+微裂纹的动态演化方程	testfiles/09-main-postdoc.tex	/^\\section{微裂纹的动态演化方程}$/;"	s	chapter:脆性动态断裂模型
+微裂纹的形核及断裂准则	testfiles/09-main-postdoc.tex	/^\\subsection{微裂纹的形核及断裂准则}$/;"	u	section:脆性动态断裂模型""微裂纹的动态演化方程
+成本属性数据	testfiles/06-contents.tex	/^\\subsection{成本属性数据}$/;"	u	section:含有不确定性参数的城市排水系统优化设计模型""模型输入
+指导小组名单	data/committee.tex	/^  \\section*{指导小组名单}$/;"	s	chapter:补充内容
+指导小组名单	testfiles/02-committee.tex	/^  \\section*{指导小组名单}$/;"	s	chapter:Title
+损伤的显微观察及分析	testfiles/09-main-postdoc.tex	/^\\section{损伤的显微观察及分析}$/;"	s	chapter:金属材料动态断裂实验研究
+排水和再生水数据	testfiles/06-contents.tex	/^\\subsection{排水和再生水数据}$/;"	u	section:含有不确定性参数的城市排水系统优化设计模型""模型输入
+推荐方案集合	testfiles/06-contents.tex	/^\\section{推荐方案集合}$/;"	s	chapter:案例研究：昆明市城北片区排水系统设计
+提问	README.md	/^## 提问$/;"	s	chapter:ThuThesis
+插图	data/chap02.tex	/^\\section{插图}$/;"	s	chapter:图表示例
+摘要的写法	data/chap01.tex	/^\\section{摘要的写法}$/;"	s	chapter:论文主要部分的写法
+数学公式	data/appendix-translation.tex	/^\\section{数学公式}$/;"	s	chapter:数学符号和公式
+数学公式	data/appendix.tex	/^\\section{数学公式}$/;"	s	chapter:补充内容
+数学公式	data/chap03.tex	/^\\section{数学公式}$/;"	s	chapter:数学符号和公式
+数学公式的字体为何不是 LaTeX 默认的 Computer Modern？	wiki/FAQ.md	/^### 数学公式的字体为何不是 LaTeX 默认的 Computer Modern？$/;"	S
+数学定理	data/chap03.tex	/^\\section{数学定理}$/;"	s	chapter:数学符号和公式
+数学符号	data/chap03.tex	/^\\section{数学符号}$/;"	s	chapter:数学符号和公式
+数学符号和公式	data/chap03.tex	/^\\chapter{数学符号和公式}$/;"	c
+数据收集和不确定条件量化预测	testfiles/06-contents.tex	/^\\section{数据收集和不确定条件量化预测}$/;"	s	chapter:不确定条件下分流制城市排水系统优化设计方法研究
+数据收集生成基准设计条件	testfiles/06-contents.tex	/^\\subsection{数据收集生成基准设计条件}$/;"	u	section:不确定条件下分流制城市排水系统优化设计方法研究""数据收集和不确定条件量化预测
+整体框架	testfiles/06-contents.tex	/^\\section{整体框架}$/;"	s	chapter:含有不确定性参数的城市排水系统优化设计模型
+整体设计思路	testfiles/06-contents.tex	/^\\subsection{整体设计思路}$/;"	u	section:含有不确定性参数的城市排水系统优化设计模型""算法设计
+文献引用	data/appendix-translation.tex	/^\\section{文献引用}$/;"	s	chapter:数学符号和公式
+文献综述	testfiles/06-contents.tex	/^\\chapter{文献综述}$/;"	c
+文献综述	testfiles/07-1-figures-tables.tex	/^\\chapter{文献综述}$/;"	c
+文献综述	testfiles/07-2-figures.tex	/^\\chapter{文献综述}$/;"	c
+文献综述	testfiles/07-3-tables.tex	/^\\chapter{文献综述}$/;"	c
+方案优选与最优集合推荐	testfiles/06-contents.tex	/^\\section{方案优选与最优集合推荐}$/;"	s	chapter:不确定条件下分流制城市排水系统优化设计方法研究
+方法框架	testfiles/06-contents.tex	/^\\section{方法框架}$/;"	s	chapter:不确定条件下分流制城市排水系统优化设计方法研究
+无偏向性搜索	testfiles/09-main.tex	/^\\subsection{无偏向性搜索}$/;"	u	section:对等网络中宽松约束的一般性搜索的理论模型""模型基本假设
+昆明市城北片区概况	testfiles/06-contents.tex	/^\\section{昆明市城北片区概况}$/;"	s	chapter:案例研究：昆明市城北片区排水系统设计
+更新宏包	wiki/新手指南.md	/^# 更新宏包$/;"	c
+更新日志	README.md	/^## 更新日志$/;"	s	chapter:ThuThesis
+本文工作简介	testfiles/09-main-postdoc.tex	/^\\section{本文工作简介}$/;"	s	chapter:材料动态断裂研究概述
+本章小结	testfiles/06-contents.tex	/^\\section{本章小结}$/;"	s	chapter:不确定条件下分流制城市排水系统优化设计方法研究
+本章小结	testfiles/06-contents.tex	/^\\section{本章小结}$/;"	s	chapter:不确定条件下城市排水系统设计规律识别与分析
+本章小结	testfiles/06-contents.tex	/^\\section{本章小结}$/;"	s	chapter:含有不确定性参数的城市排水系统优化设计模型
+本章小结	testfiles/06-contents.tex	/^\\section{本章小结}$/;"	s	chapter:文献综述
+本章小结	testfiles/06-contents.tex	/^\\section{本章小结}$/;"	s	chapter:案例研究：昆明市城北片区排水系统设计
+本章引论	testfiles/09-main.tex	/^\\section{本章引论}$/;"	s	chapter:对等网络中宽松约束的一般性搜索的理论模型
+材料动态断裂实验研究	testfiles/09-main-postdoc.tex	/^\\subsection{材料动态断裂实验研究}$/;"	u	section:材料动态断裂研究概述""本文工作简介
+材料动态断裂研究概述	testfiles/09-main-postdoc.tex	/^\\chapter{材料动态断裂研究概述}$/;"	c
+材料断裂的微观机制	testfiles/09-main-postdoc.tex	/^\\section{材料断裂的微观机制}$/;"	s	chapter:材料动态断裂研究概述
+材料的微结构和工艺处理对损伤的影响	testfiles/09-main-postdoc.tex	/^\\subsection{材料的微结构和工艺处理对损伤的影响}$/;"	u	section:材料动态断裂研究概述""材料断裂的微观机制
+标题	testfiles/package-algorithms.tex	/^\\chapter{标题}$/;"	c
+标题	testfiles/package-longtable.tex	/^\\chapter{标题}$/;"	c
+案例研究：昆明市城北片区排水系统设计	testfiles/06-contents.tex	/^\\chapter{案例研究：昆明市城北片区排水系统设计}$/;"	c
+案例研究：昆明市城北片区排水系统设计	testfiles/07-1-figures-tables.tex	/^\\chapter{案例研究：昆明市城北片区排水系统设计}$/;"	c
+案例研究：昆明市城北片区排水系统设计	testfiles/07-2-figures.tex	/^\\chapter{案例研究：昆明市城北片区排水系统设计}$/;"	c
+案例研究：昆明市城北片区排水系统设计	testfiles/07-3-tables.tex	/^\\chapter{案例研究：昆明市城北片区排水系统设计}$/;"	c
+概况	testfiles/09-main-postdoc.tex	/^\\subsection{概况}$/;"	u	section:材料动态断裂研究概述""动态损伤理论
+概况	testfiles/09-main-postdoc.tex	/^\\subsection{概况}$/;"	u	section:材料动态断裂研究概述""静态损伤理论
+模型假设的总体叙述	testfiles/09-main.tex	/^\\subsection{模型假设的总体叙述}$/;"	u	section:对等网络中宽松约束的一般性搜索的理论模型""模型基本假设
+模型基本假设	testfiles/09-main.tex	/^\\section{模型基本假设}$/;"	s	chapter:对等网络中宽松约束的一般性搜索的理论模型
+模型构建	testfiles/06-contents.tex	/^\\section{模型构建}$/;"	s	chapter:含有不确定性参数的城市排水系统优化设计模型
+模型的数值分析	testfiles/09-main-postdoc.tex	/^\\subsection{模型的数值分析}$/;"	u	section:延性动态断裂模型""温度效应对孔洞动态演化的影响
+模型输入	testfiles/06-contents.tex	/^\\section{模型输入}$/;"	s	chapter:含有不确定性参数的城市排水系统优化设计模型
+模型输出	testfiles/06-contents.tex	/^\\section{模型输出}$/;"	s	chapter:含有不确定性参数的城市排水系统优化设计模型
+模拟降雨数据	testfiles/06-contents.tex	/^\\subsection{模拟降雨数据}$/;"	u	section:含有不确定性参数的城市排水系统优化设计模型""模型输入
+正文的写法	data/chap01.tex	/^\\section{正文的写法}$/;"	s	chapter:论文主要部分的写法
+永久通信地址	testfiles/09-main-postdoc.tex	/^\\chapter{永久通信地址}$/;"	c
+污水系统	testfiles/06-contents.tex	/^\\section{污水系统}$/;"	s	chapter:不确定条件下城市排水系统设计规律识别与分析
+污水系统性能评估	testfiles/06-contents.tex	/^\\subsection{污水系统性能评估}$/;"	u	section:不确定条件下分流制城市排水系统优化设计方法研究""不确定条件下系统性能评估
+污水系统性能评估	testfiles/06-contents.tex	/^\\subsection{污水系统性能评估}$/;"	u	section:案例研究：昆明市城北片区排水系统设计""不确定条件下的系统性能评估
+污水系统推荐方案	testfiles/06-contents.tex	/^\\subsection{污水系统推荐方案}$/;"	u	section:案例研究：昆明市城北片区排水系统设计""推荐方案集合
+污水系统模型构建	testfiles/06-contents.tex	/^\\subsection{污水系统模型构建}$/;"	u	section:含有不确定性参数的城市排水系统优化设计模型""模型构建
+污水系统算法设计	testfiles/06-contents.tex	/^\\subsection{污水系统算法设计}$/;"	u	section:含有不确定性参数的城市排水系统优化设计模型""算法设计
+污水系统设计	testfiles/06-contents.tex	/^\\subsection{污水系统设计}$/;"	u	section:不确定条件下分流制城市排水系统优化设计方法研究""基准条件下多目标优化
+污水系统设计方案	testfiles/06-contents.tex	/^\\subsection{污水系统设计方案}$/;"	u	section:案例研究：昆明市城北片区排水系统设计""基准条件下的系统设计输出
+温度效应对孔洞动态演化的影响	testfiles/09-main-postdoc.tex	/^\\section{温度效应对孔洞动态演化的影响}$/;"	s	chapter:延性动态断裂模型
+短时稳态性	testfiles/09-main.tex	/^\\subsection{短时稳态性}$/;"	u	section:对等网络中宽松约束的一般性搜索的理论模型""模型基本假设
+研究内容	testfiles/06-contents.tex	/^\\subsection{研究内容}$/;"	u	section:引言""研究目的、内容与意义
+研究区域概化	testfiles/06-contents.tex	/^\\subsection{研究区域概化}$/;"	u	section:案例研究：昆明市城北片区排水系统设计""研究区域概化及数据收集
+研究区域概化及数据收集	testfiles/06-contents.tex	/^\\section{研究区域概化及数据收集}$/;"	s	chapter:案例研究：昆明市城北片区排水系统设计
+研究意义	testfiles/06-contents.tex	/^\\subsection{研究意义}$/;"	u	section:引言""研究目的、内容与意义
+研究目的	testfiles/06-contents.tex	/^\\subsection{研究目的}$/;"	u	section:引言""研究目的、内容与意义
+研究目的、内容与意义	testfiles/06-contents.tex	/^\\section{研究目的、内容与意义}$/;"	s	chapter:引言
+研究背景	testfiles/06-contents.tex	/^\\section{研究背景}$/;"	s	chapter:引言
+空间信息数据	testfiles/06-contents.tex	/^\\subsection{空间信息数据}$/;"	u	section:含有不确定性参数的城市排水系统优化设计模型""模型输入
+空间降尺度和时间降尺度模型结构与主要程序一览表	testfiles/06-contents.tex	/^\\chapter{空间降尺度和时间降尺度模型结构与主要程序一览表}$/;"	c
+答辩委员会名单	data/committee.tex	/^  \\section*{答辩委员会名单}$/;"	s	chapter:补充内容
+答辩委员会名单	testfiles/02-committee.tex	/^  \\section*{答辩委员会名单}$/;"	s	chapter:Title
+算法	data/chap02.tex	/^\\section{算法}$/;"	s	chapter:图表示例
+算法性能	testfiles/06-contents.tex	/^\\subsection{算法性能}$/;"	u	section:含有不确定性参数的城市排水系统优化设计模型""算法设计
+算法设计	testfiles/06-contents.tex	/^\\section{算法设计}$/;"	s	chapter:含有不确定性参数的城市排水系统优化设计模型
+管道设计重现期与径流空间调蓄的协调关系	testfiles/06-contents.tex	/^\\subsection{管道设计重现期与径流空间调蓄的协调关系}$/;"	u	section:不确定条件下城市排水系统设计规律识别与分析""雨水系统
+系统分散/集中程度对雨水系统性能的影响	testfiles/06-contents.tex	/^\\subsection{系统分散\/集中程度对雨水系统性能的影响}$/;"	u	section:不确定条件下城市排水系统设计规律识别与分析""雨水系统
+索引分布与搜索开销的关系	testfiles/09-main.tex	/^\\subsection{索引分布与搜索开销的关系}$/;"	u	section:对等网络中宽松约束的一般性搜索的理论模型""宽松约束的一般性搜索性能理论模型
+结点特性	testfiles/09-main.tex	/^\\subsection{结点特性}$/;"	u	section:对等网络中宽松约束的一般性搜索的理论模型""模型基本假设
+结论	testfiles/06-contents.tex	/^\\section{结论}$/;"	s	chapter:结论与建议
+结论	testfiles/09-main-postdoc.tex	/^\\chapter{结论}$/;"	c
+结论与建议	testfiles/06-contents.tex	/^\\chapter{结论与建议}$/;"	c
+结论的写法	data/chap01.tex	/^\\section{结论的写法}$/;"	s	chapter:论文主要部分的写法
+考虑不确定性因素的城市排水系统设计实践	testfiles/06-contents.tex	/^\\subsection{考虑不确定性因素的城市排水系统设计实践}$/;"	u	section:文献综述""城市排水系统设计中考虑不确定性的实践综述
+脆性动态断裂模型	testfiles/09-main-postdoc.tex	/^\\chapter{脆性动态断裂模型}$/;"	c
+脆性细观损伤模型	testfiles/09-main-postdoc.tex	/^\\subsection{脆性细观损伤模型}$/;"	u	section:材料动态断裂研究概述""静态损伤理论
+致谢	testfiles/09-main-postdoc.tex	/^\\chapter{致谢}$/;"	c
+著者-出版年制	data/chap04.tex	/^\\section{著者-出版年制}$/;"	s	chapter:引用文献的标注
+补充内容	data/appendix.tex	/^\\chapter{补充内容}$/;"	c
+表格	data/appendix-translation.tex	/^\\subsection{表格}$/;"	u	section:数学符号和公式""图表示例
+表格	data/appendix.tex	/^\\subsection{表格}$/;"	u	section:补充内容""图表示例
+表格	data/chap02.tex	/^\\section{表格}$/;"	s	chapter:图表示例
+讨论及总结	testfiles/09-main-postdoc.tex	/^\\section{讨论及总结}$/;"	s	chapter:脆性动态断裂模型
+讨论及结论	testfiles/09-main-postdoc.tex	/^\\section{讨论及结论}$/;"	s	chapter:延性动态断裂模型
+论文主要部分的写法	data/chap01.tex	/^\\chapter{论文主要部分的写法}$/;"	c
+论文的语言及表述	data/chap01.tex	/^\\section{论文的语言及表述}$/;"	s	chapter:论文主要部分的写法
+论文结构	testfiles/06-contents.tex	/^\\section{论文结构}$/;"	s	chapter:引言
+论文题目的写法	data/chap01.tex	/^\\section{论文题目的写法}$/;"	s	chapter:论文主要部分的写法
+设施参考数据	testfiles/06-contents.tex	/^\\subsection{设施参考数据}$/;"	u	section:含有不确定性参数的城市排水系统优化设计模型""模型输入
+设施空间位置的选择原则	testfiles/06-contents.tex	/^\\subsection{设施空间位置的选择原则}$/;"	u	section:含有不确定性参数的城市排水系统优化设计模型""基本假设
+设计单元属性数据	testfiles/06-contents.tex	/^\\subsection{设计单元属性数据}$/;"	u	section:含有不确定性参数的城市排水系统优化设计模型""模型输入
+设计输入信息	testfiles/06-contents.tex	/^\\section{设计输入信息}$/;"	s	chapter:案例研究：昆明市城北片区排水系统设计
+设计输入条件变化对污水系统最优解集的影响	testfiles/06-contents.tex	/^\\subsection{设计输入条件变化对污水系统最优解集的影响}$/;"	u	section:不确定条件下城市排水系统设计规律识别与分析""污水系统
+评 述	testfiles/09-main-postdoc.tex	/^\\section{评  述}$/;"	s	chapter:材料动态断裂研究概述
+金属材料动态断裂实验研究	testfiles/09-main-postdoc.tex	/^\\chapter{金属材料动态断裂实验研究}$/;"	c
+问题的提出	testfiles/06-contents.tex	/^\\section{问题的提出}$/;"	s	chapter:引言
+问题识别	testfiles/06-contents.tex	/^\\section{问题识别}$/;"	s	chapter:不确定条件下分流制城市排水系统优化设计方法研究
+附录	data/appendix-translation.tex	/^\\section{附录}$/;"	s	chapter:数学符号和公式
+雨水系统	testfiles/06-contents.tex	/^\\section{雨水系统}$/;"	s	chapter:不确定条件下城市排水系统设计规律识别与分析
+雨水系统和污水系统设计模型的程序文件一览表	testfiles/06-contents.tex	/^\\chapter{雨水系统和污水系统设计模型的程序文件一览表}$/;"	c
+雨水系统和污水系统输入数据一览表	testfiles/06-contents.tex	/^\\subsection{雨水系统和污水系统输入数据一览表}$/;"	u	section:含有不确定性参数的城市排水系统优化设计模型""模型输入
+雨水系统性能评估	testfiles/06-contents.tex	/^\\subsection{雨水系统性能评估}$/;"	u	section:不确定条件下分流制城市排水系统优化设计方法研究""不确定条件下系统性能评估
+雨水系统性能评估	testfiles/06-contents.tex	/^\\subsection{雨水系统性能评估}$/;"	u	section:案例研究：昆明市城北片区排水系统设计""不确定条件下的系统性能评估
+雨水系统推荐方案	testfiles/06-contents.tex	/^\\subsection{雨水系统推荐方案}$/;"	u	section:案例研究：昆明市城北片区排水系统设计""推荐方案集合
+雨水系统模型构建	testfiles/06-contents.tex	/^\\subsection{雨水系统模型构建}$/;"	u	section:含有不确定性参数的城市排水系统优化设计模型""模型构建
+雨水系统算法设计	testfiles/06-contents.tex	/^\\subsection{雨水系统算法设计}$/;"	u	section:含有不确定性参数的城市排水系统优化设计模型""算法设计
+雨水系统设计	testfiles/06-contents.tex	/^\\subsection{雨水系统设计}$/;"	u	section:不确定条件下分流制城市排水系统优化设计方法研究""基准条件下多目标优化
+雨水系统设计方案	testfiles/06-contents.tex	/^\\subsection{雨水系统设计方案}$/;"	u	section:案例研究：昆明市城北片区排水系统设计""基准条件下的系统设计输出
+静态损伤理论	testfiles/09-main-postdoc.tex	/^\\section{静态损伤理论}$/;"	s	chapter:材料动态断裂研究概述
+非平衡统计断裂力学	testfiles/09-main-postdoc.tex	/^\\subsection{非平衡统计断裂力学}$/;"	u	section:材料动态断裂研究概述""静态损伤理论
+顺序编码制	data/chap04.tex	/^\\section{顺序编码制}$/;"	s	chapter:引用文献的标注
