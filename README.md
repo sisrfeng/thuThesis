@@ -38,11 +38,7 @@ xetex thuthesis.ins
 * [GitHub Issues](https://github.com/tuna/thuthesis/issues)
 
 ## Makefile的用法
-```shell
-make [{all|thesis|spine|doc|clean|cleanall|distclean}]
-```
 
-### 目标
 * `make thesis`    生成论文 thuthesis-example.pdf；
 * `make spine`     生成书脊 spine.pdf；
 * `make doc`       生成模板使用说明书 thuthesis.pdf；
