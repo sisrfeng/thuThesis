@@ -1,0 +1,196 @@
+*** ./build/test/package-ntheorem.tlg	2022-05-13 22:19:34.130436101 +0800
+--- ./build/test/package-ntheorem.xetex.log	2022-05-13 22:19:36.378418475 +0800
+***************
+*** 29,34 ****
+--- 29,36 ----
+  Completed box being shipped out [1]
+  \vbox(710.18088+0.0)x439.87962
+  .\hbox(0.0+0.0)x0.0
++ ..\special{pdfcolorstackinit 1 page direct (0 g 0 G)}
++ .\hbox(0.0+0.0)x0.0
+  ..\kern -72.26999
+  ..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
+  ...\kern -72.26999
+***************
+*** 51,58 ****
+  ..\vbox(674.33032+0.0)x426.79135, glue set >20000.0fil
+  ...\write-{}
+  ...\special{color push gray 0}
+  ...\write-{}
+- ...\write1{\pp@pagectr{footnote}{1}{\theabspage }{\thepage }}
+  ...\write1{\@writefile{toc}{\protect \contentsline {chapter}{\protect \numberline \ETC.}
+  ...\mark{{第1章\hskip 1em\relax 定理}{}}
+  ...\glue(\topskip) 12.0
+--- 53,62 ----
+  ..\vbox(674.33032+0.0)x426.79135, glue set >20000.0fil
+  ...\write-{}
+  ...\special{color push gray 0}
++ ...\write1{\protect \providecommand {\protect \FN@pp@footnotehinttrue }{}}
++ ...\write1{\protect \providecommand {\protect \FN@pp@footnote@aux }[2]{}}
++ ...\write1{\protect \FN@pp@footnotehinttrue }
+  ...\write-{}
+  ...\write1{\@writefile{toc}{\protect \contentsline {chapter}{\protect \numberline \ETC.}
+  ...\mark{{第1章\hskip 1em\relax 定理}{}}
+  ...\glue(\topskip) 12.0
+***************
+*** 61,67 ****
+  ...\glue 15.10124 plus -1.0
+  ...\glue 0.0
+  ...\glue(\parskip) 0.0 plus 1.0
+- ...\glue(\parskip) 0.0
+  ...\hbox(12.55891+2.8426)x426.79135, glue set 164.31633fil
+  ....\glue(\leftskip) 0.0 plus 1.0fil
+  ....\TU/FandolHei(0)/m/n/16.06 第
+--- 65,70 ----
+***************
+*** 85,91 ****
+  ...\write1{\@writefile{thm}{\protect \contentsline {theorem}{{\thu@theorem@name \ETC.}
+  ...\penalty 10000
+  ...\glue(\parskip) 0.0 plus 1.0
+- ...\glue(\parskip) 0.0
+  ...\hbox(9.45532+2.32468)x426.79135, glue set 0.23642
+  ....\hbox(9.19034+1.89105)x62.22606
+  .....\glue 0.0
+--- 88,93 ----
+***************
+*** 309,315 ****
+  ...\glue 0.0 plus -1.0
+  ...\write1{\@writefile{thm}{\protect \contentsline {proof}{{\thu@proof@name }{1}\ETC.}
+  ...\glue(\parskip) 0.0 plus 1.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\baselineskip) 8.295
+  ...\hbox(9.45532+2.32468)x426.79135, glue set 0.51561
+  ....\hbox(8.9374+1.95128)x30.09
+--- 311,316 ----
+***************
+*** 524,530 ****
+  ...\glue 0.0 plus -1.0
+  ...\write1{\@writefile{thm}{\protect \contentsline {assumption}{{\thu@assumption\ETC.}
+  ...\glue(\parskip) 0.0 plus 1.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\baselineskip) 8.295
+  ...\hbox(9.45532+2.32468)x426.79135, glue set 0.23642
+  ....\hbox(9.25056+2.07173)x62.22606
+--- 525,530 ----
+***************
+*** 749,755 ****
+  ...\glue 0.0 plus -1.0
+  ...\write1{\@writefile{thm}{\protect \contentsline {axiom}{{\thu@axiom@name }{1.\ETC.}
+  ...\glue(\parskip) 0.0 plus 1.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\baselineskip) 8.295
+  ...\hbox(9.45532+2.32468)x426.79135, glue set 0.23642
+  ....\hbox(8.92534+1.95128)x62.22606
+--- 749,754 ----
+***************
+*** 974,980 ****
+  ...\glue 0.0 plus -1.0
+  ...\write1{\@writefile{thm}{\protect \contentsline {conjecture}{{\thu@conjecture\ETC.}
+  ...\glue(\parskip) 0.0 plus 1.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\baselineskip) 8.295
+  ...\hbox(9.45532+2.32468)x426.79135, glue set 0.23642
+  ....\hbox(9.3951+2.13194)x62.22606
+--- 973,978 ----
+***************
+*** 1199,1205 ****
+  ...\glue 0.0 plus -1.0
+  ...\write1{\@writefile{thm}{\protect \contentsline {corollary}{{\thu@corollary@n\ETC.}
+  ...\glue(\parskip) 0.0 plus 1.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\baselineskip) 8.295
+  ...\hbox(9.45532+2.32468)x426.79135, glue set 0.23642
+  ....\hbox(9.41919+2.07173)x62.22606
+--- 1197,1202 ----
+***************
+*** 1424,1430 ****
+  ...\glue 0.0 plus -1.0
+  ...\write1{\@writefile{thm}{\protect \contentsline {definition}{{\thu@definition\ETC.}
+  ...\glue(\parskip) 0.0 plus 1.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\baselineskip) 8.295
+  ...\hbox(9.45532+2.32468)x426.79135, glue set 0.23642
+  ....\hbox(9.25056+1.89105)x62.22606
+--- 1421,1426 ----
+***************
+*** 1649,1655 ****
+  ...\glue 0.0 plus -1.0
+  ...\write1{\@writefile{thm}{\protect \contentsline {example}{{\thu@example@name \ETC.}
+  ...\glue(\parskip) 0.0 plus 1.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\baselineskip) 8.295
+  ...\hbox(9.45532+2.32468)x426.79135, glue set 0.22766
+  ....\hbox(9.20238+2.10786)x50.18106
+--- 1645,1650 ----
+***************
+*** 1872,1878 ****
+  ...\glue 0.0 plus -1.0
+  ...\write1{\@writefile{thm}{\protect \contentsline {exercise}{{\thu@exercise@nam\ETC.}
+  ...\glue(\parskip) 0.0 plus 1.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\baselineskip) 8.295
+  ...\hbox(9.45532+2.32468)x426.79135, glue set 0.23642
+  ....\hbox(9.38306+1.95128)x62.22606
+--- 1867,1872 ----
+***************
+*** 2097,2103 ****
+  ...\glue 0.0 plus -1.0
+  ...\write1{\@writefile{thm}{\protect \contentsline {lemma}{{\thu@lemma@name }{1.\ETC.}
+  ...\glue(\parskip) 0.0 plus 1.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\baselineskip) 8.295
+  ...\hbox(9.45532+2.32468)x426.79135, glue set 0.23642
+  ....\hbox(9.0217+2.03558)x62.22606
+--- 2091,2096 ----
+***************
+*** 2341,2346 ****
+--- 2334,2340 ----
+  ...\glue 0.0 plus 1.0fil minus 1.0fil
+  .\kern 710.18088
+  .\kern 0.0
++ .\kern 0.0
+  Completed box being shipped out [2]
+  \vbox(710.18088+0.0)x439.87962
+  .\hbox(0.0+0.0)x0.0
+***************
+*** 2588,2594 ****
+  ...\glue 0.0 plus -1.0
+  ...\write1{\@writefile{thm}{\protect \contentsline {proposition}{{\thu@propositi\ETC.}
+  ...\glue(\parskip) 0.0 plus 1.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\baselineskip) 8.21068
+  ...\hbox(9.53964+2.32468)x426.79135, glue set 0.23642
+  ....\hbox(9.53964+2.144)x62.22606
+--- 2582,2587 ----
+***************
+*** 2813,2819 ****
+  ...\glue 0.0 plus -1.0
+  ...\write1{\@writefile{thm}{\protect \contentsline {remark}{{\thu@remark@name }{\ETC.}
+  ...\glue(\parskip) 0.0 plus 1.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\baselineskip) 8.295
+  ...\hbox(9.45532+2.32468)x426.79135, glue set 0.23642
+  ....\hbox(9.33487+2.144)x62.22606
+--- 2806,2811 ----
+***************
+*** 3033,3042 ****
+  ....\glue(\rightskip) 0.0
+  ...\penalty -51
+  ...\glue 0.0
+  ...\glue -2.32468
+  ...\glue 0.0 plus 1.0fil
+- ...\glue 0.0 plus -1.0fil
+- ...\glue 0.0 plus 1.0fil
+  ...\glue 0.0
+  ...\glue 0.0 plus 0.0001fil
+  ..\glue(\baselineskip) 22.76228
+--- 3025,3033 ----
+  ....\glue(\rightskip) 0.0
+  ...\penalty -51
+  ...\glue 0.0
++ ...\write1{\protect \FN@pp@footnotehinttrue }
+  ...\glue -2.32468
+  ...\glue 0.0 plus 1.0fil
+  ...\glue 0.0
+  ...\glue 0.0 plus 0.0001fil
+  ..\glue(\baselineskip) 22.76228

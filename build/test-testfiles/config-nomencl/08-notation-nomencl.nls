@@ -1,0 +1,44 @@
+
+\begin{thenomenclature} 
+\nomgroup{A}
+  \item [{$\increment G^\neq$}]\begingroup 活化自由能（Activation Free Energy）\nomeqref {1.0}\nompageref{1}
+  \item [{$\kappa$}]\begingroup 传输系数（Transmission Coefficient）\nomeqref {1.0}\nompageref{1}
+  \item [{$\nu_i$}]\begingroup 虚频（Imaginary Frequency）\nomeqref {1.0}\nompageref{1}
+  \item [{$E_a$}]\begingroup 化学反应的活化能（Activation Energy）\nomeqref {1.0}\nompageref{1}
+  \item [{\textit{ab initio}}]\begingroup 基于第一原理的量子化学计算方法，常称从头算法\nomeqref {1.0}\nompageref{1}
+  \item [{As-PPT}]\begingroup 聚苯基不对称三嗪\nomeqref {1.0}\nompageref{1}
+  \item [{DFT}]\begingroup 密度泛函理论（Density Functional Theory）\nomeqref {1.0}\nompageref{1}
+  \item [{DMAsPPT}]\begingroup 聚苯基不对称三嗪双模型化合物（水解实验模型化合物）\nomeqref {1.0}\nompageref{1}
+  \item [{HMAsPPT}]\begingroup 聚苯基不对称三嗪模型化合物的质子化产物\nomeqref {1.0}\nompageref{1}
+  \item [{HMPBI}]\begingroup 聚苯并咪唑模型化合物的质子化产物\nomeqref {1.0}\nompageref{1}
+  \item [{HMPI}]\begingroup 聚酰亚胺模型化合物的质子化产物\nomeqref {1.0}\nompageref{1}
+  \item [{HMPPQ}]\begingroup 聚苯基喹噁啉模型化合物的质子化产物\nomeqref {1.0}\nompageref{1}
+  \item [{HMPY}]\begingroup 聚吡咙模型化合物的质子化产物\nomeqref {1.0}\nompageref{1}
+  \item [{HMSPPT}]\begingroup 聚苯基对称三嗪模型化合物的质子化产物\nomeqref {1.0}\nompageref{1}
+  \item [{HPCE}]\begingroup 高效毛细管电泳色谱（High Performance Capillary lectrophoresis）\nomeqref {1.0}\nompageref{1}
+  \item [{HPLC}]\begingroup 高效液相色谱（High Performance Liquid Chromatography）\nomeqref {1.0}\nompageref{1}
+  \item [{IRC}]\begingroup 内禀反应坐标（Intrinsic Reaction Coordinates）\nomeqref {1.0}\nompageref{1}
+  \item [{LC-MS}]\begingroup 液相色谱-质谱联用（Liquid chromatography-Mass Spectrum）\nomeqref {1.0}\nompageref{1}
+  \item [{MAsPPT}]\begingroup 聚苯基不对称三嗪单模型化合物，3,5,6-三苯基-1,2,4-三嗪\nomeqref {1.0}\nompageref{1}
+  \item [{MPBI}]\begingroup 聚苯并咪唑模型化合物，N-苯基苯并咪唑\nomeqref {1.0}\nompageref{1}
+  \item [{MPI}]\begingroup 聚酰亚胺模型化合物，N-苯基邻苯酰亚胺\nomeqref {1.0}\nompageref{1}
+  \item [{MPPQ}]\begingroup 聚苯基喹噁啉模型化合物，3,4-二苯基苯并二嗪\nomeqref {1.0}\nompageref{1}
+  \item [{MPY}]\begingroup 聚吡咙模型化合物\nomeqref {1.0}\nompageref{1}
+  \item [{MSPPT}]\begingroup 聚苯基对称三嗪模型化合物，2,4,6-三苯基-1,3,5-三嗪\nomeqref {1.0}\nompageref{1}
+  \item [{ONIOM}]\begingroup 分层算法（Our own N-layered Integrated molecular Orbital and molecular Mechanics）\nomeqref {1.0}\nompageref{1}
+  \item [{PBI}]\begingroup 聚苯并咪唑\nomeqref {1.0}\nompageref{1}
+  \item [{PDT}]\begingroup 热分解温度\nomeqref {1.0}\nompageref{1}
+  \item [{PES}]\begingroup 势能面（Potential Energy Surface）\nomeqref {1.0}\nompageref{1}
+  \item [{PI}]\begingroup 聚酰亚胺\nomeqref {1.0}\nompageref{1}
+  \item [{PMDA-BDA}]\begingroup 均苯四酸二酐与联苯四胺合成的聚吡咙薄膜\nomeqref {1.0}\nompageref{1}
+  \item [{PPQ}]\begingroup 聚苯基喹噁啉\nomeqref {1.0}\nompageref{1}
+  \item [{PY}]\begingroup 聚吡咙\nomeqref {1.0}\nompageref{1}
+  \item [{S-PPT}]\begingroup 聚苯基对称三嗪\nomeqref {1.0}\nompageref{1}
+  \item [{SCF}]\begingroup 自洽场（Self-Consistent Field）\nomeqref {1.0}\nompageref{1}
+  \item [{SCRF}]\begingroup 自洽反应场（Self-Consistent Reaction Field）\nomeqref {1.0}\nompageref{1}
+  \item [{TIC}]\begingroup 总离子浓度（Total Ion Content）\nomeqref {1.0}\nompageref{1}
+  \item [{TS}]\begingroup 过渡态（Transition State）\nomeqref {1.0}\nompageref{1}
+  \item [{TST}]\begingroup 过渡态理论（Transition State Theory）\nomeqref {1.0}\nompageref{1}
+  \item [{ZPE}]\begingroup 零点振动能（Zero Vibration Energy）\nomeqref {1.0}\nompageref{1}
+
+\end{thenomenclature}

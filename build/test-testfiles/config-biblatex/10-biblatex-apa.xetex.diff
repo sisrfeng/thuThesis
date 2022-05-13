@@ -1,0 +1,36 @@
+*** ./build/test-testfiles/config-biblatex/10-biblatex-apa.tlg	2022-05-13 22:20:52.393818021 +0800
+--- ./build/test-testfiles/config-biblatex/10-biblatex-apa.xetex.log	2022-05-13 22:20:59.397762285 +0800
+***************
+*** 1,19 ****
+  This is a generated file for the l3build validation system.
+  Don't change this file in any respect.
+  [1
+  ]
+- Package fontspec Info: Font family 'FandolHei(0)' created for font 'FandolHei'
+- (fontspec)             with options
+- (fontspec)             [Extension={.otf},UprightFont={*-Regular},BoldFont={*-Bold}].
+- (fontspec)              
+- (fontspec)              This font family consists of the following NFSS
+- (fontspec)             series/shapes:
+- (fontspec)              
+- (fontspec)             - 'normal' (m/n) with NFSS spec.:
+- (fontspec)             <->"[FandolHei-Regular.otf]/OT:language=dflt;"
+- (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+- (fontspec)             - 'bold' (b/n) with NFSS spec.:
+- (fontspec)             <->"[FandolHei-Bold.otf]/OT:language=dflt;"
+- (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+- [2
+- ]
+--- 1,12 ----
+  This is a generated file for the l3build validation system.
+  Don't change this file in any respect.
++ LaTeX Warning: Citation 'liu2005dangdai' on page 1 undefined on input line ....
++ LaTeX Warning: Citation 'kuo1999use' on page 1 undefined on input line ....
++ LaTeX Warning: Citation 'wang2010hanyu' on page 1 undefined on input line ....
++ LaTeX Warning: Citation 'harwood2005nowhere' on page 1 undefined on input line ....
++ LaTeX Warning: Citation 'housley2010we' on page 1 undefined on input line ....
++ LaTeX Warning: Citation 'borthen2010we' on page 1 undefined on input line ....
++ LaTeX Warning: Citation 'chen2011less' on page 1 undefined on input line ....
++ LaTeX Warning: Empty bibliography on input line ....
+  [1
+  ]

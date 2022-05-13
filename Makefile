@@ -1,5 +1,6 @@
-# Makefile for ThuThesis
+# vim:fdm=marker
 
+# define var {{{1
 PACKAGE = thuthesis
 THESIS  = thuthesis-example
 SPINE   = spine
@@ -11,7 +12,8 @@ LATEXMK = latexmk
 SHELL  := /bin/bash
 NPM    ?= npm
 
-# make deletion work on Windows
+
+# make deletion work on Windows # {{{2
 ifdef SystemRoot
 	RM = del /Q
 else
@@ -20,6 +22,7 @@ endif
 
 .PHONY: all all-dev clean distclean dist thesis viewthesis spine viewspine doc viewdoc cls check save savepdf test FORCE_MAKE
 
+# define make target {{{1
 thesis: $(THESIS).pdf
 
 all: thesis spine

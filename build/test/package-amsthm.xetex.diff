@@ -1,0 +1,196 @@
+*** ./build/test/package-amsthm.tlg	2022-05-13 22:19:29.026476090 +0800
+--- ./build/test/package-amsthm.xetex.log	2022-05-13 22:19:31.222458889 +0800
+***************
+*** 29,34 ****
+--- 29,36 ----
+  Completed box being shipped out [1]
+  \vbox(710.18088+0.0)x439.87962
+  .\hbox(0.0+0.0)x0.0
++ ..\special{pdfcolorstackinit 1 page direct (0 g 0 G)}
++ .\hbox(0.0+0.0)x0.0
+  ..\kern -72.26999
+  ..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
+  ...\kern -72.26999
+***************
+*** 51,58 ****
+  ..\vbox(674.33032+0.0)x426.79135, glue set >20000.0fil
+  ...\write-{}
+  ...\special{color push gray 0}
+  ...\write-{}
+- ...\write1{\pp@pagectr{footnote}{1}{\theabspage }{\thepage }}
+  ...\write1{\@writefile{toc}{\protect \contentsline {chapter}{\protect \numberline \ETC.}
+  ...\mark{{第1章\hskip 1em\relax 定理}{}}
+  ...\glue(\topskip) 12.0
+--- 53,62 ----
+  ..\vbox(674.33032+0.0)x426.79135, glue set >20000.0fil
+  ...\write-{}
+  ...\special{color push gray 0}
++ ...\write1{\protect \providecommand {\protect \FN@pp@footnotehinttrue }{}}
++ ...\write1{\protect \providecommand {\protect \FN@pp@footnote@aux }[2]{}}
++ ...\write1{\protect \FN@pp@footnotehinttrue }
+  ...\write-{}
+  ...\write1{\@writefile{toc}{\protect \contentsline {chapter}{\protect \numberline \ETC.}
+  ...\mark{{第1章\hskip 1em\relax 定理}{}}
+  ...\glue(\topskip) 12.0
+***************
+*** 61,67 ****
+  ...\glue 15.10124 plus -1.0
+  ...\glue 0.0
+  ...\glue(\parskip) 0.0 plus 1.0
+- ...\glue(\parskip) 0.0
+  ...\hbox(12.55891+2.8426)x426.79135, glue set 164.31633fil
+  ....\glue(\leftskip) 0.0 plus 1.0fil
+  ....\TU/FandolHei(0)/m/n/16.06 第
+--- 65,70 ----
+***************
+*** 83,89 ****
+  ...\penalty 10000
+  ...\glue 27.10124 plus -1.0
+  ...\glue(\parskip) 0.0 plus 1.0
+- ...\glue(\parskip) 0.0
+  ...\hbox(9.45532+2.32468)x426.79135, glue set 0.20212
+  ....\special{color push gray 0}
+  ....\TU/FandolHei(0)/m/n/12.045 定
+--- 86,91 ----
+***************
+*** 297,303 ****
+  ...\glue 0.0 plus 1.0
+  ...\glue 0.0 plus -1.0
+  ...\glue(\parskip) 0.0 plus 1.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\baselineskip) 8.295
+  ...\hbox(9.45532+2.32468)x426.79135, glue set 0.51561
+  ....\hbox(8.9374+1.95128)x30.09
+--- 299,304 ----
+***************
+*** 514,520 ****
+  ...\glue 0.0
+  ...\glue 0.0 plus -1.0
+  ...\glue(\parskip) 0.0 plus 1.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\baselineskip) 8.295
+  ...\hbox(9.45532+2.32468)x426.79135, glue set 0.20212
+  ....\special{color push gray 0}
+--- 515,520 ----
+***************
+*** 729,735 ****
+  ...\glue 0.0
+  ...\glue 0.0 plus -1.0
+  ...\glue(\parskip) 0.0 plus 1.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\baselineskip) 8.295
+  ...\hbox(9.45532+2.32468)x426.79135, glue set 0.20212
+  ....\special{color push gray 0}
+--- 729,734 ----
+***************
+*** 944,950 ****
+  ...\glue 0.0
+  ...\glue 0.0 plus -1.0
+  ...\glue(\parskip) 0.0 plus 1.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\baselineskip) 8.295
+  ...\hbox(9.45532+2.32468)x426.79135, glue set 0.20212
+  ....\special{color push gray 0}
+--- 943,948 ----
+***************
+*** 1159,1165 ****
+  ...\glue 0.0
+  ...\glue 0.0 plus -1.0
+  ...\glue(\parskip) 0.0 plus 1.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\baselineskip) 8.295
+  ...\hbox(9.45532+2.32468)x426.79135, glue set 0.20212
+  ....\special{color push gray 0}
+--- 1157,1162 ----
+***************
+*** 1374,1380 ****
+  ...\glue 0.0
+  ...\glue 0.0 plus -1.0
+  ...\glue(\parskip) 0.0 plus 1.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\baselineskip) 8.295
+  ...\hbox(9.45532+2.32468)x426.79135, glue set 0.20212
+  ....\special{color push gray 0}
+--- 1371,1376 ----
+***************
+*** 1589,1595 ****
+  ...\glue 0.0
+  ...\glue 0.0 plus -1.0
+  ...\glue(\parskip) 0.0 plus 1.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\baselineskip) 8.295
+  ...\hbox(9.45532+2.32468)x426.79135, glue set 0.20212
+  ....\special{color push gray 0}
+--- 1585,1590 ----
+***************
+*** 1802,1808 ****
+  ...\glue 0.0
+  ...\glue 0.0 plus -1.0
+  ...\glue(\parskip) 0.0 plus 1.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\baselineskip) 8.295
+  ...\hbox(9.45532+2.32468)x426.79135, glue set 0.20212
+  ....\special{color push gray 0}
+--- 1797,1802 ----
+***************
+*** 2017,2023 ****
+  ...\glue 0.0
+  ...\glue 0.0 plus -1.0
+  ...\glue(\parskip) 0.0 plus 1.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\baselineskip) 8.295
+  ...\hbox(9.45532+2.32468)x426.79135, glue set 0.20212
+  ....\special{color push gray 0}
+--- 2011,2016 ----
+***************
+*** 2248,2253 ****
+--- 2241,2247 ----
+  ...\glue 0.0 plus 1.0fil minus 1.0fil
+  .\kern 710.18088
+  .\kern 0.0
++ .\kern 0.0
+  Completed box being shipped out [2]
+  \vbox(710.18088+0.0)x439.87962
+  .\hbox(0.0+0.0)x0.0
+***************
+*** 2485,2491 ****
+  ...\glue 0.0
+  ...\glue 0.0 plus -1.0
+  ...\glue(\parskip) 0.0 plus 1.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\baselineskip) 8.21068
+  ...\hbox(9.53964+2.32468)x426.79135, glue set 0.20212
+  ....\special{color push gray 0}
+--- 2479,2484 ----
+***************
+*** 2700,2706 ****
+  ...\glue 0.0
+  ...\glue 0.0 plus -1.0
+  ...\glue(\parskip) 0.0 plus 1.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\baselineskip) 8.295
+  ...\hbox(9.45532+2.32468)x426.79135, glue set 0.20212
+  ....\special{color push gray 0}
+--- 2693,2698 ----
+***************
+*** 2911,2920 ****
+  ....\glue(\rightskip) 0.0
+  ...\penalty -51
+  ...\glue 0.0
+  ...\glue -2.32468
+  ...\glue 0.0 plus 1.0fil
+- ...\glue 0.0 plus -1.0fil
+- ...\glue 0.0 plus 1.0fil
+  ...\glue 0.0
+  ...\glue 0.0 plus 0.0001fil
+  ..\glue(\baselineskip) 22.76228
+--- 2903,2911 ----
+  ....\glue(\rightskip) 0.0
+  ...\penalty -51
+  ...\glue 0.0
++ ...\write1{\protect \FN@pp@footnotehinttrue }
+  ...\glue -2.32468
+  ...\glue 0.0 plus 1.0fil
+  ...\glue 0.0
+  ...\glue 0.0 plus 0.0001fil
+  ..\glue(\baselineskip) 22.76228

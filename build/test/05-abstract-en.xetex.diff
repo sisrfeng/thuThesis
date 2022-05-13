@@ -1,0 +1,109 @@
+*** ./build/test/05-abstract-en.tlg	2022-05-13 22:19:15.326583219 +0800
+--- ./build/test/05-abstract-en.xetex.log	2022-05-13 22:19:17.238568286 +0800
+***************
+*** 16,21 ****
+--- 16,23 ----
+  Completed box being shipped out [2]
+  \vbox(710.18088+4.1104)x439.87962
+  .\hbox(0.0+0.0)x0.0
++ ..\special{pdfcolorstackinit 1 page direct (0 g 0 G)}
++ .\hbox(0.0+0.0)x0.0
+  ..\kern -72.26999
+  ..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
+  ...\kern -72.26999
+***************
+*** 75,83 ****
+--- 77,90 ----
+  ..\vbox(674.33032+0.0)x426.79135, glue set 318.90253fill
+  ...\write-{}
+  ...\special{color push gray 0}
++ ...\write1{\protect \providecommand {\protect \FN@pp@footnotehinttrue }{}}
++ ...\write1{\protect \providecommand {\protect \FN@pp@footnote@aux }[2]{}}
++ ...\write1{\protect \FN@pp@footnotehinttrue }
+  ...\write-{}
++ ...\write1{\protect \FN@pp@footnotehinttrue }
+  ...\write-{}
+  ...\write1{\@writefile{toc}{\protect \contentsline {chapter}{Abstract}{\thepage \ETC.}
++ ...\write1{\protect \FN@pp@footnotehinttrue }
+  ...\write-{}
+  ...\glue(\topskip) 12.0
+  ...\rule(0.0+0.0)x*
+***************
+*** 85,91 ****
+  ...\glue 15.10124 plus -1.0
+  ...\glue 0.0
+  ...\glue(\parskip) 0.0 plus 1.0
+- ...\glue(\parskip) 0.0
+  ...\hbox(11.70773+0.24089)x426.79135, glue set 183.9818fil
+  ....\glue(\leftskip) 0.0 plus 1.0fil
+  ....\TU/texgyreheros(0)/m/n/16.06 Abstract
+--- 92,97 ----
+***************
+*** 99,105 ****
+  ...\mark{{Abstract}{Abstract}}
+  ...\penalty 10000
+  ...\glue(\parskip) 0.0 plus 1.0
+- ...\glue(\parskip) 0.0
+  ...\hbox(8.22673+2.6258)x426.79135, glue set 0.02975
+  ....\hbox(0.0+0.0)x24.09
+  ....\TU/texgyretermes(0)/m/n/12.045 An
+--- 105,110 ----
+***************
+*** 444,450 ****
+  ....\glue(\parfillskip) 0.0 plus 1.0fil
+  ....\glue(\rightskip) 0.0
+  ...\glue(\parskip) 0.0 plus 1.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\baselineskip) 9.22247
+  ...\hbox(8.22673+2.6258)x426.79135, glue set 0.11142
+  ....\hbox(0.0+0.0)x24.09
+--- 449,454 ----
+***************
+*** 613,619 ****
+  ....\glue(\parfillskip) 0.0 plus 1.0fil
+  ....\glue(\rightskip) 0.0
+  ...\glue(\parskip) 0.0 plus 1.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\baselineskip) 11.67966
+  ...\hbox(8.22673+2.6258)x426.79135, glue set 0.32932
+  ....\hbox(0.0+0.0)x24.09
+--- 617,622 ----
+***************
+*** 760,766 ****
+  ...\glue(\baselineskip) 17.46124
+  ...\hbox(0.0+0.0)x0.0
+  ...\glue(\parskip) 0.0 plus 1.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\baselineskip) 11.78804
+  ...\hbox(8.28696+2.6258)x426.79135, glue set 88.55173fil
+  ....\TU/texgyretermes(0)/b/n/12.045 Keywords:
+--- 763,768 ----
+***************
+*** 827,836 ****
+  ...\penalty 10000
+  ...\glue 0.0 plus 1.0fill
+  ...\glue 0.0
+  ...\glue -2.6258
+  ...\glue 0.0 plus 1.0fil
+- ...\glue 0.0 plus -1.0fil
+- ...\glue 0.0 plus 1.0fil
+  ...\glue 0.0
+  ...\glue 0.0 plus 0.0001fil
+  ..\glue(\baselineskip) 7.14894
+--- 829,837 ----
+  ...\penalty 10000
+  ...\glue 0.0 plus 1.0fill
+  ...\glue 0.0
++ ...\write1{\protect \FN@pp@footnotehinttrue }
+  ...\glue -2.6258
+  ...\glue 0.0 plus 1.0fil
+  ...\glue 0.0
+  ...\glue 0.0 plus 0.0001fil
+  ..\glue(\baselineskip) 7.14894
+***************
+*** 887,889 ****
+--- 888,891 ----
+  ...\glue 0.0 plus 1.0fil minus 1.0fil
+  .\kern 714.29128
+  .\kern 0.0
++ .\kern 0.0

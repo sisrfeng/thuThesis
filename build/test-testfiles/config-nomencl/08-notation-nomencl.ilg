@@ -1,0 +1,14 @@
+This is makeindex, version 2.15 [TeX Live 2021] (kpathsea + Thai support).
+Scanning style file /home/linuxbrew/.linuxbrew/Cellar/texlive/58837_1/share/texmf-dist/makeindex/nomencl/nomencl.ist........
+** Input style error (file = /home/linuxbrew/.linuxbrew/Cellar/texlive/58837_1/share/texmf-dist/makeindex/nomencl/nomencl.ist, line = 36):
+   -- Unknown specifier lethead_prefix.
+** Input style error (file = /home/linuxbrew/.linuxbrew/Cellar/texlive/58837_1/share/texmf-dist/makeindex/nomencl/nomencl.ist, line = 37):
+   -- Unknown specifier lethead_suffix.
+** Input style error (file = /home/linuxbrew/.linuxbrew/Cellar/texlive/58837_1/share/texmf-dist/makeindex/nomencl/nomencl.ist, line = 38):
+   -- Unknown specifier lethead_flag.
+....done (12 attributes redefined, 3 ignored).
+Scanning input file 08-notation-nomencl.nlo....done (39 entries accepted, 0 rejected).
+Sorting entries....done (212 comparisons).
+Generating output file 08-notation-nomencl.nls....done (44 lines written, 0 warnings).
+Output written in 08-notation-nomencl.nls.
+Transcript written in 08-notation-nomencl.ilg.

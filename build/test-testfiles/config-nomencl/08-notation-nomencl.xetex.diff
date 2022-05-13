@@ -1,0 +1,452 @@
+*** ./build/test-testfiles/config-nomencl/08-notation-nomencl.tlg	2022-05-13 22:20:17.774092528 +0800
+--- ./build/test-testfiles/config-nomencl/08-notation-nomencl.xetex.log	2022-05-13 22:20:21.654061847 +0800
+***************
+*** 35,40 ****
+--- 35,42 ----
+  Completed box being shipped out [8]
+  \vbox(710.18088+4.1104)x439.87962
+  .\hbox(0.0+0.0)x0.0
++ ..\special{pdfcolorstackinit 1 page direct (0 g 0 G)}
++ .\hbox(0.0+0.0)x0.0
+  ..\kern -72.26999
+  ..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
+  ...\kern -72.26999
+***************
+*** 108,116 ****
+--- 110,123 ----
+  ..\vbox(674.33032+0.0)x426.79135, glue set >20000.0fil
+  ...\write-{}
+  ...\special{color push gray 0}
++ ...\write1{\protect \providecommand {\protect \FN@pp@footnotehinttrue }{}}
++ ...\write1{\protect \providecommand {\protect \FN@pp@footnote@aux }[2]{}}
++ ...\write1{\protect \FN@pp@footnotehinttrue }
+  ...\write-{}
++ ...\write1{\protect \FN@pp@footnotehinttrue }
+  ...\write-{}
+  ...\write1{\@writefile{toc}{\protect \contentsline {chapter}{符号和缩略语说\ETC.}
++ ...\write1{\protect \FN@pp@footnotehinttrue }
+  ...\write-{}
+  ...\glue(\topskip) 12.0
+  ...\rule(0.0+0.0)x*
+***************
+*** 118,124 ****
+  ...\glue 15.10124 plus -1.0
+  ...\glue 0.0
+  ...\glue(\parskip) 0.0 plus 1.0
+- ...\glue(\parskip) 0.0
+  ...\hbox(12.43044+2.79442)x426.79135, glue set 149.15569fil
+  ....\glue(\leftskip) 0.0 plus 1.0fil
+  ....\TU/FandolHei(0)/m/n/16.06 符
+--- 125,130 ----
+***************
+*** 149,155 ****
+  ...\glue 30.11249
+  ...\glue 0.0 plus 1.0
+  ...\glue(\parskip) 0.0
+- ...\glue(\parskip) 0.0
+  ...\hbox(10.79886+2.6258)x327.20673, glue set 138.30502fil, shifted 99.58463
+  ....\hbox(10.79886+0.14455)x0.0
+  .....\glue 0.0
+--- 155,160 ----
+***************
+*** 207,213 ****
+  ...\penalty -51
+  ...\glue 0.0
+  ...\glue(\parskip) 0.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\baselineskip) 7.01027
+  ...\hbox(9.636+2.40898)x327.20673, glue set 142.4726fil, shifted 99.58463
+  ....\hbox(5.31184+0.0)x0.0
+--- 212,217 ----
+***************
+*** 257,263 ****
+  ...\penalty -51
+  ...\glue 0.0
+  ...\glue(\parskip) 0.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\baselineskip) 7.22708
+  ...\hbox(9.636+3.11093)x327.20673, glue set 183.18468fil, shifted 99.58463
+  ....\hbox(5.37207+3.11093)x0.0
+--- 261,266 ----
+***************
+*** 304,310 ****
+  ...\penalty -51
+  ...\glue 0.0
+  ...\glue(\parskip) 0.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\baselineskip) 6.52513
+  ...\hbox(9.636+3.1019)x327.20673, glue set 126.58524fil, shifted 99.58463
+  ....\hbox(7.86539+3.1019)x0.0
+--- 307,312 ----
+***************
+*** 363,369 ****
+  ...\penalty -51
+  ...\glue 0.0
+  ...\glue(\parskip) 0.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\baselineskip) 6.66666
+  ...\hbox(9.50351+2.32468)x327.20673, glue set 62.21677fil, shifted 99.58463
+  ....\hbox(8.22673+0.13248)x0.0
+--- 365,370 ----
+***************
+*** 439,445 ****
+  ...\penalty -51
+  ...\glue 0.0
+  ...\glue(\parskip) 0.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\baselineskip) 7.5282
+  ...\hbox(9.41919+2.15604)x327.20673, glue set 230.84674fil, shifted 99.58463
+  ....\hbox(8.11833+0.12044)x0.0
+--- 440,445 ----
+***************
+*** 480,486 ****
+  ...\penalty -51
+  ...\glue 0.0
+  ...\glue(\parskip) 0.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\baselineskip) 7.48003
+  ...\hbox(9.636+2.6258)x327.20673, glue set 108.5539fil, shifted 99.58463
+  ....\hbox(7.97379+0.0)x0.0
+--- 480,485 ----
+***************
+*** 537,543 ****
+  ...\penalty -51
+  ...\glue 0.0
+  ...\glue(\parskip) 0.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\baselineskip) 7.01027
+  ...\hbox(9.636+2.40898)x327.20673, glue set 33.7183fil, shifted 99.58463
+  ....\hbox(8.11833+0.12044)x0.0
+--- 536,541 ----
+***************
+*** 615,621 ****
+  ...\penalty -51
+  ...\glue 0.0
+  ...\glue(\parskip) 0.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\baselineskip) 7.4439
+  ...\hbox(9.41919+2.2283)x327.20673, glue set 98.35176fil, shifted 99.58463
+  ....\hbox(8.11833+0.12044)x0.0
+--- 613,618 ----
+***************
+*** 678,684 ****
+  ...\penalty -51
+  ...\glue 0.0
+  ...\glue(\parskip) 0.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\baselineskip) 7.63661
+  ...\hbox(9.40715+2.2283)x327.20673, glue set 134.48676fil, shifted 99.58463
+  ....\hbox(7.97379+0.0)x0.0
+--- 675,680 ----
+***************
+*** 735,741 ****
+  ...\penalty -51
+  ...\glue 0.0
+  ...\glue(\parskip) 0.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\baselineskip) 7.6607
+  ...\hbox(9.38306+2.27649)x327.20673, glue set 146.53175fil, shifted 99.58463
+  ....\hbox(7.97379+0.0)x0.0
+--- 731,736 ----
+***************
+*** 790,796 ****
+  ...\penalty -51
+  ...\glue 0.0
+  ...\glue(\parskip) 0.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\baselineskip) 7.08253
+  ...\hbox(9.91304+2.24036)x327.20673, glue set 122.44176fil, shifted 99.58463
+  ....\hbox(8.14243+2.144)x0.0
+--- 785,790 ----
+***************
+*** 849,855 ****
+  ...\penalty -51
+  ...\glue 0.0
+  ...\glue(\parskip) 0.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\baselineskip) 7.67274
+  ...\hbox(9.35896+2.2283)x327.20673, glue set 158.57675fil, shifted 99.58463
+  ....\hbox(7.97379+0.0)x0.0
+--- 843,848 ----
+***************
+*** 902,908 ****
+  ...\penalty -51
+  ...\glue 0.0
+  ...\glue(\parskip) 0.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\baselineskip) 7.62457
+  ...\hbox(9.41919+2.2283)x327.20673, glue set 110.39676fil, shifted 99.58463
+  ....\hbox(8.14243+0.16861)x0.0
+--- 895,900 ----
+***************
+*** 963,969 ****
+  ...\penalty -51
+  ...\glue 0.0
+  ...\glue(\parskip) 0.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\baselineskip) 7.40776
+  ...\hbox(9.636+2.6258)x327.20673, glue set - 0.51552, shifted 99.58463
+  ....\hbox(8.14243+0.16861)x0.0
+--- 955,960 ----
+***************
+*** 1030,1036 ****
+  ...\penalty -51
+  ...\glue 0.0
+  ...\glue(\parskip) 0.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\baselineskip) 7.01027
+  ...\hbox(9.636+2.6258)x327.20673, glue set 30.73116fil, shifted 99.58463
+  ....\hbox(8.14243+0.16861)x0.0
+--- 1021,1026 ----
+***************
+*** 1091,1097 ****
+  ...\penalty -51
+  ...\glue 0.0
+  ...\glue(\parskip) 0.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\baselineskip) 7.01027
+  ...\hbox(9.636+2.40898)x327.20673, glue set 91.34157fil, shifted 99.58463
+  ....\hbox(8.14243+0.16861)x0.0
+--- 1081,1086 ----
+***************
+*** 1148,1154 ****
+  ...\penalty -51
+  ...\glue 0.0
+  ...\glue(\parskip) 0.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\baselineskip) 7.22708
+  ...\hbox(9.636+2.6258)x327.20673, glue set 18.28867fil, shifted 99.58463
+  ....\hbox(8.14243+0.16861)x0.0
+--- 1137,1142 ----
+***************
+*** 1210,1216 ****
+  ...\penalty -51
+  ...\glue 0.0
+  ...\glue(\parskip) 0.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\baselineskip) 7.22708
+  ...\hbox(9.41919+2.32468)x327.20673, glue set 26.09381fil, shifted 99.58463
+  ....\hbox(8.11833+0.12044)x0.0
+--- 1198,1203 ----
+***************
+*** 1279,1285 ****
+  ...\penalty -51
+  ...\glue 0.0
+  ...\glue(\parskip) 0.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\baselineskip) 7.54024
+  ...\hbox(9.40715+2.32468)x327.20673, glue set 109.73428fil, shifted 99.58463
+  ....\hbox(7.97379+0.0)x0.0
+--- 1266,1271 ----
+***************
+*** 1341,1347 ****
+  ...\penalty -51
+  ...\glue 0.0
+  ...\glue(\parskip) 0.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\baselineskip) 7.56433
+  ...\hbox(9.38306+2.32468)x327.20673, glue set 109.73428fil, shifted 99.58463
+  ....\hbox(7.97379+0.0)x0.0
+--- 1327,1332 ----
+***************
+*** 1403,1409 ****
+  ...\penalty -51
+  ...\glue 0.0
+  ...\glue(\parskip) 0.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\baselineskip) 7.03435
+  ...\hbox(9.91304+2.32468)x327.20673, glue set 79.28453fil, shifted 99.58463
+  ....\hbox(8.14243+2.144)x0.0
+--- 1388,1393 ----
+***************
+*** 1469,1475 ****
+  ...\penalty -51
+  ...\glue 0.0
+  ...\glue(\parskip) 0.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\baselineskip) 7.58842
+  ...\hbox(9.35896+2.2283)x327.20673, glue set 230.84674fil, shifted 99.58463
+  ....\hbox(7.97379+0.0)x0.0
+--- 1453,1458 ----
+***************
+*** 1510,1516 ****
+  ...\penalty -51
+  ...\glue 0.0
+  ...\glue(\parskip) 0.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\baselineskip) 7.62457
+  ...\hbox(9.41919+2.32468)x327.20673, glue set 50.1838fil, shifted 99.58463
+  ....\hbox(8.14243+0.16861)x0.0
+--- 1493,1498 ----
+***************
+*** 1575,1581 ****
+  ...\penalty -51
+  ...\glue 0.0
+  ...\glue(\parskip) 0.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\baselineskip) 7.31139
+  ...\hbox(9.636+2.6258)x327.20673, glue set 1.2454, shifted 99.58463
+  ....\hbox(8.14243+0.16861)x0.0
+--- 1557,1562 ----
+***************
+*** 1655,1661 ****
+  ...\penalty -51
+  ...\glue 0.0
+  ...\glue(\parskip) 0.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\baselineskip) 7.45593
+  ...\hbox(9.40715+2.18013)x327.20673, glue set 266.98174fil, shifted 99.58463
+  ....\hbox(7.97379+0.0)x0.0
+--- 1636,1641 ----
+***************
+*** 1690,1696 ****
+  ...\penalty -51
+  ...\glue 0.0
+  ...\glue(\parskip) 0.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\baselineskip) 7.72093
+  ...\hbox(9.371+2.09581)x327.20673, glue set 266.98174fil, shifted 99.58463
+  ....\hbox(7.97379+0.0)x0.0
+--- 1670,1675 ----
+***************
+*** 1725,1731 ****
+  ...\penalty -51
+  ...\glue 0.0
+  ...\glue(\parskip) 0.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\baselineskip) 7.54025
+  ...\hbox(9.636+2.6258)x327.20673, glue set 154.7344fil, shifted 99.58463
+  ....\hbox(8.14243+0.16861)x0.0
+--- 1704,1709 ----
+***************
+*** 1776,1782 ****
+  ...\penalty -51
+  ...\glue 0.0
+  ...\glue(\parskip) 0.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\baselineskip) 7.26321
+  ...\hbox(9.38306+2.27649)x327.20673, glue set 279.02673fil, shifted 99.58463
+  ....\hbox(7.97379+0.0)x0.0
+--- 1754,1759 ----
+***************
+*** 1809,1815 ****
+  ...\penalty -51
+  ...\glue 0.0
+  ...\glue(\parskip) 0.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\baselineskip) 7.61252
+  ...\hbox(9.38306+2.144)x327.20673, glue set 98.35176fil, shifted 99.58463
+  ....\hbox(8.11833+0.0)x0.0
+--- 1786,1791 ----
+***************
+*** 1925,1930 ****
+--- 1901,1907 ----
+  ...\glue 0.0 plus 1.0fil minus 1.0fil
+  .\kern 714.29128
+  .\kern 0.0
++ .\kern 0.0
+  )
+  Completed box being shipped out [9]
+  \vbox(710.18088+4.1104)x439.87962
+***************
+*** 2036,2042 ****
+  ...\penalty -51
+  ...\glue 0.0
+  ...\glue(\parskip) 0.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\baselineskip) 7.75706
+  ...\hbox(9.27464+2.05968)x327.20673, glue set 291.07173fil, shifted 99.58463
+  ....\hbox(7.97379+0.0)x0.0
+--- 2013,2018 ----
+***************
+*** 2067,2073 ****
+  ...\penalty -51
+  ...\glue 0.0
+  ...\glue(\parskip) 0.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\baselineskip) 7.7932
+  ...\hbox(9.41919+2.15604)x327.20673, glue set 242.89174fil, shifted 99.58463
+  ....\hbox(8.14243+0.16861)x0.0
+--- 2043,2048 ----
+***************
+*** 2106,2112 ****
+  ...\penalty -51
+  ...\glue 0.0
+  ...\glue(\parskip) 0.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\baselineskip) 7.48003
+  ...\hbox(9.636+2.40898)x327.20673, glue set 172.92235fil, shifted 99.58463
+  ....\hbox(8.14243+0.16861)x0.0
+--- 2081,2086 ----
+***************
+*** 2153,2159 ****
+  ...\penalty -51
+  ...\glue 0.0
+  ...\glue(\parskip) 0.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\baselineskip) 7.22708
+  ...\hbox(9.636+2.40898)x327.20673, glue set 103.30226fil, shifted 99.58463
+  ....\hbox(8.14243+0.16861)x0.0
+--- 2127,2132 ----
+***************
+*** 2208,2214 ****
+  ...\penalty -51
+  ...\glue 0.0
+  ...\glue(\parskip) 0.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\baselineskip) 7.22708
+  ...\hbox(9.636+2.40898)x327.20673, glue set 165.96034fil, shifted 99.58463
+  ....\hbox(8.14243+0.16861)x0.0
+--- 2181,2186 ----
+***************
+*** 2263,2269 ****
+  ...\penalty -51
+  ...\glue 0.0
+  ...\glue(\parskip) 0.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\baselineskip) 7.22708
+  ...\hbox(9.636+2.40898)x327.20673, glue set 198.8432fil, shifted 99.58463
+  ....\hbox(8.14243+0.16861)x0.0
+--- 2235,2240 ----
+***************
+*** 2310,2316 ****
+  ...\penalty -51
+  ...\glue 0.0
+  ...\glue(\parskip) 0.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\baselineskip) 7.22708
+  ...\hbox(9.636+2.6258)x327.20673, glue set 136.7151fil, shifted 99.58463
+  ....\hbox(8.14243+0.16861)x0.0
+--- 2281,2286 ----
+***************
+*** 2365,2371 ****
+  ...\penalty -51
+  ...\glue 0.0
+  ...\glue(\parskip) 0.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\baselineskip) 7.01027
+  ...\hbox(9.636+2.6258)x327.20673, glue set 133.59543fil, shifted 99.58463
+  ....\hbox(7.97379+0.0)x0.0
+--- 2335,2340 ----
+***************
+*** 2420,2429 ****
+  ....\glue(\rightskip) 0.0
+  ...\penalty -51
+  ...\glue 0.0
+  ...\glue -2.6258
+  ...\glue 0.0 plus 1.0fil
+- ...\glue 0.0 plus -1.0fil
+- ...\glue 0.0 plus 1.0fil
+  ...\glue 0.0
+  ...\glue 0.0 plus 0.0001fil
+  ..\glue(\baselineskip) 7.14894
+--- 2389,2397 ----
+  ....\glue(\rightskip) 0.0
+  ...\penalty -51
+  ...\glue 0.0
++ ...\write1{\protect \FN@pp@footnotehinttrue }
+  ...\glue -2.6258
+  ...\glue 0.0 plus 1.0fil
+  ...\glue 0.0
+  ...\glue 0.0 plus 0.0001fil
+  ..\glue(\baselineskip) 7.14894

@@ -1,0 +1,39 @@
+\nomenclatureentry{aPI@[{PI}]\begingroup 聚酰亚胺\nomeqref {1.0}|nompageref}{1}
+\nomenclatureentry{aMPI@[{MPI}]\begingroup 聚酰亚胺模型化合物，N-苯基邻苯酰亚胺\nomeqref {1.0}|nompageref}{1}
+\nomenclatureentry{aPBI@[{PBI}]\begingroup 聚苯并咪唑\nomeqref {1.0}|nompageref}{1}
+\nomenclatureentry{aMPBI@[{MPBI}]\begingroup 聚苯并咪唑模型化合物，N-苯基苯并咪唑\nomeqref {1.0}|nompageref}{1}
+\nomenclatureentry{aPY@[{PY}]\begingroup 聚吡咙\nomeqref {1.0}|nompageref}{1}
+\nomenclatureentry{aPMDA-BDA@[{PMDA-BDA}]\begingroup 均苯四酸二酐与联苯四胺合成的聚吡咙薄膜\nomeqref {1.0}|nompageref}{1}
+\nomenclatureentry{aMPY@[{MPY}]\begingroup 聚吡咙模型化合物\nomeqref {1.0}|nompageref}{1}
+\nomenclatureentry{aAs-PPT@[{As-PPT}]\begingroup 聚苯基不对称三嗪\nomeqref {1.0}|nompageref}{1}
+\nomenclatureentry{aMAsPPT@[{MAsPPT}]\begingroup 聚苯基不对称三嗪单模型化合物，3,5,6-三苯基-1,2,4-三嗪\nomeqref {1.0}|nompageref}{1}
+\nomenclatureentry{aDMAsPPT@[{DMAsPPT}]\begingroup 聚苯基不对称三嗪双模型化合物（水解实验模型化合物）\nomeqref {1.0}|nompageref}{1}
+\nomenclatureentry{aS-PPT@[{S-PPT}]\begingroup 聚苯基对称三嗪\nomeqref {1.0}|nompageref}{1}
+\nomenclatureentry{aMSPPT@[{MSPPT}]\begingroup 聚苯基对称三嗪模型化合物，2,4,6-三苯基-1,3,5-三嗪\nomeqref {1.0}|nompageref}{1}
+\nomenclatureentry{aPPQ@[{PPQ}]\begingroup 聚苯基喹噁啉\nomeqref {1.0}|nompageref}{1}
+\nomenclatureentry{aMPPQ@[{MPPQ}]\begingroup 聚苯基喹噁啉模型化合物，3,4-二苯基苯并二嗪\nomeqref {1.0}|nompageref}{1}
+\nomenclatureentry{aHMPI@[{HMPI}]\begingroup 聚酰亚胺模型化合物的质子化产物\nomeqref {1.0}|nompageref}{1}
+\nomenclatureentry{aHMPY@[{HMPY}]\begingroup 聚吡咙模型化合物的质子化产物\nomeqref {1.0}|nompageref}{1}
+\nomenclatureentry{aHMPBI@[{HMPBI}]\begingroup 聚苯并咪唑模型化合物的质子化产物\nomeqref {1.0}|nompageref}{1}
+\nomenclatureentry{aHMAsPPT@[{HMAsPPT}]\begingroup 聚苯基不对称三嗪模型化合物的质子化产物\nomeqref {1.0}|nompageref}{1}
+\nomenclatureentry{aHMSPPT@[{HMSPPT}]\begingroup 聚苯基对称三嗪模型化合物的质子化产物\nomeqref {1.0}|nompageref}{1}
+\nomenclatureentry{aHMPPQ@[{HMPPQ}]\begingroup 聚苯基喹噁啉模型化合物的质子化产物\nomeqref {1.0}|nompageref}{1}
+\nomenclatureentry{aPDT@[{PDT}]\begingroup 热分解温度\nomeqref {1.0}|nompageref}{1}
+\nomenclatureentry{aHPLC@[{HPLC}]\begingroup 高效液相色谱（High Performance Liquid Chromatography）\nomeqref {1.0}|nompageref}{1}
+\nomenclatureentry{aHPCE@[{HPCE}]\begingroup 高效毛细管电泳色谱（High Performance Capillary lectrophoresis）\nomeqref {1.0}|nompageref}{1}
+\nomenclatureentry{aLC-MS@[{LC-MS}]\begingroup 液相色谱-质谱联用（Liquid chromatography-Mass Spectrum）\nomeqref {1.0}|nompageref}{1}
+\nomenclatureentry{aTIC@[{TIC}]\begingroup 总离子浓度（Total Ion Content）\nomeqref {1.0}|nompageref}{1}
+\nomenclatureentry{a\textit{ab initio}@[{\textit{ab initio}}]\begingroup 基于第一原理的量子化学计算方法，常称从头算法\nomeqref {1.0}|nompageref}{1}
+\nomenclatureentry{aDFT@[{DFT}]\begingroup 密度泛函理论（Density Functional Theory）\nomeqref {1.0}|nompageref}{1}
+\nomenclatureentry{a$E_a$@[{$E_a$}]\begingroup 化学反应的活化能（Activation Energy）\nomeqref {1.0}|nompageref}{1}
+\nomenclatureentry{aZPE@[{ZPE}]\begingroup 零点振动能（Zero Vibration Energy）\nomeqref {1.0}|nompageref}{1}
+\nomenclatureentry{aPES@[{PES}]\begingroup 势能面（Potential Energy Surface）\nomeqref {1.0}|nompageref}{1}
+\nomenclatureentry{aTS@[{TS}]\begingroup 过渡态（Transition State）\nomeqref {1.0}|nompageref}{1}
+\nomenclatureentry{aTST@[{TST}]\begingroup 过渡态理论（Transition State Theory）\nomeqref {1.0}|nompageref}{1}
+\nomenclatureentry{a$\increment G^\neq$@[{$\increment G^\neq$}]\begingroup 活化自由能（Activation Free Energy）\nomeqref {1.0}|nompageref}{1}
+\nomenclatureentry{a$\kappa$@[{$\kappa$}]\begingroup 传输系数（Transmission Coefficient）\nomeqref {1.0}|nompageref}{1}
+\nomenclatureentry{aIRC@[{IRC}]\begingroup 内禀反应坐标（Intrinsic Reaction Coordinates）\nomeqref {1.0}|nompageref}{1}
+\nomenclatureentry{a$\nu_i$@[{$\nu_i$}]\begingroup 虚频（Imaginary Frequency）\nomeqref {1.0}|nompageref}{1}
+\nomenclatureentry{aONIOM@[{ONIOM}]\begingroup 分层算法（Our own N-layered Integrated molecular Orbital and molecular Mechanics）\nomeqref {1.0}|nompageref}{1}
+\nomenclatureentry{aSCF@[{SCF}]\begingroup 自洽场（Self-Consistent Field）\nomeqref {1.0}|nompageref}{1}
+\nomenclatureentry{aSCRF@[{SCRF}]\begingroup 自洽反应场（Self-Consistent Reaction Field）\nomeqref {1.0}|nompageref}{1}

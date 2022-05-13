@@ -1,0 +1,128 @@
+*** ./build/test/02-committee.tlg	2022-05-13 22:19:07.662643016 +0800
+--- ./build/test/02-committee.xetex.log	2022-05-13 22:19:09.674627327 +0800
+***************
+*** 28,33 ****
+--- 28,35 ----
+  Completed box being shipped out [1]
+  \vbox(710.18088+0.0)x439.87962
+  .\hbox(0.0+0.0)x0.0
++ ..\special{pdfcolorstackinit 1 page direct (0 g 0 G)}
++ .\hbox(0.0+0.0)x0.0
+  ..\kern -72.26999
+  ..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
+  ...\kern -72.26999
+***************
+*** 50,57 ****
+--- 52,64 ----
+  ..\vbox(674.33032+0.0)x426.79135, glue set 237.1745fil
+  ...\write-{}
+  ...\special{color push gray 0}
++ ...\write1{\protect \providecommand {\protect \FN@pp@footnotehinttrue }{}}
++ ...\write1{\protect \providecommand {\protect \FN@pp@footnote@aux }[2]{}}
++ ...\write1{\protect \FN@pp@footnotehinttrue }
+  ...\write-{}
++ ...\write1{\protect \FN@pp@footnotehinttrue }
+  ...\write-{}
++ ...\write1{\protect \FN@pp@footnotehinttrue }
+  ...\write-{}
+  ...\glue(\topskip) 12.0
+  ...\rule(0.0+0.0)x*
+***************
+*** 59,65 ****
+  ...\glue 15.10124 plus -1.0
+  ...\glue 0.0
+  ...\glue(\parskip) 0.0 plus 1.0
+- ...\glue(\parskip) 0.0
+  ...\hbox(12.70346+2.95502)x426.79135, glue set 36.7357fil
+  ....\glue(\leftskip) 0.0 plus 1.0fil
+  ....\TU/FandolHei(0)/m/n/16.06 学
+--- 66,71 ----
+***************
+*** 117,123 ****
+  ...\mark{{学位论文指导小组、公开评阅人和答辩委员会名单}{\ETC.}
+  ...\penalty 10000
+  ...\glue(\parskip) 0.0 plus 1.0
+- ...\glue(\parskip) 0.0
+  ...\hbox(11.11552+2.55754)x426.79135, glue set 171.2382fil
+  ....\glue(\leftskip) 0.0 plus 1.0fil
+  ....\hbox(0.0+0.0)x0.0
+--- 123,128 ----
+***************
+*** 140,146 ****
+  ...\penalty 10000
+  ...\glue 6.02249
+  ...\glue(\parskip) 0.0 plus 1.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\lineskip) 1.0
+  ...\hbox(33.12404+27.1009)x426.79135, glue set 0.00002fil
+  ....\glue(\leftskip) 0.0 plus 1.0fil
+--- 145,150 ----
+***************
+*** 356,362 ****
+  ...\penalty -300
+  ...\glue 24.09
+  ...\glue(\parskip) 0.0 plus 1.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\lineskip) 1.0
+  ...\hbox(11.11552+2.55754)x426.79135, glue set 164.21196fil
+  ....\glue(\leftskip) 0.0 plus 1.0fil
+--- 360,365 ----
+***************
+*** 382,388 ****
+  ...\penalty 10000
+  ...\glue 6.02249
+  ...\glue(\parskip) 0.0 plus 1.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\lineskip) 1.0
+  ...\hbox(33.12404+27.1009)x426.79135, glue set 0.00002fil
+  ....\glue(\leftskip) 0.0 plus 1.0fil
+--- 385,390 ----
+***************
+*** 606,612 ****
+  ...\penalty -300
+  ...\glue 24.09
+  ...\glue(\parskip) 0.0 plus 1.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\lineskip) 1.0
+  ...\hbox(11.11552+2.58565)x426.79135, glue set 164.21196fil
+  ....\glue(\leftskip) 0.0 plus 1.0fil
+--- 608,613 ----
+***************
+*** 632,638 ****
+  ...\penalty 10000
+  ...\glue 6.02249
+  ...\glue(\parskip) 0.0 plus 1.0
+- ...\glue(\parskip) 0.0
+  ...\glue(\lineskip) 1.0
+  ...\hbox(73.274+67.25087)x426.79135, glue set 0.14221fil
+  ....\glue(\leftskip) 0.0 plus 1.0fil
+--- 633,638 ----
+***************
+*** 1205,1214 ****
+  ....\glue(\rightskip) 0.0 plus 1.0fil
+  ...\penalty -51
+  ...\glue 0.0
+  ...\glue -6.0
+  ...\glue 0.0 plus 1.0fil
+- ...\glue 0.0 plus -1.0fil
+- ...\glue 0.0 plus 1.0fil
+  ...\glue 0.0
+  ...\glue 0.0 plus 0.0001fil
+  ..\glue(\baselineskip) 22.76228
+--- 1205,1213 ----
+  ....\glue(\rightskip) 0.0 plus 1.0fil
+  ...\penalty -51
+  ...\glue 0.0
++ ...\write1{\protect \FN@pp@footnotehinttrue }
+  ...\glue -6.0
+  ...\glue 0.0 plus 1.0fil
+  ...\glue 0.0
+  ...\glue 0.0 plus 0.0001fil
+  ..\glue(\baselineskip) 22.76228
+***************
+*** 1229,1231 ****
+--- 1228,1231 ----
+  ...\glue 0.0 plus 1.0fil minus 1.0fil
+  .\kern 710.18088
+  .\kern 0.0
++ .\kern 0.0
