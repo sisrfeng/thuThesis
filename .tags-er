@@ -13,6 +13,36 @@ $(CLSFILE)	Makefile	/^$(CLSFILE): $(SOURCES)$/;"	t
 $(PACKAGE).pdf	Makefile	/^$(PACKAGE).pdf: cls FORCE_MAKE$/;"	t
 $(SPINE).pdf	Makefile	/^$(SPINE).pdf: cls FORCE_MAKE$/;"	t
 $(THESIS).pdf	Makefile	/^$(THESIS).pdf: cls FORCE_MAKE$/;"	t
+./build/test-testfiles/config-biblatex/10-biblatex-apa.xetex.log	build/test-testfiles/config-biblatex/10-biblatex-apa.xetex.diff	/^--- .\/build\/test-testfiles\/config-biblatex\/10-biblatex-apa.xetex.log	2022-05-13 22:20:59.397/;"	m
+./build/test-testfiles/config-biblatex/10-biblatex-author-year.xetex.log	build/test-testfiles/config-biblatex/10-biblatex-author-year.xetex.diff	/^--- .\/build\/test-testfiles\/config-biblatex\/10-biblatex-author-year.xetex.log	2022-05-13 22:2/;"	m
+./build/test-testfiles/config-biblatex/10-biblatex-inline.xetex.log	build/test-testfiles/config-biblatex/10-biblatex-inline.xetex.diff	/^--- .\/build\/test-testfiles\/config-biblatex\/10-biblatex-inline.xetex.log	2022-05-13 22:21:13./;"	m
+./build/test-testfiles/config-biblatex/10-biblatex-mla.xetex.log	build/test-testfiles/config-biblatex/10-biblatex-mla.xetex.diff	/^--- .\/build\/test-testfiles\/config-biblatex\/10-biblatex-mla.xetex.log	2022-05-13 22:21:20.757/;"	m
+./build/test-testfiles/config-biblatex/10-biblatex-numeric.xetex.log	build/test-testfiles/config-biblatex/10-biblatex-numeric.xetex.diff	/^--- .\/build\/test-testfiles\/config-biblatex\/10-biblatex-numeric.xetex.log	2022-05-13 22:21:28/;"	m
+./build/test-testfiles/config-bibtex/10-bibtex-author-year.xetex.log	build/test-testfiles/config-bibtex/10-bibtex-author-year.xetex.diff	/^--- .\/build\/test-testfiles\/config-bibtex\/10-bibtex-author-year.xetex.log	2022-05-13 22:20:38/;"	m
+./build/test-testfiles/config-bibtex/10-bibtex-inline.xetex.log	build/test-testfiles/config-bibtex/10-bibtex-inline.xetex.diff	/^--- .\/build\/test-testfiles\/config-bibtex\/10-bibtex-inline.xetex.log	2022-05-13 22:20:45.1298/;"	m
+./build/test-testfiles/config-bibtex/10-bibtex-numeric.xetex.log	build/test-testfiles/config-bibtex/10-bibtex-numeric.xetex.diff	/^--- .\/build\/test-testfiles\/config-bibtex\/10-bibtex-numeric.xetex.log	2022-05-13 22:20:51.765/;"	m
+./build/test-testfiles/config-crossref/06-contents.xetex.log	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- .\/build\/test-testfiles\/config-crossref\/06-contents.xetex.log	2022-05-13 22:19:43.7023609/;"	m
+./build/test-testfiles/config-crossref/07-1-figures-tables.xetex.log	build/test-testfiles/config-crossref/07-1-figures-tables.xetex.diff	/^--- .\/build\/test-testfiles\/config-crossref\/07-1-figures-tables.xetex.log	2022-05-13 22:19:47/;"	m
+./build/test-testfiles/config-crossref/07-2-figures.xetex.log	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- .\/build\/test-testfiles\/config-crossref\/07-2-figures.xetex.log	2022-05-13 22:19:52.654290/;"	m
+./build/test-testfiles/config-crossref/07-3-tables.xetex.log	build/test-testfiles/config-crossref/07-3-tables.xetex.diff	/^--- .\/build\/test-testfiles\/config-crossref\/07-3-tables.xetex.log	2022-05-13 22:19:57.1262554/;"	m
+./build/test-testfiles/config-crossref/09-main-en.xetex.log	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- .\/build\/test-testfiles\/config-crossref\/09-main-en.xetex.log	2022-05-13 22:20:12.53813389/;"	m
+./build/test-testfiles/config-crossref/09-main-postdoc.xetex.log	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- .\/build\/test-testfiles\/config-crossref\/09-main-postdoc.xetex.log	2022-05-13 22:20:17.138/;"	m
+./build/test-testfiles/config-crossref/09-main.xetex.log	build/test-testfiles/config-crossref/09-main.xetex.diff	/^--- .\/build\/test-testfiles\/config-crossref\/09-main.xetex.log	2022-05-13 22:20:06.418182200 +/;"	m
+./build/test-testfiles/config-nomencl/08-notation-nomencl.xetex.log	build/test-testfiles/config-nomencl/08-notation-nomencl.xetex.diff	/^--- .\/build\/test-testfiles\/config-nomencl\/08-notation-nomencl.xetex.log	2022-05-13 22:20:21./;"	m
+./build/test/02-committee.xetex.log	build/test/02-committee.xetex.diff	/^--- .\/build\/test\/02-committee.xetex.log	2022-05-13 22:19:09.674627327 +0800$/;"	m
+./build/test/03-copyright-doctor.xetex.log	build/test/03-copyright-doctor.xetex.diff	/^--- .\/build\/test\/03-copyright-doctor.xetex.log	2022-05-13 22:19:11.538612786 +0800$/;"	m
+./build/test/03-copyright-master.xetex.log	build/test/03-copyright-master.xetex.diff	/^--- .\/build\/test\/03-copyright-master.xetex.log	2022-05-13 22:19:13.434597990 +0800$/;"	m
+./build/test/04-abstract.xetex.log	build/test/04-abstract.xetex.diff	/^--- .\/build\/test\/04-abstract.xetex.log	2022-05-13 22:19:15.310583344 +0800$/;"	m
+./build/test/05-abstract-en.xetex.log	build/test/05-abstract-en.xetex.diff	/^--- .\/build\/test\/05-abstract-en.xetex.log	2022-05-13 22:19:17.238568286 +0800$/;"	m
+./build/test/08-notation.xetex.log	build/test/08-notation.xetex.diff	/^--- .\/build\/test\/08-notation.xetex.log	2022-05-13 22:19:19.342551847 +0800$/;"	m
+./build/test/11-appendix.xetex.log	build/test/11-appendix.xetex.diff	/^--- .\/build\/test\/11-appendix.xetex.log	2022-05-13 22:19:21.370535995 +0800$/;"	m
+./build/test/12-acknowledgements.xetex.log	build/test/12-acknowledgements.xetex.diff	/^--- .\/build\/test\/12-acknowledgements.xetex.log	2022-05-13 22:19:23.218521543 +0800$/;"	m
+./build/test/13-statement.xetex.log	build/test/13-statement.xetex.diff	/^--- .\/build\/test\/13-statement.xetex.log	2022-05-13 22:19:25.130506586 +0800$/;"	m
+./build/test/14-resume.xetex.log	build/test/14-resume.xetex.diff	/^--- .\/build\/test\/14-resume.xetex.log	2022-05-13 22:19:27.094491216 +0800$/;"	m
+./build/test/package-algorithms.xetex.log	build/test/package-algorithms.xetex.diff	/^--- .\/build\/test\/package-algorithms.xetex.log	2022-05-13 22:19:29.010476215 +0800$/;"	m
+./build/test/package-amsthm.xetex.log	build/test/package-amsthm.xetex.diff	/^--- .\/build\/test\/package-amsthm.xetex.log	2022-05-13 22:19:31.222458889 +0800$/;"	m
+./build/test/package-longtable.xetex.log	build/test/package-longtable.xetex.diff	/^--- .\/build\/test\/package-longtable.xetex.log	2022-05-13 22:19:34.102436320 +0800$/;"	m
+./build/test/package-ntheorem.xetex.log	build/test/package-ntheorem.xetex.diff	/^--- .\/build\/test\/package-ntheorem.xetex.log	2022-05-13 22:19:36.378418475 +0800$/;"	m
 0	.vscode/settings.json	/^                "-file-line-error",$/;"	s	array:latex-workshop.latex.tools.0.args
 0	.vscode/settings.json	/^                "-xelatex",$/;"	s	array:latex-workshop.latex.tools.1.args
 0	.vscode/settings.json	/^                "make-thesis"$/;"	s	array:latex-workshop.latex.recipes.1.tools
@@ -28,53 +58,1060 @@ $(THESIS).pdf	Makefile	/^$(THESIS).pdf: cls FORCE_MAKE$/;"	t
 1	.vscode/settings.json	/^        {$/;"	o	array:latex-workshop.latex.recipes
 1	.vscode/settings.json	/^        {$/;"	o	array:latex-workshop.latex.tools
 1	package.json	/^    "ThuThesis"$/;"	s	array:keywords
+1,12	build/test-testfiles/config-biblatex/10-biblatex-apa.xetex.diff	/^--- 1,12 ----$/;"	m
+1,14	build/test-testfiles/config-biblatex/10-biblatex-mla.xetex.diff	/^--- 1,14 ----$/;"	m
+1,25	build/test-testfiles/config-biblatex/10-biblatex-inline.xetex.diff	/^--- 1,25 ----$/;"	m
+1,30	build/test-testfiles/config-biblatex/10-biblatex-author-year.xetex.diff	/^--- 1,30 ----$/;"	m
+1,5	build/test/package-longtable.xetex.diff	/^--- 1,5 ----$/;"	m
+1,7	build/test-testfiles/config-biblatex/10-biblatex-numeric.xetex.diff	/^--- 1,7 ----$/;"	m
 10	.vscode/settings.json	/^        "**\/*.fd",$/;"	s	array:latex-workshop.latex.watch.files.ignore
+100,105	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 100,105 ----$/;"	m
+100,105	build/test-testfiles/config-crossref/07-3-tables.xetex.diff	/^--- 100,105 ----$/;"	m
+1006,1011	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 1006,1011 ----$/;"	m
+101,106	build/test-testfiles/config-bibtex/10-bibtex-author-year.xetex.diff	/^--- 101,106 ----$/;"	m
+101,106	build/test/12-acknowledgements.xetex.diff	/^--- 101,106 ----$/;"	m
+1015,1020	build/test-testfiles/config-bibtex/10-bibtex-inline.xetex.diff	/^--- 1015,1020 ----$/;"	m
+1017,1022	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 1017,1022 ----$/;"	m
+102,109	build/test-testfiles/config-biblatex/10-biblatex-numeric.xetex.diff	/^--- 102,109 ----$/;"	m
+1021,1026	build/test-testfiles/config-nomencl/08-notation-nomencl.xetex.diff	/^--- 1021,1026 ----$/;"	m
+1023,1028	build/test/08-notation.xetex.diff	/^--- 1023,1028 ----$/;"	m
+1028,1033	build/test-testfiles/config-crossref/07-3-tables.xetex.diff	/^--- 1028,1033 ----$/;"	m
+1033,1038	build/test-testfiles/config-crossref/07-1-figures-tables.xetex.diff	/^--- 1033,1038 ----$/;"	m
+1035,1040	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 1035,1040 ----$/;"	m
+1036,1041	build/test-testfiles/config-bibtex/10-bibtex-author-year.xetex.diff	/^--- 1036,1041 ----$/;"	m
+104,109	build/test/03-copyright-doctor.xetex.diff	/^--- 104,109 ----$/;"	m
+104,109	build/test/03-copyright-master.xetex.diff	/^--- 104,109 ----$/;"	m
+1049,1054	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 1049,1054 ----$/;"	m
+105,110	build/test/05-abstract-en.xetex.diff	/^--- 105,110 ----$/;"	m
+105,110	build/test/package-algorithms.xetex.diff	/^--- 105,110 ----$/;"	m
+1054,1059	build/test-testfiles/config-bibtex/10-bibtex-author-year.xetex.diff	/^--- 1054,1059 ----$/;"	m
+1054,1059	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 1054,1059 ----$/;"	m
+106,122	build/test-testfiles/config-biblatex/10-biblatex-author-year.xetex.diff	/^--- 106,122 ----$/;"	m
+1061,1066	build/test/14-resume.xetex.diff	/^--- 1061,1066 ----$/;"	m
+107,124	build/test-testfiles/config-biblatex/10-biblatex-inline.xetex.diff	/^--- 107,124 ----$/;"	m
+1074,1082	build/test-testfiles/config-bibtex/10-bibtex-author-year.xetex.diff	/^--- 1074,1082 ----$/;"	m
+108,113	build/test-testfiles/config-crossref/07-1-figures-tables.xetex.diff	/^--- 108,113 ----$/;"	m
+1081,1086	build/test-testfiles/config-nomencl/08-notation-nomencl.xetex.diff	/^--- 1081,1086 ----$/;"	m
+1084,1089	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 1084,1089 ----$/;"	m
+1085,1090	build/test/08-notation.xetex.diff	/^--- 1085,1090 ----$/;"	m
+1087,1092	build/test-testfiles/config-bibtex/10-bibtex-numeric.xetex.diff	/^--- 1087,1092 ----$/;"	m
+109,122	build/test/08-notation.xetex.diff	/^--- 109,122 ----$/;"	m
+1091,1096	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 1091,1096 ----$/;"	m
+1092,1097	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 1092,1097 ----$/;"	m
+1093,1098	build/test-testfiles/config-crossref/07-3-tables.xetex.diff	/^--- 1093,1098 ----$/;"	m
+1097,1103	build/test-testfiles/config-bibtex/10-bibtex-author-year.xetex.diff	/^--- 1097,1103 ----$/;"	m
 11	.vscode/settings.json	/^        "**\/*.fmt",$/;"	s	array:latex-workshop.latex.watch.files.ignore
+110,117	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 110,117 ----$/;"	m
+110,123	build/test-testfiles/config-nomencl/08-notation-nomencl.xetex.diff	/^--- 110,123 ----$/;"	m
+1102,1107	build/test-testfiles/config-bibtex/10-bibtex-inline.xetex.diff	/^--- 1102,1107 ----$/;"	m
+1116,1121	build/test-testfiles/config-crossref/07-1-figures-tables.xetex.diff	/^--- 1116,1121 ----$/;"	m
+112,117	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 112,117 ----$/;"	m
+1121,1126	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 1121,1126 ----$/;"	m
+1128,1133	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 1128,1133 ----$/;"	m
+113,118	build/test/13-statement.xetex.diff	/^--- 113,118 ----$/;"	m
+113,120	build/test/11-appendix.xetex.diff	/^--- 113,120 ----$/;"	m
+113,123	build/test-testfiles/config-biblatex/10-biblatex-numeric.xetex.diff	/^--- 113,123 ----$/;"	m
+113,130	build/test/14-resume.xetex.diff	/^--- 113,130 ----$/;"	m
+1137,1142	build/test-testfiles/config-nomencl/08-notation-nomencl.xetex.diff	/^--- 1137,1142 ----$/;"	m
+1138,1144	build/test-testfiles/config-bibtex/10-bibtex-author-year.xetex.diff	/^--- 1138,1144 ----$/;"	m
+114,119	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 114,119 ----$/;"	m
+114,119	build/test/04-abstract.xetex.diff	/^--- 114,119 ----$/;"	m
+1145,1150	build/test/08-notation.xetex.diff	/^--- 1145,1150 ----$/;"	m
+1146,1151	build/test-testfiles/config-bibtex/10-bibtex-author-year.xetex.diff	/^--- 1146,1151 ----$/;"	m
+1153,1158	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 1153,1158 ----$/;"	m
+1157,1162	build/test/package-amsthm.xetex.diff	/^--- 1157,1162 ----$/;"	m
+1163,1168	build/test-testfiles/config-bibtex/10-bibtex-author-year.xetex.diff	/^--- 1163,1168 ----$/;"	m
+1165,1170	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 1165,1170 ----$/;"	m
+1174,1179	build/test-testfiles/config-bibtex/10-bibtex-numeric.xetex.diff	/^--- 1174,1179 ----$/;"	m
+11754,11759	build/test-testfiles/config-crossref/09-main.xetex.diff	/^--- 11754,11759 ----$/;"	m
+1179,1184	build/test-testfiles/config-bibtex/10-bibtex-inline.xetex.diff	/^--- 1179,1184 ----$/;"	m
+118,123	build/test/12-acknowledgements.xetex.diff	/^--- 118,123 ----$/;"	m
+1182,1187	build/test-testfiles/config-crossref/07-3-tables.xetex.diff	/^--- 1182,1187 ----$/;"	m
+1185,1190	build/test-testfiles/config-crossref/07-1-figures-tables.xetex.diff	/^--- 1185,1190 ----$/;"	m
+11868,11873	build/test-testfiles/config-crossref/09-main.xetex.diff	/^--- 11868,11873 ----$/;"	m
+1190,1198	build/test/14-resume.xetex.diff	/^--- 1190,1198 ----$/;"	m
+1195,1200	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 1195,1200 ----$/;"	m
+1197,1202	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 1197,1202 ----$/;"	m
+1197,1202	build/test/package-ntheorem.xetex.diff	/^--- 1197,1202 ----$/;"	m
+1198,1203	build/test-testfiles/config-nomencl/08-notation-nomencl.xetex.diff	/^--- 1198,1203 ----$/;"	m
 12	.vscode/settings.json	/^        "**\/*.lbx",$/;"	s	array:latex-workshop.latex.watch.files.ignore
+1203,1208	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 1203,1208 ----$/;"	m
+1203,1208	build/test/08-notation.xetex.diff	/^--- 1203,1208 ----$/;"	m
+1205,1213	build/test/02-committee.xetex.diff	/^--- 1205,1213 ----$/;"	m
+121,126	build/test-testfiles/config-bibtex/10-bibtex-inline.xetex.diff	/^--- 121,126 ----$/;"	m
+121,126	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 121,126 ----$/;"	m
+121,126	build/test-testfiles/config-crossref/07-3-tables.xetex.diff	/^--- 121,126 ----$/;"	m
+1224,1229	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 1224,1229 ----$/;"	m
+1228,1231	build/test/02-committee.xetex.diff	/^--- 1228,1231 ----$/;"	m
+123,128	build/test/02-committee.xetex.diff	/^--- 123,128 ----$/;"	m
+1236,1241	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 1236,1241 ----$/;"	m
+1237,1242	build/test/08-notation.xetex.diff	/^--- 1237,1242 ----$/;"	m
+124,129	build/test/08-notation.xetex.diff	/^--- 124,129 ----$/;"	m
+1249,1252	build/test/14-resume.xetex.diff	/^--- 1249,1252 ----$/;"	m
+12494,12499	build/test-testfiles/config-crossref/09-main.xetex.diff	/^--- 12494,12499 ----$/;"	m
+125,130	build/test-testfiles/config-nomencl/08-notation-nomencl.xetex.diff	/^--- 125,130 ----$/;"	m
+125,141	build/test-testfiles/config-biblatex/10-biblatex-author-year.xetex.diff	/^--- 125,141 ----$/;"	m
+1251,1256	build/test-testfiles/config-bibtex/10-bibtex-numeric.xetex.diff	/^--- 1251,1256 ----$/;"	m
+1252,1260	build/test-testfiles/config-crossref/07-1-figures-tables.xetex.diff	/^--- 1252,1260 ----$/;"	m
+1254,1259	build/test-testfiles/config-bibtex/10-bibtex-author-year.xetex.diff	/^--- 1254,1259 ----$/;"	m
+1263,1268	build/test-testfiles/config-crossref/07-3-tables.xetex.diff	/^--- 1263,1268 ----$/;"	m
+1265,1273	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 1265,1273 ----$/;"	m
+1266,1271	build/test-testfiles/config-nomencl/08-notation-nomencl.xetex.diff	/^--- 1266,1271 ----$/;"	m
+1277,1282	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 1277,1282 ----$/;"	m
+128,144	build/test-testfiles/config-biblatex/10-biblatex-inline.xetex.diff	/^--- 128,144 ----$/;"	m
+1283,1288	build/test/package-longtable.xetex.diff	/^--- 1283,1288 ----$/;"	m
+129,136	build/test-testfiles/config-biblatex/10-biblatex-numeric.xetex.diff	/^--- 129,136 ----$/;"	m
+12900,12905	build/test-testfiles/config-crossref/09-main.xetex.diff	/^--- 12900,12905 ----$/;"	m
+1291,1296	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 1291,1296 ----$/;"	m
+12953,12958	build/test-testfiles/config-crossref/09-main.xetex.diff	/^--- 12953,12958 ----$/;"	m
+1297,1302	build/test/08-notation.xetex.diff	/^--- 1297,1302 ----$/;"	m
 13	.vscode/settings.json	/^        "**\/*.map",$/;"	s	array:latex-workshop.latex.watch.files.ignore
+130,135	build/test/13-statement.xetex.diff	/^--- 130,135 ----$/;"	m
+13022,13027	build/test-testfiles/config-crossref/09-main.xetex.diff	/^--- 13022,13027 ----$/;"	m
+1305,1310	build/test-testfiles/config-bibtex/10-bibtex-inline.xetex.diff	/^--- 1305,1310 ----$/;"	m
+1305,1310	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 1305,1310 ----$/;"	m
+13061,13066	build/test-testfiles/config-crossref/09-main.xetex.diff	/^--- 13061,13066 ----$/;"	m
+1310,1315	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 1310,1315 ----$/;"	m
+1311,1314	build/test-testfiles/config-crossref/07-1-figures-tables.xetex.diff	/^--- 1311,1314 ----$/;"	m
+132,137	build/test/14-resume.xetex.diff	/^--- 132,137 ----$/;"	m
+1324,1330	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 1324,1330 ----$/;"	m
+1327,1332	build/test-testfiles/config-nomencl/08-notation-nomencl.xetex.diff	/^--- 1327,1332 ----$/;"	m
+133,139	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 133,139 ----$/;"	m
+1338,1343	build/test-testfiles/config-bibtex/10-bibtex-author-year.xetex.diff	/^--- 1338,1343 ----$/;"	m
+1338,1343	build/test-testfiles/config-crossref/07-3-tables.xetex.diff	/^--- 1338,1343 ----$/;"	m
+13391,13396	build/test-testfiles/config-crossref/09-main.xetex.diff	/^--- 13391,13396 ----$/;"	m
+1341,1346	build/test/package-longtable.xetex.diff	/^--- 1341,1346 ----$/;"	m
+1347,1352	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 1347,1352 ----$/;"	m
+135,140	build/test-testfiles/config-bibtex/10-bibtex-author-year.xetex.diff	/^--- 135,140 ----$/;"	m
+135,140	build/test-testfiles/config-crossref/07-1-figures-tables.xetex.diff	/^--- 135,140 ----$/;"	m
+136,147	build/test-testfiles/config-crossref/09-main.xetex.diff	/^--- 136,147 ----$/;"	m
+1362,1367	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 1362,1367 ----$/;"	m
+1363,1368	build/test/08-notation.xetex.diff	/^--- 1363,1368 ----$/;"	m
+1371,1376	build/test/package-amsthm.xetex.diff	/^--- 1371,1376 ----$/;"	m
+1377,1382	build/test-testfiles/config-bibtex/10-bibtex-numeric.xetex.diff	/^--- 1377,1382 ----$/;"	m
+1380,1385	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 1380,1385 ----$/;"	m
+1381,1386	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 1381,1386 ----$/;"	m
+1386,1392	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 1386,1392 ----$/;"	m
+1388,1393	build/test-testfiles/config-nomencl/08-notation-nomencl.xetex.diff	/^--- 1388,1393 ----$/;"	m
+1394,1399	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 1394,1399 ----$/;"	m
+13947,13952	build/test-testfiles/config-crossref/09-main.xetex.diff	/^--- 13947,13952 ----$/;"	m
 14	.vscode/settings.json	/^        "**\/*.mkii",$/;"	s	array:latex-workshop.latex.watch.files.ignore
+14,41	build/test-testfiles/config-biblatex/10-biblatex-numeric.xetex.diff	/^--- 14,41 ----$/;"	m
+140,145	build/test-testfiles/config-bibtex/10-bibtex-numeric.xetex.diff	/^--- 140,145 ----$/;"	m
+140,150	build/test-testfiles/config-biblatex/10-biblatex-numeric.xetex.diff	/^--- 140,150 ----$/;"	m
+14045,14053	build/test-testfiles/config-crossref/09-main.xetex.diff	/^--- 14045,14053 ----$/;"	m
+1407,1412	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 1407,1412 ----$/;"	m
+1420,1425	build/test-testfiles/config-crossref/07-3-tables.xetex.diff	/^--- 1420,1425 ----$/;"	m
+1421,1426	build/test/package-ntheorem.xetex.diff	/^--- 1421,1426 ----$/;"	m
+14212,14217	build/test-testfiles/config-crossref/09-main.xetex.diff	/^--- 14212,14217 ----$/;"	m
+14220,14225	build/test-testfiles/config-crossref/09-main.xetex.diff	/^--- 14220,14225 ----$/;"	m
+1424,1429	build/test/08-notation.xetex.diff	/^--- 1424,1429 ----$/;"	m
+1425,1430	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 1425,1430 ----$/;"	m
+14277,14282	build/test-testfiles/config-crossref/09-main.xetex.diff	/^--- 14277,14282 ----$/;"	m
+1430,1435	build/test-testfiles/config-bibtex/10-bibtex-inline.xetex.diff	/^--- 1430,1435 ----$/;"	m
+1433,1438	build/test-testfiles/config-bibtex/10-bibtex-author-year.xetex.diff	/^--- 1433,1438 ----$/;"	m
+1437,1442	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 1437,1442 ----$/;"	m
+1439,1444	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 1439,1444 ----$/;"	m
+144,149	build/test-testfiles/config-bibtex/10-bibtex-inline.xetex.diff	/^--- 144,149 ----$/;"	m
+144,160	build/test-testfiles/config-biblatex/10-biblatex-author-year.xetex.diff	/^--- 144,160 ----$/;"	m
+14429,14437	build/test-testfiles/config-crossref/09-main.xetex.diff	/^--- 14429,14437 ----$/;"	m
+145,150	build/test/02-committee.xetex.diff	/^--- 145,150 ----$/;"	m
+1453,1458	build/test-testfiles/config-nomencl/08-notation-nomencl.xetex.diff	/^--- 1453,1458 ----$/;"	m
+146,151	build/test/package-algorithms.xetex.diff	/^--- 146,151 ----$/;"	m
+14610,14615	build/test-testfiles/config-crossref/09-main.xetex.diff	/^--- 14610,14615 ----$/;"	m
+1469,1477	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 1469,1477 ----$/;"	m
+147,163	build/test-testfiles/config-biblatex/10-biblatex-inline.xetex.diff	/^--- 147,163 ----$/;"	m
+1478,1483	build/test/08-notation.xetex.diff	/^--- 1478,1483 ----$/;"	m
+1493,1498	build/test-testfiles/config-nomencl/08-notation-nomencl.xetex.diff	/^--- 1493,1498 ----$/;"	m
+14950,14955	build/test-testfiles/config-crossref/09-main.xetex.diff	/^--- 14950,14955 ----$/;"	m
+1498,1503	build/test-testfiles/config-bibtex/10-bibtex-author-year.xetex.diff	/^--- 1498,1503 ----$/;"	m
 15	.vscode/settings.json	/^        "**\/*.pfb",$/;"	s	array:latex-workshop.latex.watch.files.ignore
+150,155	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 150,155 ----$/;"	m
+150,155	build/test-testfiles/config-crossref/09-main.xetex.diff	/^--- 150,155 ----$/;"	m
+1502,1507	build/test-testfiles/config-bibtex/10-bibtex-numeric.xetex.diff	/^--- 1502,1507 ----$/;"	m
+1503,1508	build/test-testfiles/config-crossref/07-3-tables.xetex.diff	/^--- 1503,1508 ----$/;"	m
+15125,15130	build/test-testfiles/config-crossref/09-main.xetex.diff	/^--- 15125,15130 ----$/;"	m
+1514,1519	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 1514,1519 ----$/;"	m
+1517,1522	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 1517,1522 ----$/;"	m
+15208,15214	build/test-testfiles/config-crossref/09-main.xetex.diff	/^--- 15208,15214 ----$/;"	m
+15267,15279	build/test-testfiles/config-crossref/09-main.xetex.diff	/^--- 15267,15279 ----$/;"	m
+154,159	build/test/08-notation.xetex.diff	/^--- 154,159 ----$/;"	m
+15443,15448	build/test-testfiles/config-crossref/09-main.xetex.diff	/^--- 15443,15448 ----$/;"	m
+155,160	build/test-testfiles/config-nomencl/08-notation-nomencl.xetex.diff	/^--- 155,160 ----$/;"	m
+1553,1558	build/test/08-notation.xetex.diff	/^--- 1553,1558 ----$/;"	m
+1557,1562	build/test-testfiles/config-nomencl/08-notation-nomencl.xetex.diff	/^--- 1557,1562 ----$/;"	m
+156,163	build/test-testfiles/config-biblatex/10-biblatex-numeric.xetex.diff	/^--- 156,163 ----$/;"	m
+15614,15619	build/test-testfiles/config-crossref/09-main.xetex.diff	/^--- 15614,15619 ----$/;"	m
+158,168	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 158,168 ----$/;"	m
+1581,1586	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 1581,1586 ----$/;"	m
+1583,1588	build/test-testfiles/config-crossref/07-3-tables.xetex.diff	/^--- 1583,1588 ----$/;"	m
+1585,1590	build/test/package-amsthm.xetex.diff	/^--- 1585,1590 ----$/;"	m
+1587,1592	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 1587,1592 ----$/;"	m
+1598,1603	build/test-testfiles/config-bibtex/10-bibtex-inline.xetex.diff	/^--- 1598,1603 ----$/;"	m
 16	.vscode/settings.json	/^        "**\/*.tfm",$/;"	s	array:latex-workshop.latex.watch.files.ignore
+16,23	build/test-testfiles/config-bibtex/10-bibtex-author-year.xetex.diff	/^--- 16,23 ----$/;"	m
+16,23	build/test-testfiles/config-bibtex/10-bibtex-inline.xetex.diff	/^--- 16,23 ----$/;"	m
+16,23	build/test-testfiles/config-bibtex/10-bibtex-numeric.xetex.diff	/^--- 16,23 ----$/;"	m
+16,23	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 16,23 ----$/;"	m
+16,23	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 16,23 ----$/;"	m
+16,23	build/test/04-abstract.xetex.diff	/^--- 16,23 ----$/;"	m
+16,23	build/test/05-abstract-en.xetex.diff	/^--- 16,23 ----$/;"	m
+16,23	build/test/12-acknowledgements.xetex.diff	/^--- 16,23 ----$/;"	m
+16,23	build/test/14-resume.xetex.diff	/^--- 16,23 ----$/;"	m
+16043,16048	build/test-testfiles/config-crossref/09-main.xetex.diff	/^--- 16043,16048 ----$/;"	m
+1609,1614	build/test/08-notation.xetex.diff	/^--- 1609,1614 ----$/;"	m
+1610,1616	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 1610,1616 ----$/;"	m
+1618,1623	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 1618,1623 ----$/;"	m
+16214,16219	build/test-testfiles/config-crossref/09-main.xetex.diff	/^--- 16214,16219 ----$/;"	m
+163,179	build/test-testfiles/config-biblatex/10-biblatex-author-year.xetex.diff	/^--- 163,179 ----$/;"	m
+1636,1641	build/test-testfiles/config-nomencl/08-notation-nomencl.xetex.diff	/^--- 1636,1641 ----$/;"	m
+1645,1650	build/test/package-ntheorem.xetex.diff	/^--- 1645,1650 ----$/;"	m
+1646,1651	build/test-testfiles/config-crossref/07-3-tables.xetex.diff	/^--- 1646,1651 ----$/;"	m
+16487,16492	build/test-testfiles/config-crossref/09-main.xetex.diff	/^--- 16487,16492 ----$/;"	m
+1649,1654	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 1649,1654 ----$/;"	m
+1649,1654	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 1649,1654 ----$/;"	m
+1658,1663	build/test-testfiles/config-bibtex/10-bibtex-author-year.xetex.diff	/^--- 1658,1663 ----$/;"	m
+166,182	build/test-testfiles/config-biblatex/10-biblatex-inline.xetex.diff	/^--- 166,182 ----$/;"	m
+16632,16640	build/test-testfiles/config-crossref/09-main.xetex.diff	/^--- 16632,16640 ----$/;"	m
+1667,1672	build/test/08-notation.xetex.diff	/^--- 1667,1672 ----$/;"	m
+167,177	build/test-testfiles/config-biblatex/10-biblatex-numeric.xetex.diff	/^--- 167,177 ----$/;"	m
+1670,1675	build/test-testfiles/config-bibtex/10-bibtex-numeric.xetex.diff	/^--- 1670,1675 ----$/;"	m
+1670,1675	build/test-testfiles/config-nomencl/08-notation-nomencl.xetex.diff	/^--- 1670,1675 ----$/;"	m
+169,174	build/test-testfiles/config-bibtex/10-bibtex-author-year.xetex.diff	/^--- 169,174 ----$/;"	m
+1694,1699	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 1694,1699 ----$/;"	m
+1698,1703	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 1698,1703 ----$/;"	m
 17	.vscode/settings.json	/^        "**\/*.vf",$/;"	s	array:latex-workshop.latex.watch.files.ignore
+17,24	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 17,24 ----$/;"	m
+17,24	build/test-testfiles/config-crossref/07-3-tables.xetex.diff	/^--- 17,24 ----$/;"	m
+170,175	build/test-testfiles/config-bibtex/10-bibtex-numeric.xetex.diff	/^--- 170,175 ----$/;"	m
+1704,1709	build/test-testfiles/config-nomencl/08-notation-nomencl.xetex.diff	/^--- 1704,1709 ----$/;"	m
+1705,1710	build/test-testfiles/config-bibtex/10-bibtex-inline.xetex.diff	/^--- 1705,1710 ----$/;"	m
+172,177	build/test/03-copyright-doctor.xetex.diff	/^--- 172,177 ----$/;"	m
+172,177	build/test/03-copyright-master.xetex.diff	/^--- 172,177 ----$/;"	m
+1721,1726	build/test/08-notation.xetex.diff	/^--- 1721,1726 ----$/;"	m
+1725,1730	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 1725,1730 ----$/;"	m
+1727,1732	build/test-testfiles/config-crossref/07-3-tables.xetex.diff	/^--- 1727,1732 ----$/;"	m
+1731,1739	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 1731,1739 ----$/;"	m
+175,180	build/test-testfiles/config-bibtex/10-bibtex-inline.xetex.diff	/^--- 175,180 ----$/;"	m
+1754,1759	build/test-testfiles/config-nomencl/08-notation-nomencl.xetex.diff	/^--- 1754,1759 ----$/;"	m
+1771,1776	build/test/08-notation.xetex.diff	/^--- 1771,1776 ----$/;"	m
+1777,1782	build/test-testfiles/config-bibtex/10-bibtex-numeric.xetex.diff	/^--- 1777,1782 ----$/;"	m
+1786,1791	build/test-testfiles/config-nomencl/08-notation-nomencl.xetex.diff	/^--- 1786,1791 ----$/;"	m
+1788,1793	build/test-testfiles/config-bibtex/10-bibtex-author-year.xetex.diff	/^--- 1788,1793 ----$/;"	m
+1793,1798	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 1793,1798 ----$/;"	m
+1797,1802	build/test/package-amsthm.xetex.diff	/^--- 1797,1802 ----$/;"	m
 18	.vscode/settings.json	/^        "**\/*.code.tex",$/;"	s	array:latex-workshop.latex.watch.files.ignore
+180,185	build/test/package-algorithms.xetex.diff	/^--- 180,185 ----$/;"	m
+1808,1813	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 1808,1813 ----$/;"	m
+181,186	build/test/14-resume.xetex.diff	/^--- 181,186 ----$/;"	m
+1813,1818	build/test-testfiles/config-crossref/07-3-tables.xetex.diff	/^--- 1813,1818 ----$/;"	m
+182,198	build/test-testfiles/config-biblatex/10-biblatex-author-year.xetex.diff	/^--- 182,198 ----$/;"	m
+1829,1834	build/test-testfiles/config-bibtex/10-bibtex-inline.xetex.diff	/^--- 1829,1834 ----$/;"	m
+183,188	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 183,188 ----$/;"	m
+183,190	build/test-testfiles/config-biblatex/10-biblatex-numeric.xetex.diff	/^--- 183,190 ----$/;"	m
+1830,1835	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 1830,1835 ----$/;"	m
+1849,1854	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 1849,1854 ----$/;"	m
+185,190	build/test/08-notation.xetex.diff	/^--- 185,190 ----$/;"	m
+185,201	build/test-testfiles/config-biblatex/10-biblatex-inline.xetex.diff	/^--- 185,201 ----$/;"	m
+1858,1863	build/test-testfiles/config-crossref/09-main.xetex.diff	/^--- 1858,1863 ----$/;"	m
+186,191	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 186,191 ----$/;"	m
+1867,1872	build/test/package-ntheorem.xetex.diff	/^--- 1867,1872 ----$/;"	m
+1870,1876	build/test/08-notation.xetex.diff	/^--- 1870,1876 ----$/;"	m
+1873,1878	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 1873,1878 ----$/;"	m
+1876,1881	build/test-testfiles/config-crossref/07-3-tables.xetex.diff	/^--- 1876,1881 ----$/;"	m
+1880,1886	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 1880,1886 ----$/;"	m
+1881,1889	build/test-testfiles/config-bibtex/10-bibtex-author-year.xetex.diff	/^--- 1881,1889 ----$/;"	m
+1888,1893	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 1888,1893 ----$/;"	m
 19	.vscode/settings.json	/^        "**\/*.sty",$/;"	s	array:latex-workshop.latex.watch.files.ignore
+1901,1906	build/test-testfiles/config-bibtex/10-bibtex-numeric.xetex.diff	/^--- 1901,1906 ----$/;"	m
+1901,1907	build/test-testfiles/config-nomencl/08-notation-nomencl.xetex.diff	/^--- 1901,1907 ----$/;"	m
+1906,1911	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 1906,1911 ----$/;"	m
+1916,1921	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 1916,1921 ----$/;"	m
+1917,1922	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 1917,1922 ----$/;"	m
+1920,1925	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 1920,1925 ----$/;"	m
+194,204	build/test-testfiles/config-biblatex/10-biblatex-numeric.xetex.diff	/^--- 194,204 ----$/;"	m
+1953,1958	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 1953,1958 ----$/;"	m
+1953,1958	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 1953,1958 ----$/;"	m
+1964,1969	build/test-testfiles/config-bibtex/10-bibtex-inline.xetex.diff	/^--- 1964,1969 ----$/;"	m
+1964,1969	build/test-testfiles/config-crossref/07-3-tables.xetex.diff	/^--- 1964,1969 ----$/;"	m
+1979,1984	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 1979,1984 ----$/;"	m
+198,211	build/test/11-appendix.xetex.diff	/^--- 198,211 ----$/;"	m
+1987,1992	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 1987,1992 ----$/;"	m
+199,204	build/test/14-resume.xetex.diff	/^--- 199,204 ----$/;"	m
+1991,1996	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 1991,1996 ----$/;"	m
+1999,2004	build/test/08-notation.xetex.diff	/^--- 1999,2004 ----$/;"	m
 2	.vscode/settings.json	/^                "-halt-on-error",$/;"	s	array:latex-workshop.latex.tools.1.args
 2	.vscode/settings.json	/^                "-interaction=nonstopmode",$/;"	s	array:latex-workshop.latex.tools.0.args
 2	.vscode/settings.json	/^        "**\/*.bbl",$/;"	s	array:latex-workshop.latex.watch.files.ignore
 2	.vscode/settings.json	/^        {$/;"	o	array:latex-workshop.latex.tools
 20	.vscode/settings.json	/^        "**\/texmf-{dist,var}\/**",$/;"	s	array:latex-workshop.latex.watch.files.ignore
+20,27	build/test-testfiles/config-crossref/07-1-figures-tables.xetex.diff	/^--- 20,27 ----$/;"	m
+200,205	build/test-testfiles/config-bibtex/10-bibtex-numeric.xetex.diff	/^--- 200,205 ----$/;"	m
+200,205	build/test-testfiles/config-crossref/07-1-figures-tables.xetex.diff	/^--- 200,205 ----$/;"	m
+2008,2013	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 2008,2013 ----$/;"	m
+201,206	build/test-testfiles/config-crossref/07-3-tables.xetex.diff	/^--- 201,206 ----$/;"	m
+201,217	build/test-testfiles/config-biblatex/10-biblatex-author-year.xetex.diff	/^--- 201,217 ----$/;"	m
+2011,2016	build/test/package-amsthm.xetex.diff	/^--- 2011,2016 ----$/;"	m
+2013,2018	build/test-testfiles/config-nomencl/08-notation-nomencl.xetex.diff	/^--- 2013,2018 ----$/;"	m
+202,207	build/test-testfiles/config-bibtex/10-bibtex-inline.xetex.diff	/^--- 202,207 ----$/;"	m
+2023,2028	build/test-testfiles/config-crossref/07-3-tables.xetex.diff	/^--- 2023,2028 ----$/;"	m
+2029,2034	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 2029,2034 ----$/;"	m
+2036,2041	build/test-testfiles/config-bibtex/10-bibtex-numeric.xetex.diff	/^--- 2036,2041 ----$/;"	m
+2038,2043	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 2038,2043 ----$/;"	m
+204,221	build/test-testfiles/config-biblatex/10-biblatex-inline.xetex.diff	/^--- 204,221 ----$/;"	m
+2043,2048	build/test-testfiles/config-nomencl/08-notation-nomencl.xetex.diff	/^--- 2043,2048 ----$/;"	m
+2051,2056	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 2051,2056 ----$/;"	m
+2057,2062	build/test/08-notation.xetex.diff	/^--- 2057,2062 ----$/;"	m
+2061,2066	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 2061,2066 ----$/;"	m
+2063,2068	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 2063,2068 ----$/;"	m
+207,212	build/test-testfiles/config-crossref/09-main.xetex.diff	/^--- 207,212 ----$/;"	m
+208,213	build/test/package-algorithms.xetex.diff	/^--- 208,213 ----$/;"	m
+2081,2086	build/test-testfiles/config-nomencl/08-notation-nomencl.xetex.diff	/^--- 2081,2086 ----$/;"	m
+2086,2091	build/test-testfiles/config-bibtex/10-bibtex-inline.xetex.diff	/^--- 2086,2091 ----$/;"	m
+209,214	build/test-testfiles/config-bibtex/10-bibtex-author-year.xetex.diff	/^--- 209,214 ----$/;"	m
+2091,2096	build/test/package-ntheorem.xetex.diff	/^--- 2091,2096 ----$/;"	m
+2092,2097	build/test-testfiles/config-crossref/07-3-tables.xetex.diff	/^--- 2092,2097 ----$/;"	m
+2097,2102	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 2097,2102 ----$/;"	m
 21	.vscode/settings.json	/^        "**\/Local\/MiKTeX\/**",$/;"	s	array:latex-workshop.latex.watch.files.ignore
+210,226	build/test-testfiles/config-biblatex/10-biblatex-numeric.xetex.diff	/^--- 210,226 ----$/;"	m
+2106,2111	build/test/08-notation.xetex.diff	/^--- 2106,2111 ----$/;"	m
+2107,2112	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 2107,2112 ----$/;"	m
+2112,2117	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 2112,2117 ----$/;"	m
+212,217	build/test-testfiles/config-nomencl/08-notation-nomencl.xetex.diff	/^--- 212,217 ----$/;"	m
+2127,2132	build/test-testfiles/config-nomencl/08-notation-nomencl.xetex.diff	/^--- 2127,2132 ----$/;"	m
+2131,2136	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 2131,2136 ----$/;"	m
+214,219	build/test/11-appendix.xetex.diff	/^--- 214,219 ----$/;"	m
+2141,2146	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 2141,2146 ----$/;"	m
+215,220	build/test/12-acknowledgements.xetex.diff	/^--- 215,220 ----$/;"	m
+2158,2163	build/test-testfiles/config-bibtex/10-bibtex-numeric.xetex.diff	/^--- 2158,2163 ----$/;"	m
+2161,2166	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 2161,2166 ----$/;"	m
+2162,2167	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 2162,2167 ----$/;"	m
+2162,2167	build/test/08-notation.xetex.diff	/^--- 2162,2167 ----$/;"	m
+2163,2168	build/test-testfiles/config-crossref/07-3-tables.xetex.diff	/^--- 2163,2168 ----$/;"	m
+2163,2171	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 2163,2171 ----$/;"	m
+2181,2186	build/test-testfiles/config-nomencl/08-notation-nomencl.xetex.diff	/^--- 2181,2186 ----$/;"	m
+2195,2200	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 2195,2200 ----$/;"	m
 22	.vscode/settings.json	/^        "**\/Local\/Programs\/MiKTeX\/**",$/;"	s	array:latex-workshop.latex.watch.files.ignore
+220,225	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 220,225 ----$/;"	m
+220,236	build/test-testfiles/config-biblatex/10-biblatex-author-year.xetex.diff	/^--- 220,236 ----$/;"	m
+2203,2211	build/test/11-appendix.xetex.diff	/^--- 2203,2211 ----$/;"	m
+2208,2213	build/test/08-notation.xetex.diff	/^--- 2208,2213 ----$/;"	m
+2209,2214	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 2209,2214 ----$/;"	m
+2217,2222	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 2217,2222 ----$/;"	m
+2219,2224	build/test-testfiles/config-bibtex/10-bibtex-inline.xetex.diff	/^--- 2219,2224 ----$/;"	m
+2229,2234	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 2229,2234 ----$/;"	m
+2232,2237	build/test-testfiles/config-crossref/07-3-tables.xetex.diff	/^--- 2232,2237 ----$/;"	m
+2235,2240	build/test-testfiles/config-nomencl/08-notation-nomencl.xetex.diff	/^--- 2235,2240 ----$/;"	m
+2241,2247	build/test/package-amsthm.xetex.diff	/^--- 2241,2247 ----$/;"	m
+225,250	build/test-testfiles/config-biblatex/10-biblatex-inline.xetex.diff	/^--- 225,250 ----$/;"	m
+2256,2261	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 2256,2261 ----$/;"	m
+2259,2264	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 2259,2264 ----$/;"	m
+2262,2265	build/test/11-appendix.xetex.diff	/^--- 2262,2265 ----$/;"	m
+2281,2286	build/test-testfiles/config-nomencl/08-notation-nomencl.xetex.diff	/^--- 2281,2286 ----$/;"	m
+2287,2292	build/test/08-notation.xetex.diff	/^--- 2287,2292 ----$/;"	m
+2288,2294	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 2288,2294 ----$/;"	m
+229,245	build/test-testfiles/config-biblatex/10-biblatex-numeric.xetex.diff	/^--- 229,245 ----$/;"	m
+2291,2296	build/test-testfiles/config-bibtex/10-bibtex-numeric.xetex.diff	/^--- 2291,2296 ----$/;"	m
+2293,2298	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 2293,2298 ----$/;"	m
+2296,2301	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 2296,2301 ----$/;"	m
+2297,2302	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 2297,2302 ----$/;"	m
 23	.vscode/settings.json	/^        "**\/Roaming\/MiKTeX\/**",$/;"	s	array:latex-workshop.latex.watch.files.ignore
+230,235	build/test-testfiles/config-crossref/09-main.xetex.diff	/^--- 230,235 ----$/;"	m
+2314,2319	build/test-testfiles/config-crossref/07-3-tables.xetex.diff	/^--- 2314,2319 ----$/;"	m
+2315,2320	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 2315,2320 ----$/;"	m
+2317,2322	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 2317,2322 ----$/;"	m
+232,237	build/test-testfiles/config-bibtex/10-bibtex-numeric.xetex.diff	/^--- 232,237 ----$/;"	m
+2327,2332	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 2327,2332 ----$/;"	m
+2333,2338	build/test/08-notation.xetex.diff	/^--- 2333,2338 ----$/;"	m
+2334,2340	build/test/package-ntheorem.xetex.diff	/^--- 2334,2340 ----$/;"	m
+2335,2340	build/test-testfiles/config-nomencl/08-notation-nomencl.xetex.diff	/^--- 2335,2340 ----$/;"	m
+2359,2364	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 2359,2364 ----$/;"	m
+2364,2369	build/test-testfiles/config-bibtex/10-bibtex-inline.xetex.diff	/^--- 2364,2369 ----$/;"	m
+2366,2371	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 2366,2371 ----$/;"	m
+237,242	build/test-testfiles/config-bibtex/10-bibtex-inline.xetex.diff	/^--- 237,242 ----$/;"	m
+2374,2379	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 2374,2379 ----$/;"	m
+2386,2394	build/test/08-notation.xetex.diff	/^--- 2386,2394 ----$/;"	m
+2389,2397	build/test-testfiles/config-nomencl/08-notation-nomencl.xetex.diff	/^--- 2389,2397 ----$/;"	m
+239,255	build/test-testfiles/config-biblatex/10-biblatex-author-year.xetex.diff	/^--- 239,255 ----$/;"	m
+2390,2395	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 2390,2395 ----$/;"	m
 24	.vscode/settings.json	/^        "**\/Program*\/MiKTeX*\/**",$/;"	s	array:latex-workshop.latex.watch.files.ignore
+2413,2418	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 2413,2418 ----$/;"	m
+2417,2422	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 2417,2422 ----$/;"	m
+2422,2427	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 2422,2427 ----$/;"	m
+2425,2431	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 2425,2431 ----$/;"	m
+2436,2441	build/test-testfiles/config-bibtex/10-bibtex-numeric.xetex.diff	/^--- 2436,2441 ----$/;"	m
+244,249	build/test/14-resume.xetex.diff	/^--- 244,249 ----$/;"	m
+2445,2451	build/test-testfiles/config-crossref/07-3-tables.xetex.diff	/^--- 2445,2451 ----$/;"	m
+2459,2467	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 2459,2467 ----$/;"	m
+246,251	build/test-testfiles/config-bibtex/10-bibtex-author-year.xetex.diff	/^--- 246,251 ----$/;"	m
+246,251	build/test/08-notation.xetex.diff	/^--- 246,251 ----$/;"	m
+2466,2471	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 2466,2471 ----$/;"	m
+247,257	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 247,257 ----$/;"	m
+2474,2479	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 2474,2479 ----$/;"	m
+2479,2484	build/test/package-amsthm.xetex.diff	/^--- 2479,2484 ----$/;"	m
+248,253	build/test/package-algorithms.xetex.diff	/^--- 248,253 ----$/;"	m
+248,255	build/test-testfiles/config-biblatex/10-biblatex-numeric.xetex.diff	/^--- 248,255 ----$/;"	m
+2496,2501	build/test-testfiles/config-bibtex/10-bibtex-inline.xetex.diff	/^--- 2496,2501 ----$/;"	m
 25	.vscode/settings.json	/^        "**\/.miktex\/texmfs\/**",$/;"	s	array:latex-workshop.latex.watch.files.ignore
+2500,2506	build/test-testfiles/config-crossref/09-main.xetex.diff	/^--- 2500,2506 ----$/;"	m
+251,256	build/test/11-appendix.xetex.diff	/^--- 251,256 ----$/;"	m
+2513,2518	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 2513,2518 ----$/;"	m
+2518,2523	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 2518,2523 ----$/;"	m
+254,297	build/test-testfiles/config-biblatex/10-biblatex-inline.xetex.diff	/^--- 254,297 ----$/;"	m
+2545,2550	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 2545,2550 ----$/;"	m
+2560,2565	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 2560,2565 ----$/;"	m
+2568,2573	build/test-testfiles/config-bibtex/10-bibtex-numeric.xetex.diff	/^--- 2568,2573 ----$/;"	m
+257,267	build/test-testfiles/config-biblatex/10-biblatex-numeric.xetex.diff	/^--- 257,267 ----$/;"	m
+2576,2581	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 2576,2581 ----$/;"	m
+258,275	build/test-testfiles/config-biblatex/10-biblatex-author-year.xetex.diff	/^--- 258,275 ----$/;"	m
+2582,2587	build/test/package-ntheorem.xetex.diff	/^--- 2582,2587 ----$/;"	m
+259,264	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 259,264 ----$/;"	m
+2593,2598	build/test-testfiles/config-crossref/07-3-tables.xetex.diff	/^--- 2593,2598 ----$/;"	m
+2597,2602	build/test/package-longtable.xetex.diff	/^--- 2597,2602 ----$/;"	m
+2598,2603	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 2598,2603 ----$/;"	m
 26	.vscode/settings.json	/^        "\/var\/cache\/miktex-texmf\/**",$/;"	s	array:latex-workshop.latex.watch.files.ignore
+2607,2612	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 2607,2612 ----$/;"	m
+261,266	build/test-testfiles/config-nomencl/08-notation-nomencl.xetex.diff	/^--- 261,266 ----$/;"	m
+2611,2616	build/test-testfiles/config-bibtex/10-bibtex-inline.xetex.diff	/^--- 2611,2616 ----$/;"	m
+2617,2624	build/test/package-longtable.xetex.diff	/^--- 2617,2624 ----$/;"	m
+264,269	build/test-testfiles/config-bibtex/10-bibtex-numeric.xetex.diff	/^--- 264,269 ----$/;"	m
+2641,2646	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 2641,2646 ----$/;"	m
+2643,3563	build/test/package-longtable.xetex.diff	/^--- 2643,3563 ----$/;"	m
+2644,2649	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 2644,2649 ----$/;"	m
+265,270	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 265,270 ----$/;"	m
+2653,2660	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 2653,2660 ----$/;"	m
+2658,2663	build/test-testfiles/config-crossref/07-3-tables.xetex.diff	/^--- 2658,2663 ----$/;"	m
+266,271	build/test-testfiles/config-bibtex/10-bibtex-inline.xetex.diff	/^--- 266,271 ----$/;"	m
+2663,2668	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 2663,2668 ----$/;"	m
+2676,2681	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 2676,2681 ----$/;"	m
+268,273	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 268,273 ----$/;"	m
+2682,2687	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 2682,2687 ----$/;"	m
+2683,2688	build/test-testfiles/config-bibtex/10-bibtex-numeric.xetex.diff	/^--- 2683,2688 ----$/;"	m
+2684,2689	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 2684,2689 ----$/;"	m
+2693,2698	build/test/package-amsthm.xetex.diff	/^--- 2693,2698 ----$/;"	m
+2699,2704	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 2699,2704 ----$/;"	m
 27	.vscode/settings.json	/^        "\/usr\/local\/share\/miktex-texmf\/**",$/;"	s	array:latex-workshop.latex.watch.files.ignore
+2706,2711	build/test-testfiles/config-bibtex/10-bibtex-inline.xetex.diff	/^--- 2706,2711 ----$/;"	m
+2708,2713	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 2708,2713 ----$/;"	m
+272,279	build/test-testfiles/config-biblatex/10-biblatex-numeric.xetex.diff	/^--- 272,279 ----$/;"	m
+2723,2728	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 2723,2728 ----$/;"	m
+2729,2734	build/test-testfiles/config-crossref/07-3-tables.xetex.diff	/^--- 2729,2734 ----$/;"	m
+2737,2742	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 2737,2742 ----$/;"	m
+276,281	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 276,281 ----$/;"	m
+2762,2767	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 2762,2767 ----$/;"	m
+2764,2769	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 2764,2769 ----$/;"	m
+2778,2783	build/test-testfiles/config-bibtex/10-bibtex-numeric.xetex.diff	/^--- 2778,2783 ----$/;"	m
+2780,2785	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 2780,2785 ----$/;"	m
+279,284	build/test/package-algorithms.xetex.diff	/^--- 279,284 ----$/;"	m
+279,296	build/test-testfiles/config-biblatex/10-biblatex-author-year.xetex.diff	/^--- 279,296 ----$/;"	m
+2794,2799	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 2794,2799 ----$/;"	m
+2794,2799	build/test-testfiles/config-crossref/07-3-tables.xetex.diff	/^--- 2794,2799 ----$/;"	m
 28	.vscode/settings.json	/^        "**\/Library\/Application Support\/MiKTeX\/texmfs\/**",$/;"	s	array:latex-workshop.latex.watch.files.ignore
+28,35	build/test/02-committee.xetex.diff	/^--- 28,35 ----$/;"	m
+28,35	build/test/03-copyright-doctor.xetex.diff	/^--- 28,35 ----$/;"	m
+28,35	build/test/03-copyright-master.xetex.diff	/^--- 28,35 ----$/;"	m
+28,35	build/test/13-statement.xetex.diff	/^--- 28,35 ----$/;"	m
+280,285	build/test/08-notation.xetex.diff	/^--- 280,285 ----$/;"	m
+2806,2811	build/test/package-ntheorem.xetex.diff	/^--- 2806,2811 ----$/;"	m
+2809,2814	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 2809,2814 ----$/;"	m
+281,291	build/test-testfiles/config-biblatex/10-biblatex-numeric.xetex.diff	/^--- 281,291 ----$/;"	m
+2813,2818	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 2813,2818 ----$/;"	m
+282,287	build/test-testfiles/config-crossref/07-1-figures-tables.xetex.diff	/^--- 282,287 ----$/;"	m
+2821,2826	build/test-testfiles/config-bibtex/10-bibtex-inline.xetex.diff	/^--- 2821,2826 ----$/;"	m
+2825,2830	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 2825,2830 ----$/;"	m
+2839,2844	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 2839,2844 ----$/;"	m
+2855,2860	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 2855,2860 ----$/;"	m
+2856,2861	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 2856,2861 ----$/;"	m
+2859,2864	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 2859,2864 ----$/;"	m
+2864,2869	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 2864,2869 ----$/;"	m
+2872,2877	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 2872,2877 ----$/;"	m
+288,293	build/test-testfiles/config-crossref/07-3-tables.xetex.diff	/^--- 288,293 ----$/;"	m
+2887,2892	build/test-testfiles/config-crossref/07-3-tables.xetex.diff	/^--- 2887,2892 ----$/;"	m
+289,294	build/test-testfiles/config-bibtex/10-bibtex-author-year.xetex.diff	/^--- 289,294 ----$/;"	m
+2893,2898	build/test-testfiles/config-bibtex/10-bibtex-numeric.xetex.diff	/^--- 2893,2898 ----$/;"	m
 29	.vscode/settings.json	/^        "\/dev\/null"$/;"	s	array:latex-workshop.latex.watch.files.ignore
+29,36	build/test-testfiles/config-crossref/09-main.xetex.diff	/^--- 29,36 ----$/;"	m
+29,36	build/test/package-amsthm.xetex.diff	/^--- 29,36 ----$/;"	m
+29,36	build/test/package-ntheorem.xetex.diff	/^--- 29,36 ----$/;"	m
+2900,2905	build/test-testfiles/config-crossref/09-main.xetex.diff	/^--- 2900,2905 ----$/;"	m
+2903,2911	build/test/package-amsthm.xetex.diff	/^--- 2903,2911 ----$/;"	m
+2906,2911	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 2906,2911 ----$/;"	m
+2916,2921	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 2916,2921 ----$/;"	m
+2916,2921	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 2916,2921 ----$/;"	m
+2917,2922	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 2917,2922 ----$/;"	m
+2949,2954	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 2949,2954 ----$/;"	m
+296,303	build/test-testfiles/config-biblatex/10-biblatex-numeric.xetex.diff	/^--- 296,303 ----$/;"	m
+2964,2969	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 2964,2969 ----$/;"	m
+2972,2977	build/test-testfiles/config-crossref/07-3-tables.xetex.diff	/^--- 2972,2977 ----$/;"	m
+2982,2987	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 2982,2987 ----$/;"	m
+299,304	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 299,304 ----$/;"	m
+299,304	build/test/package-amsthm.xetex.diff	/^--- 299,304 ----$/;"	m
 3	.vscode/settings.json	/^                "-interaction=nonstopmode",$/;"	s	array:latex-workshop.latex.tools.1.args
 3	.vscode/settings.json	/^                "thuthesis.ins"$/;"	s	array:latex-workshop.latex.tools.0.args
 3	.vscode/settings.json	/^        "**\/*.cbx",$/;"	s	array:latex-workshop.latex.watch.files.ignore
+300,317	build/test-testfiles/config-biblatex/10-biblatex-author-year.xetex.diff	/^--- 300,317 ----$/;"	m
+3000,3005	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 3000,3005 ----$/;"	m
+3003,3008	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 3003,3008 ----$/;"	m
+301,306	build/test-testfiles/config-bibtex/10-bibtex-inline.xetex.diff	/^--- 301,306 ----$/;"	m
+3025,3033	build/test/package-ntheorem.xetex.diff	/^--- 3025,3033 ----$/;"	m
+303,308	build/test-testfiles/config-bibtex/10-bibtex-numeric.xetex.diff	/^--- 303,308 ----$/;"	m
+3032,3037	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 3032,3037 ----$/;"	m
+3048,3053	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 3048,3053 ----$/;"	m
+3049,3054	build/test-testfiles/config-crossref/07-3-tables.xetex.diff	/^--- 3049,3054 ----$/;"	m
+3049,3054	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 3049,3054 ----$/;"	m
+305,315	build/test-testfiles/config-biblatex/10-biblatex-numeric.xetex.diff	/^--- 305,315 ----$/;"	m
+3051,3056	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 3051,3056 ----$/;"	m
+3063,3068	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 3063,3068 ----$/;"	m
+307,312	build/test-testfiles/config-nomencl/08-notation-nomencl.xetex.diff	/^--- 307,312 ----$/;"	m
+3078,3083	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 3078,3083 ----$/;"	m
+3098,3103	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 3098,3103 ----$/;"	m
+3099,3104	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 3099,3104 ----$/;"	m
+311,316	build/test/package-algorithms.xetex.diff	/^--- 311,316 ----$/;"	m
+311,316	build/test/package-ntheorem.xetex.diff	/^--- 311,316 ----$/;"	m
+312,317	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 312,317 ----$/;"	m
+313,316	build/test-testfiles/config-biblatex/10-biblatex-inline.xetex.diff	/^--- 313,316 ----$/;"	m
+3134,3139	build/test-testfiles/config-crossref/07-3-tables.xetex.diff	/^--- 3134,3139 ----$/;"	m
+3145,3150	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 3145,3150 ----$/;"	m
+3149,3154	build/test-testfiles/config-bibtex/10-bibtex-inline.xetex.diff	/^--- 3149,3154 ----$/;"	m
+3152,3157	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 3152,3157 ----$/;"	m
+3154,3159	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 3154,3159 ----$/;"	m
+3192,3197	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 3192,3197 ----$/;"	m
+320,327	build/test-testfiles/config-biblatex/10-biblatex-numeric.xetex.diff	/^--- 320,327 ----$/;"	m
+3209,3214	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 3209,3214 ----$/;"	m
+321,338	build/test-testfiles/config-biblatex/10-biblatex-author-year.xetex.diff	/^--- 321,338 ----$/;"	m
+3217,3222	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 3217,3222 ----$/;"	m
+3221,3226	build/test-testfiles/config-bibtex/10-bibtex-numeric.xetex.diff	/^--- 3221,3226 ----$/;"	m
+3227,3232	build/test-testfiles/config-crossref/07-3-tables.xetex.diff	/^--- 3227,3232 ----$/;"	m
+3239,3244	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 3239,3244 ----$/;"	m
+324,329	build/test-testfiles/config-bibtex/10-bibtex-inline.xetex.diff	/^--- 324,329 ----$/;"	m
+325,330	build/test/12-acknowledgements.xetex.diff	/^--- 325,330 ----$/;"	m
+3262,3267	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 3262,3267 ----$/;"	m
+3262,3267	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 3262,3267 ----$/;"	m
+3268,3273	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 3268,3273 ----$/;"	m
+3287,3292	build/test-testfiles/config-bibtex/10-bibtex-inline.xetex.diff	/^--- 3287,3292 ----$/;"	m
+329,339	build/test-testfiles/config-biblatex/10-biblatex-numeric.xetex.diff	/^--- 329,339 ----$/;"	m
+3290,3295	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 3290,3295 ----$/;"	m
+3297,3302	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 3297,3302 ----$/;"	m
+330,335	build/test-testfiles/config-bibtex/10-bibtex-author-year.xetex.diff	/^--- 330,335 ----$/;"	m
+3311,3316	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 3311,3316 ----$/;"	m
+3320,3325	build/test-testfiles/config-crossref/07-3-tables.xetex.diff	/^--- 3320,3325 ----$/;"	m
+3357,3362	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 3357,3362 ----$/;"	m
+3358,3363	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 3358,3363 ----$/;"	m
+3359,3364	build/test-testfiles/config-bibtex/10-bibtex-numeric.xetex.diff	/^--- 3359,3364 ----$/;"	m
+3366,3371	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 3366,3371 ----$/;"	m
+337,342	build/test/package-algorithms.xetex.diff	/^--- 337,342 ----$/;"	m
+3381,3386	build/test-testfiles/config-crossref/07-3-tables.xetex.diff	/^--- 3381,3386 ----$/;"	m
+339,344	build/test/14-resume.xetex.diff	/^--- 339,344 ----$/;"	m
+34,41	build/test/08-notation.xetex.diff	/^--- 34,41 ----$/;"	m
+3400,3405	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 3400,3405 ----$/;"	m
+341,346	build/test/08-notation.xetex.diff	/^--- 341,346 ----$/;"	m
+342,359	build/test-testfiles/config-biblatex/10-biblatex-author-year.xetex.diff	/^--- 342,359 ----$/;"	m
+3425,3430	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 3425,3430 ----$/;"	m
+344,351	build/test-testfiles/config-biblatex/10-biblatex-numeric.xetex.diff	/^--- 344,351 ----$/;"	m
+3451,3456	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 3451,3456 ----$/;"	m
+3454,3459	build/test-testfiles/config-bibtex/10-bibtex-inline.xetex.diff	/^--- 3454,3459 ----$/;"	m
+3458,3463	build/test-testfiles/config-crossref/07-3-tables.xetex.diff	/^--- 3458,3463 ----$/;"	m
+3474,3479	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 3474,3479 ----$/;"	m
+348,353	build/test-testfiles/config-bibtex/10-bibtex-numeric.xetex.diff	/^--- 348,353 ----$/;"	m
+3480,3485	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 3480,3485 ----$/;"	m
+35,42	build/test-testfiles/config-nomencl/08-notation-nomencl.xetex.diff	/^--- 35,42 ----$/;"	m
+3526,3531	build/test-testfiles/config-bibtex/10-bibtex-numeric.xetex.diff	/^--- 3526,3531 ----$/;"	m
+353,358	build/test-testfiles/config-bibtex/10-bibtex-inline.xetex.diff	/^--- 353,358 ----$/;"	m
+3530,3535	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 3530,3535 ----$/;"	m
+3531,3536	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 3531,3536 ----$/;"	m
+354,359	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 354,359 ----$/;"	m
+355,365	build/test-testfiles/config-biblatex/10-biblatex-numeric.xetex.diff	/^--- 355,365 ----$/;"	m
+3551,3556	build/test-testfiles/config-crossref/07-3-tables.xetex.diff	/^--- 3551,3556 ----$/;"	m
+3552,3557	build/test-testfiles/config-bibtex/10-bibtex-inline.xetex.diff	/^--- 3552,3557 ----$/;"	m
+3571,3576	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 3571,3576 ----$/;"	m
+358,363	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 358,363 ----$/;"	m
+360,365	build/test/02-committee.xetex.diff	/^--- 360,365 ----$/;"	m
+3618,3623	build/test/package-longtable.xetex.diff	/^--- 3618,3623 ----$/;"	m
+3624,3629	build/test-testfiles/config-bibtex/10-bibtex-numeric.xetex.diff	/^--- 3624,3629 ----$/;"	m
+3626,3631	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 3626,3631 ----$/;"	m
+363,380	build/test-testfiles/config-biblatex/10-biblatex-author-year.xetex.diff	/^--- 363,380 ----$/;"	m
+3633,3638	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 3633,3638 ----$/;"	m
+364,369	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 364,369 ----$/;"	m
+365,370	build/test-testfiles/config-nomencl/08-notation-nomencl.xetex.diff	/^--- 365,370 ----$/;"	m
+3652,3657	build/test-testfiles/config-crossref/07-3-tables.xetex.diff	/^--- 3652,3657 ----$/;"	m
+3657,3662	build/test-testfiles/config-bibtex/10-bibtex-inline.xetex.diff	/^--- 3657,3662 ----$/;"	m
+366,371	build/test/package-algorithms.xetex.diff	/^--- 366,371 ----$/;"	m
+3661,3666	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 3661,3666 ----$/;"	m
+3672,3677	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 3672,3677 ----$/;"	m
+370,375	build/test-testfiles/config-crossref/07-1-figures-tables.xetex.diff	/^--- 370,375 ----$/;"	m
+3708,3713	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 3708,3713 ----$/;"	m
+371,376	build/test/08-notation.xetex.diff	/^--- 371,376 ----$/;"	m
+371,378	build/test-testfiles/config-biblatex/10-biblatex-numeric.xetex.diff	/^--- 371,378 ----$/;"	m
+3715,3720	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 3715,3720 ----$/;"	m
+3719,3724	build/test-testfiles/config-crossref/07-3-tables.xetex.diff	/^--- 3719,3724 ----$/;"	m
+3729,3734	build/test-testfiles/config-bibtex/10-bibtex-numeric.xetex.diff	/^--- 3729,3734 ----$/;"	m
+373,378	build/test-testfiles/config-crossref/07-3-tables.xetex.diff	/^--- 373,378 ----$/;"	m
+3739,3745	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 3739,3745 ----$/;"	m
+3741,3746	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 3741,3746 ----$/;"	m
+375,380	build/test-testfiles/config-bibtex/10-bibtex-numeric.xetex.diff	/^--- 375,380 ----$/;"	m
+3759,3764	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 3759,3764 ----$/;"	m
+3765,3770	build/test-testfiles/config-bibtex/10-bibtex-inline.xetex.diff	/^--- 3765,3770 ----$/;"	m
+377,382	build/test-testfiles/config-bibtex/10-bibtex-author-year.xetex.diff	/^--- 377,382 ----$/;"	m
+379,384	build/test-testfiles/config-bibtex/10-bibtex-inline.xetex.diff	/^--- 379,384 ----$/;"	m
+380,389	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 380,389 ----$/;"	m
+3810,3815	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 3810,3815 ----$/;"	m
+3818,3823	build/test-testfiles/config-crossref/07-3-tables.xetex.diff	/^--- 3818,3823 ----$/;"	m
+382,400	build/test-testfiles/config-biblatex/10-biblatex-numeric.xetex.diff	/^--- 382,400 ----$/;"	m
+3837,3842	build/test-testfiles/config-bibtex/10-bibtex-numeric.xetex.diff	/^--- 3837,3842 ----$/;"	m
+384,401	build/test-testfiles/config-biblatex/10-biblatex-author-year.xetex.diff	/^--- 384,401 ----$/;"	m
+3847,3852	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 3847,3852 ----$/;"	m
+385,390	build/test/02-committee.xetex.diff	/^--- 385,390 ----$/;"	m
+3853,3858	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 3853,3858 ----$/;"	m
+3864,3869	build/test-testfiles/config-crossref/09-main.xetex.diff	/^--- 3864,3869 ----$/;"	m
+3874,3883	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 3874,3883 ----$/;"	m
+3885,3890	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 3885,3890 ----$/;"	m
+3896,3901	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 3896,3901 ----$/;"	m
+3899,3904	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 3899,3904 ----$/;"	m
+39,44	build/test/package-longtable.xetex.diff	/^--- 39,44 ----$/;"	m
+390,395	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 390,395 ----$/;"	m
+3903,3908	build/test-testfiles/config-crossref/07-3-tables.xetex.diff	/^--- 3903,3908 ----$/;"	m
+3907,3912	build/test-testfiles/config-bibtex/10-bibtex-inline.xetex.diff	/^--- 3907,3912 ----$/;"	m
+3936,3941	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 3936,3941 ----$/;"	m
+3940,3945	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 3940,3945 ----$/;"	m
+3942,3947	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 3942,3947 ----$/;"	m
+3968,3973	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 3968,3973 ----$/;"	m
+397,402	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 397,402 ----$/;"	m
+397,402	build/test/package-algorithms.xetex.diff	/^--- 397,402 ----$/;"	m
+3979,3984	build/test-testfiles/config-bibtex/10-bibtex-numeric.xetex.diff	/^--- 3979,3984 ----$/;"	m
+3981,3986	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 3981,3986 ----$/;"	m
+3992,4000	build/test-testfiles/config-crossref/07-3-tables.xetex.diff	/^--- 3992,4000 ----$/;"	m
 4	.vscode/settings.json	/^                "-synctex=1",$/;"	s	array:latex-workshop.latex.tools.1.args
 4	.vscode/settings.json	/^        "**\/*.cfg",$/;"	s	array:latex-workshop.latex.watch.files.ignore
+40,47	build/test-testfiles/config-bibtex/10-bibtex-author-year.xetex.diff	/^--- 40,47 ----$/;"	m
+40,47	build/test-testfiles/config-bibtex/10-bibtex-inline.xetex.diff	/^--- 40,47 ----$/;"	m
+40,47	build/test-testfiles/config-bibtex/10-bibtex-numeric.xetex.diff	/^--- 40,47 ----$/;"	m
+40,52	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 40,52 ----$/;"	m
+4016,4021	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 4016,4021 ----$/;"	m
+402,407	build/test-testfiles/config-bibtex/10-bibtex-numeric.xetex.diff	/^--- 402,407 ----$/;"	m
+4026,4031	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 4026,4031 ----$/;"	m
+4034,4039	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 4034,4039 ----$/;"	m
+4040,4045	build/test-testfiles/config-bibtex/10-bibtex-inline.xetex.diff	/^--- 4040,4045 ----$/;"	m
+405,422	build/test-testfiles/config-biblatex/10-biblatex-author-year.xetex.diff	/^--- 405,422 ----$/;"	m
+406,411	build/test/14-resume.xetex.diff	/^--- 406,411 ----$/;"	m
+406,413	build/test-testfiles/config-biblatex/10-biblatex-numeric.xetex.diff	/^--- 406,413 ----$/;"	m
+4069,4074	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 4069,4074 ----$/;"	m
+4089,4094	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 4089,4094 ----$/;"	m
+410,415	build/test-testfiles/config-bibtex/10-bibtex-author-year.xetex.diff	/^--- 410,415 ----$/;"	m
+411,416	build/test-testfiles/config-bibtex/10-bibtex-inline.xetex.diff	/^--- 411,416 ----$/;"	m
+411,416	build/test/12-acknowledgements.xetex.diff	/^--- 411,416 ----$/;"	m
+4112,4117	build/test-testfiles/config-bibtex/10-bibtex-numeric.xetex.diff	/^--- 4112,4117 ----$/;"	m
+4126,4131	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 4126,4131 ----$/;"	m
+4130,4135	build/test-testfiles/config-bibtex/10-bibtex-inline.xetex.diff	/^--- 4130,4135 ----$/;"	m
+4134,4139	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 4134,4139 ----$/;"	m
+4146,4151	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 4146,4151 ----$/;"	m
+415,420	build/test/13-statement.xetex.diff	/^--- 415,420 ----$/;"	m
+417,455	build/test-testfiles/config-biblatex/10-biblatex-numeric.xetex.diff	/^--- 417,455 ----$/;"	m
+4173,4178	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 4173,4178 ----$/;"	m
+42,61	build/test-testfiles/config-biblatex/10-biblatex-inline.xetex.diff	/^--- 42,61 ----$/;"	m
+4202,4207	build/test-testfiles/config-bibtex/10-bibtex-numeric.xetex.diff	/^--- 4202,4207 ----$/;"	m
+4205,4210	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 4205,4210 ----$/;"	m
+4215,4220	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 4215,4220 ----$/;"	m
+4217,4222	build/test-testfiles/config-crossref/09-main.xetex.diff	/^--- 4217,4222 ----$/;"	m
+4226,4231	build/test-testfiles/config-bibtex/10-bibtex-inline.xetex.diff	/^--- 4226,4231 ----$/;"	m
+4240,4245	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 4240,4245 ----$/;"	m
+4244,4249	build/test-testfiles/config-crossref/09-main.xetex.diff	/^--- 4244,4249 ----$/;"	m
+425,432	build/test-testfiles/config-biblatex/10-biblatex-author-year.xetex.diff	/^--- 425,432 ----$/;"	m
+426,431	build/test/package-algorithms.xetex.diff	/^--- 426,431 ----$/;"	m
+4262,4267	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 4262,4267 ----$/;"	m
+428,433	build/test/04-abstract.xetex.diff	/^--- 428,433 ----$/;"	m
+4287,4292	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 4287,4292 ----$/;"	m
+4291,4296	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 4291,4296 ----$/;"	m
+4298,4303	build/test-testfiles/config-bibtex/10-bibtex-numeric.xetex.diff	/^--- 4298,4303 ----$/;"	m
+4321,4326	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 4321,4326 ----$/;"	m
+433,438	build/test-testfiles/config-bibtex/10-bibtex-numeric.xetex.diff	/^--- 433,438 ----$/;"	m
+433,438	build/test/08-notation.xetex.diff	/^--- 433,438 ----$/;"	m
+4333,4338	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 4333,4338 ----$/;"	m
+4334,4339	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 4334,4339 ----$/;"	m
+434,439	build/test-testfiles/config-bibtex/10-bibtex-inline.xetex.diff	/^--- 434,439 ----$/;"	m
+4345,4350	build/test-testfiles/config-bibtex/10-bibtex-inline.xetex.diff	/^--- 4345,4350 ----$/;"	m
+4361,4366	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 4361,4366 ----$/;"	m
+4384,4389	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 4384,4389 ----$/;"	m
+4389,4394	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 4389,4394 ----$/;"	m
+440,445	build/test-testfiles/config-nomencl/08-notation-nomencl.xetex.diff	/^--- 440,445 ----$/;"	m
+4417,4422	build/test-testfiles/config-bibtex/10-bibtex-numeric.xetex.diff	/^--- 4417,4422 ----$/;"	m
+443,448	build/test/14-resume.xetex.diff	/^--- 443,448 ----$/;"	m
+4437,4442	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 4437,4442 ----$/;"	m
+4443,4448	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 4443,4448 ----$/;"	m
+4448,4453	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 4448,4453 ----$/;"	m
+446,451	build/test-testfiles/config-bibtex/10-bibtex-author-year.xetex.diff	/^--- 446,451 ----$/;"	m
+448,451	build/test-testfiles/config-biblatex/10-biblatex-author-year.xetex.diff	/^--- 448,451 ----$/;"	m
+449,454	build/test/05-abstract-en.xetex.diff	/^--- 449,454 ----$/;"	m
+4492,4497	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 4492,4497 ----$/;"	m
+4499,4504	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 4499,4504 ----$/;"	m
+452,457	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 452,457 ----$/;"	m
+4535,4540	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 4535,4540 ----$/;"	m
+4538,4543	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 4538,4543 ----$/;"	m
+4550,4555	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 4550,4555 ----$/;"	m
+456,461	build/test-testfiles/config-crossref/07-3-tables.xetex.diff	/^--- 456,461 ----$/;"	m
+4592,4597	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 4592,4597 ----$/;"	m
+4599,4604	build/test-testfiles/config-bibtex/10-bibtex-inline.xetex.diff	/^--- 4599,4604 ----$/;"	m
+4609,4614	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 4609,4614 ----$/;"	m
+4611,4616	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 4611,4616 ----$/;"	m
+4627,4632	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 4627,4632 ----$/;"	m
+4631,4636	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 4631,4636 ----$/;"	m
+464,469	build/test-testfiles/config-bibtex/10-bibtex-numeric.xetex.diff	/^--- 464,469 ----$/;"	m
+464,469	build/test-testfiles/config-crossref/07-1-figures-tables.xetex.diff	/^--- 464,469 ----$/;"	m
+466,471	build/test-testfiles/config-bibtex/10-bibtex-inline.xetex.diff	/^--- 466,471 ----$/;"	m
+466,474	build/test/12-acknowledgements.xetex.diff	/^--- 466,474 ----$/;"	m
+4662,4667	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 4662,4667 ----$/;"	m
+467,472	build/test/package-algorithms.xetex.diff	/^--- 467,472 ----$/;"	m
+4671,4676	build/test-testfiles/config-bibtex/10-bibtex-numeric.xetex.diff	/^--- 4671,4676 ----$/;"	m
+468,473	build/test/14-resume.xetex.diff	/^--- 468,473 ----$/;"	m
+4686,4691	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 4686,4691 ----$/;"	m
+47,65	build/test-testfiles/config-biblatex/10-biblatex-author-year.xetex.diff	/^--- 47,65 ----$/;"	m
+471,474	build/test-testfiles/config-biblatex/10-biblatex-numeric.xetex.diff	/^--- 471,474 ----$/;"	m
+471,480	build/test/13-statement.xetex.diff	/^--- 471,480 ----$/;"	m
+4713,4718	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 4713,4718 ----$/;"	m
+4713,4718	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 4713,4718 ----$/;"	m
+473,478	build/test-testfiles/config-bibtex/10-bibtex-author-year.xetex.diff	/^--- 473,478 ----$/;"	m
+473,478	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 473,478 ----$/;"	m
+473,478	build/test/08-notation.xetex.diff	/^--- 473,478 ----$/;"	m
+4741,4746	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 4741,4746 ----$/;"	m
+4755,4760	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 4755,4760 ----$/;"	m
+4760,4765	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 4760,4765 ----$/;"	m
+4781,4786	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 4781,4786 ----$/;"	m
+4792,4797	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 4792,4797 ----$/;"	m
+480,485	build/test-testfiles/config-nomencl/08-notation-nomencl.xetex.diff	/^--- 480,485 ----$/;"	m
+4805,4810	build/test-testfiles/config-bibtex/10-bibtex-inline.xetex.diff	/^--- 4805,4810 ----$/;"	m
+4811,4816	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 4811,4816 ----$/;"	m
+4849,4854	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 4849,4854 ----$/;"	m
+4857,4862	build/test-testfiles/config-crossref/09-main.xetex.diff	/^--- 4857,4862 ----$/;"	m
+4862,4867	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 4862,4867 ----$/;"	m
+4877,4882	build/test-testfiles/config-bibtex/10-bibtex-numeric.xetex.diff	/^--- 4877,4882 ----$/;"	m
+4881,4886	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 4881,4886 ----$/;"	m
+4887,4892	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 4887,4892 ----$/;"	m
+4895,4900	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 4895,4900 ----$/;"	m
+4925,4930	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 4925,4930 ----$/;"	m
+494,499	build/test-testfiles/config-bibtex/10-bibtex-numeric.xetex.diff	/^--- 494,499 ----$/;"	m
+4961,4966	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 4961,4966 ----$/;"	m
+4969,4974	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 4969,4974 ----$/;"	m
+497,505	build/test-testfiles/config-bibtex/10-bibtex-inline.xetex.diff	/^--- 497,505 ----$/;"	m
+4972,4977	build/test/package-longtable.xetex.diff	/^--- 4972,4977 ----$/;"	m
+4982,4987	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 4982,4987 ----$/;"	m
 5	.vscode/settings.json	/^                "-outdir=%OUTDIR%",$/;"	s	array:latex-workshop.latex.tools.1.args
 5	.vscode/settings.json	/^        "**\/*.clo",$/;"	s	array:latex-workshop.latex.watch.files.ignore
+5000,5005	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 5000,5005 ----$/;"	m
+5004,5009	build/test-testfiles/config-bibtex/10-bibtex-inline.xetex.diff	/^--- 5004,5009 ----$/;"	m
+502,508	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 502,508 ----$/;"	m
+5030,5035	build/test/package-longtable.xetex.diff	/^--- 5030,5035 ----$/;"	m
+5049,5054	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 5049,5054 ----$/;"	m
+5051,5056	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 5051,5056 ----$/;"	m
+5071,5079	build/test-testfiles/config-bibtex/10-bibtex-inline.xetex.diff	/^--- 5071,5079 ----$/;"	m
+5076,5081	build/test-testfiles/config-bibtex/10-bibtex-numeric.xetex.diff	/^--- 5076,5081 ----$/;"	m
+508,513	build/test-testfiles/config-bibtex/10-bibtex-author-year.xetex.diff	/^--- 508,513 ----$/;"	m
+5092,5097	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 5092,5097 ----$/;"	m
+510,515	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 510,515 ----$/;"	m
+5103,5108	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 5103,5108 ----$/;"	m
+511,516	build/test/package-algorithms.xetex.diff	/^--- 511,516 ----$/;"	m
+513,518	build/test/08-notation.xetex.diff	/^--- 513,518 ----$/;"	m
+5143,5151	build/test-testfiles/config-bibtex/10-bibtex-numeric.xetex.diff	/^--- 5143,5151 ----$/;"	m
+5146,5151	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 5146,5151 ----$/;"	m
+515,520	build/test/package-amsthm.xetex.diff	/^--- 515,520 ----$/;"	m
+5163,5168	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 5163,5168 ----$/;"	m
+5185,5190	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 5185,5190 ----$/;"	m
+519,524	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 519,524 ----$/;"	m
+52,64	build/test/02-committee.xetex.diff	/^--- 52,64 ----$/;"	m
+52,64	build/test/03-copyright-doctor.xetex.diff	/^--- 52,64 ----$/;"	m
+52,64	build/test/03-copyright-master.xetex.diff	/^--- 52,64 ----$/;"	m
+520,526	build/test-testfiles/config-bibtex/10-bibtex-inline.xetex.diff	/^--- 520,526 ----$/;"	m
+5204,5209	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 5204,5209 ----$/;"	m
+521,526	build/test-testfiles/config-crossref/07-3-tables.xetex.diff	/^--- 521,526 ----$/;"	m
+5220,5225	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 5220,5225 ----$/;"	m
+523,528	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 523,528 ----$/;"	m
+5236,5241	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 5236,5241 ----$/;"	m
+525,528	build/test/12-acknowledgements.xetex.diff	/^--- 525,528 ----$/;"	m
+525,530	build/test/package-ntheorem.xetex.diff	/^--- 525,530 ----$/;"	m
+5279,5284	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 5279,5284 ----$/;"	m
+5283,5288	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 5283,5288 ----$/;"	m
+529,534	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 529,534 ----$/;"	m
+5290,5295	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 5290,5295 ----$/;"	m
+53,62	build/test/package-amsthm.xetex.diff	/^--- 53,62 ----$/;"	m
+53,62	build/test/package-ntheorem.xetex.diff	/^--- 53,62 ----$/;"	m
+531,534	build/test/13-statement.xetex.diff	/^--- 531,534 ----$/;"	m
+532,537	build/test-testfiles/config-bibtex/10-bibtex-numeric.xetex.diff	/^--- 532,537 ----$/;"	m
+534,539	build/test-testfiles/config-crossref/07-1-figures-tables.xetex.diff	/^--- 534,539 ----$/;"	m
+5346,5351	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 5346,5351 ----$/;"	m
+5354,5359	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 5354,5359 ----$/;"	m
+536,541	build/test-testfiles/config-nomencl/08-notation-nomencl.xetex.diff	/^--- 536,541 ----$/;"	m
+5382,5387	build/test-testfiles/config-crossref/09-main.xetex.diff	/^--- 5382,5387 ----$/;"	m
+5385,5390	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 5385,5390 ----$/;"	m
+5386,5391	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 5386,5391 ----$/;"	m
+539,544	build/test-testfiles/config-bibtex/10-bibtex-author-year.xetex.diff	/^--- 539,544 ----$/;"	m
+539,544	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 539,544 ----$/;"	m
+54,59	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 54,59 ----$/;"	m
+5423,5431	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 5423,5431 ----$/;"	m
+546,551	build/test/11-appendix.xetex.diff	/^--- 546,551 ----$/;"	m
+547,552	build/test/package-algorithms.xetex.diff	/^--- 547,552 ----$/;"	m
+5484,5489	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 5484,5489 ----$/;"	m
+55,60	build/test/package-algorithms.xetex.diff	/^--- 55,60 ----$/;"	m
+5518,5523	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 5518,5523 ----$/;"	m
+5568,5573	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 5568,5573 ----$/;"	m
+5574,5579	build/test-testfiles/config-crossref/09-main.xetex.diff	/^--- 5574,5579 ----$/;"	m
+5591,5596	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 5591,5596 ----$/;"	m
+5601,5606	build/test-testfiles/config-crossref/09-main.xetex.diff	/^--- 5601,5606 ----$/;"	m
+5639,5644	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 5639,5644 ----$/;"	m
+5640,5645	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 5640,5645 ----$/;"	m
+5678,5683	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 5678,5683 ----$/;"	m
+569,577	build/test-testfiles/config-bibtex/10-bibtex-numeric.xetex.diff	/^--- 569,577 ----$/;"	m
+5718,5723	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 5718,5723 ----$/;"	m
+572,578	build/test-testfiles/config-bibtex/10-bibtex-inline.xetex.diff	/^--- 572,578 ----$/;"	m
+5724,5729	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 5724,5729 ----$/;"	m
+575,580	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 575,580 ----$/;"	m
+5757,5762	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 5757,5762 ----$/;"	m
+578,583	build/test-testfiles/config-bibtex/10-bibtex-author-year.xetex.diff	/^--- 578,583 ----$/;"	m
+578,583	build/test/14-resume.xetex.diff	/^--- 578,583 ----$/;"	m
+58,77	build/test-testfiles/config-biblatex/10-biblatex-numeric.xetex.diff	/^--- 58,77 ----$/;"	m
+580,585	build/test-testfiles/config-bibtex/10-bibtex-inline.xetex.diff	/^--- 580,585 ----$/;"	m
+5808,5813	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 5808,5813 ----$/;"	m
+581,586	build/test/08-notation.xetex.diff	/^--- 581,586 ----$/;"	m
+581,586	build/test/package-algorithms.xetex.diff	/^--- 581,586 ----$/;"	m
+5838,5843	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 5838,5843 ----$/;"	m
+588,593	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 588,593 ----$/;"	m
+588,593	build/test-testfiles/config-crossref/07-3-tables.xetex.diff	/^--- 588,593 ----$/;"	m
+5904,5909	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 5904,5909 ----$/;"	m
+592,598	build/test-testfiles/config-bibtex/10-bibtex-numeric.xetex.diff	/^--- 592,598 ----$/;"	m
+5923,5928	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 5923,5928 ----$/;"	m
+596,601	build/test/03-copyright-master.xetex.diff	/^--- 596,601 ----$/;"	m
+5960,5965	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 5960,5965 ----$/;"	m
+597,602	build/test-testfiles/config-bibtex/10-bibtex-inline.xetex.diff	/^--- 597,602 ----$/;"	m
+597,602	build/test/04-abstract.xetex.diff	/^--- 597,602 ----$/;"	m
+5997,6002	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 5997,6002 ----$/;"	m
 6	.vscode/settings.json	/^                "%DOC%"$/;"	s	array:latex-workshop.latex.tools.1.args
 6	.vscode/settings.json	/^        "**\/*.cnf",$/;"	s	array:latex-workshop.latex.watch.files.ignore
+6007,6012	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 6007,6012 ----$/;"	m
+6011,6016	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 6011,6016 ----$/;"	m
+605,613	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 605,613 ----$/;"	m
+6066,6071	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 6066,6071 ----$/;"	m
+608,613	build/test/02-committee.xetex.diff	/^--- 608,613 ----$/;"	m
+6109,6114	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 6109,6114 ----$/;"	m
+6113,6118	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 6113,6118 ----$/;"	m
+613,618	build/test-testfiles/config-bibtex/10-bibtex-author-year.xetex.diff	/^--- 613,618 ----$/;"	m
+613,618	build/test-testfiles/config-nomencl/08-notation-nomencl.xetex.diff	/^--- 613,618 ----$/;"	m
+615,620	build/test-testfiles/config-crossref/07-1-figures-tables.xetex.diff	/^--- 615,620 ----$/;"	m
+6155,6163	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 6155,6163 ----$/;"	m
+617,622	build/test/05-abstract-en.xetex.diff	/^--- 617,622 ----$/;"	m
+6185,6190	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 6185,6190 ----$/;"	m
+621,626	build/test/package-algorithms.xetex.diff	/^--- 621,626 ----$/;"	m
+6237,6242	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 6237,6242 ----$/;"	m
+624,629	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 624,629 ----$/;"	m
+630,635	build/test/03-copyright-master.xetex.diff	/^--- 630,635 ----$/;"	m
+633,638	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 633,638 ----$/;"	m
+633,638	build/test/02-committee.xetex.diff	/^--- 633,638 ----$/;"	m
+6330,6335	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 6330,6335 ----$/;"	m
+6388,6393	build/test/package-longtable.xetex.diff	/^--- 6388,6393 ----$/;"	m
+642,647	build/test/03-copyright-doctor.xetex.diff	/^--- 642,647 ----$/;"	m
+6427,6432	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 6427,6432 ----$/;"	m
+6432,7130	build/test/package-longtable.xetex.diff	/^--- 6432,7130 ----$/;"	m
+644,650	build/test-testfiles/config-bibtex/10-bibtex-numeric.xetex.diff	/^--- 644,650 ----$/;"	m
+6487,6492	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 6487,6492 ----$/;"	m
+65,70	build/test/package-amsthm.xetex.diff	/^--- 65,70 ----$/;"	m
+65,70	build/test/package-ntheorem.xetex.diff	/^--- 65,70 ----$/;"	m
+65,82	build/test-testfiles/config-biblatex/10-biblatex-inline.xetex.diff	/^--- 65,82 ----$/;"	m
+6513,6518	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 6513,6518 ----$/;"	m
+652,657	build/test-testfiles/config-bibtex/10-bibtex-numeric.xetex.diff	/^--- 652,657 ----$/;"	m
+6537,6542	build/test-testfiles/config-crossref/09-main.xetex.diff	/^--- 6537,6542 ----$/;"	m
+655,660	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 655,660 ----$/;"	m
+655,660	build/test/package-algorithms.xetex.diff	/^--- 655,660 ----$/;"	m
+656,661	build/test-testfiles/config-bibtex/10-bibtex-author-year.xetex.diff	/^--- 656,661 ----$/;"	m
+658,663	build/test/08-notation.xetex.diff	/^--- 658,663 ----$/;"	m
+6599,6604	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 6599,6604 ----$/;"	m
+66,71	build/test/02-committee.xetex.diff	/^--- 66,71 ----$/;"	m
+66,71	build/test/03-copyright-doctor.xetex.diff	/^--- 66,71 ----$/;"	m
+66,71	build/test/03-copyright-master.xetex.diff	/^--- 66,71 ----$/;"	m
+669,674	build/test-testfiles/config-bibtex/10-bibtex-numeric.xetex.diff	/^--- 669,674 ----$/;"	m
+67,72	build/test-testfiles/config-bibtex/10-bibtex-author-year.xetex.diff	/^--- 67,72 ----$/;"	m
+6716,6721	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 6716,6721 ----$/;"	m
+675,680	build/test-testfiles/config-nomencl/08-notation-nomencl.xetex.diff	/^--- 675,680 ----$/;"	m
+676,681	build/test/03-copyright-doctor.xetex.diff	/^--- 676,681 ----$/;"	m
+68,84	build/test-testfiles/config-biblatex/10-biblatex-author-year.xetex.diff	/^--- 68,84 ----$/;"	m
+6810,6815	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 6810,6815 ----$/;"	m
+683,688	build/test-testfiles/config-bibtex/10-bibtex-author-year.xetex.diff	/^--- 683,688 ----$/;"	m
+6843,6851	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 6843,6851 ----$/;"	m
+690,695	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 690,695 ----$/;"	m
+6906,6911	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 6906,6911 ----$/;"	m
+6910,6915	build/test-testfiles/config-crossref/09-main.xetex.diff	/^--- 6910,6915 ----$/;"	m
+692,697	build/test/package-algorithms.xetex.diff	/^--- 692,697 ----$/;"	m
+693,698	build/test/03-copyright-master.xetex.diff	/^--- 693,698 ----$/;"	m
+6933,6938	build/test-testfiles/config-crossref/09-main.xetex.diff	/^--- 6933,6938 ----$/;"	m
+696,701	build/test/08-notation.xetex.diff	/^--- 696,701 ----$/;"	m
+6968,6973	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 6968,6973 ----$/;"	m
+697,702	build/test/14-resume.xetex.diff	/^--- 697,702 ----$/;"	m
+6978,6983	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 6978,6983 ----$/;"	m
+6986,6991	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 6986,6991 ----$/;"	m
 7	.vscode/settings.json	/^        "**\/*.def",$/;"	s	array:latex-workshop.latex.watch.files.ignore
+700,705	build/test-testfiles/config-crossref/07-3-tables.xetex.diff	/^--- 700,705 ----$/;"	m
+7005,7010	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 7005,7010 ----$/;"	m
+702,707	build/test-testfiles/config-crossref/07-1-figures-tables.xetex.diff	/^--- 702,707 ----$/;"	m
+7022,7027	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 7022,7027 ----$/;"	m
+7030,7035	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 7030,7035 ----$/;"	m
+7087,7092	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 7087,7092 ----$/;"	m
+7131,7136	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 7131,7136 ----$/;"	m
+714,719	build/test-testfiles/config-bibtex/10-bibtex-author-year.xetex.diff	/^--- 714,719 ----$/;"	m
+7141,7146	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 7141,7146 ----$/;"	m
+7147,7152	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 7147,7152 ----$/;"	m
+7161,7166	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 7161,7166 ----$/;"	m
+7177,7182	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 7177,7182 ----$/;"	m
+7194,7199	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 7194,7199 ----$/;"	m
+7209,7217	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 7209,7217 ----$/;"	m
+723,728	build/test/11-appendix.xetex.diff	/^--- 723,728 ----$/;"	m
+723,728	build/test/package-algorithms.xetex.diff	/^--- 723,728 ----$/;"	m
+7234,7239	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 7234,7239 ----$/;"	m
+724,729	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 724,729 ----$/;"	m
+7245,7250	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 7245,7250 ----$/;"	m
+729,734	build/test/04-abstract.xetex.diff	/^--- 729,734 ----$/;"	m
+729,734	build/test/package-amsthm.xetex.diff	/^--- 729,734 ----$/;"	m
+731,736	build/test-testfiles/config-nomencl/08-notation-nomencl.xetex.diff	/^--- 731,736 ----$/;"	m
+733,738	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 733,738 ----$/;"	m
+735,740	build/test-testfiles/config-bibtex/10-bibtex-inline.xetex.diff	/^--- 735,740 ----$/;"	m
+736,742	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 736,742 ----$/;"	m
+7361,7366	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 7361,7366 ----$/;"	m
+7378,7383	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 7378,7383 ----$/;"	m
+739,744	build/test/03-copyright-doctor.xetex.diff	/^--- 739,744 ----$/;"	m
+7392,7397	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 7392,7397 ----$/;"	m
+743,748	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 743,748 ----$/;"	m
+744,749	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 744,749 ----$/;"	m
+745,750	build/test-testfiles/config-bibtex/10-bibtex-author-year.xetex.diff	/^--- 745,750 ----$/;"	m
+749,754	build/test/package-ntheorem.xetex.diff	/^--- 749,754 ----$/;"	m
+750,759	build/test/03-copyright-master.xetex.diff	/^--- 750,759 ----$/;"	m
+7546,7551	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 7546,7551 ----$/;"	m
+7566,7571	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 7566,7571 ----$/;"	m
+7583,7588	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 7583,7588 ----$/;"	m
+759,765	build/test/package-algorithms.xetex.diff	/^--- 759,765 ----$/;"	m
+760,765	build/test/08-notation.xetex.diff	/^--- 760,765 ----$/;"	m
+7619,7624	build/test-testfiles/config-crossref/09-main.xetex.diff	/^--- 7619,7624 ----$/;"	m
+762,767	build/test-testfiles/config-crossref/09-main.xetex.diff	/^--- 762,767 ----$/;"	m
+7628,7633	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 7628,7633 ----$/;"	m
+763,768	build/test/05-abstract-en.xetex.diff	/^--- 763,768 ----$/;"	m
+7644,7649	build/test-testfiles/config-crossref/09-main.xetex.diff	/^--- 7644,7649 ----$/;"	m
+7663,7668	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 7663,7668 ----$/;"	m
+769,774	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 769,774 ----$/;"	m
+769,779	build/test-testfiles/config-crossref/09-main.xetex.diff	/^--- 769,779 ----$/;"	m
+77,90	build/test/05-abstract-en.xetex.diff	/^--- 77,90 ----$/;"	m
+774,777	build/test/03-copyright-master.xetex.diff	/^--- 774,777 ----$/;"	m
+775,780	build/test-testfiles/config-bibtex/10-bibtex-author-year.xetex.diff	/^--- 775,780 ----$/;"	m
+776,781	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 776,781 ----$/;"	m
+78,83	build/test-testfiles/config-bibtex/10-bibtex-inline.xetex.diff	/^--- 78,83 ----$/;"	m
+785,790	build/test-testfiles/config-nomencl/08-notation-nomencl.xetex.diff	/^--- 785,790 ----$/;"	m
+7895,7900	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 7895,7900 ----$/;"	m
+7911,7916	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 7911,7916 ----$/;"	m
+7924,7932	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 7924,7932 ----$/;"	m
+796,801	build/test/08-notation.xetex.diff	/^--- 796,801 ----$/;"	m
+796,805	build/test/03-copyright-doctor.xetex.diff	/^--- 796,805 ----$/;"	m
 8	.vscode/settings.json	/^        "**\/*.dfu",$/;"	s	array:latex-workshop.latex.watch.files.ignore
+801,806	build/test-testfiles/config-crossref/07-3-tables.xetex.diff	/^--- 801,806 ----$/;"	m
+803,808	build/test-testfiles/config-crossref/07-1-figures-tables.xetex.diff	/^--- 803,808 ----$/;"	m
+8031,8036	build/test-testfiles/config-crossref/09-main.xetex.diff	/^--- 8031,8036 ----$/;"	m
+8045,8051	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 8045,8051 ----$/;"	m
+805,810	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 805,810 ----$/;"	m
+8053,8058	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 8053,8058 ----$/;"	m
+806,811	build/test/14-resume.xetex.diff	/^--- 806,811 ----$/;"	m
+8064,8069	build/test-testfiles/config-crossref/09-main.xetex.diff	/^--- 8064,8069 ----$/;"	m
+8066,8071	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 8066,8071 ----$/;"	m
+807,812	build/test-testfiles/config-bibtex/10-bibtex-numeric.xetex.diff	/^--- 807,812 ----$/;"	m
+8079,8087	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 8079,8087 ----$/;"	m
+809,814	build/test-testfiles/config-bibtex/10-bibtex-author-year.xetex.diff	/^--- 809,814 ----$/;"	m
+81,91	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 81,91 ----$/;"	m
+81,93	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 81,93 ----$/;"	m
+81,95	build/test/04-abstract.xetex.diff	/^--- 81,95 ----$/;"	m
+81,98	build/test-testfiles/config-biblatex/10-biblatex-numeric.xetex.diff	/^--- 81,98 ----$/;"	m
+81,99	build/test/12-acknowledgements.xetex.diff	/^--- 81,99 ----$/;"	m
+810,815	build/test-testfiles/config-bibtex/10-bibtex-inline.xetex.diff	/^--- 810,815 ----$/;"	m
+810,819	build/test/04-abstract.xetex.diff	/^--- 810,819 ----$/;"	m
+819,824	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 819,824 ----$/;"	m
+820,823	build/test/03-copyright-doctor.xetex.diff	/^--- 820,823 ----$/;"	m
+8205,8211	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 8205,8211 ----$/;"	m
+8213,8218	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 8213,8218 ----$/;"	m
+8230,8235	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 8230,8235 ----$/;"	m
+829,837	build/test/05-abstract-en.xetex.diff	/^--- 829,837 ----$/;"	m
+837,842	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 837,842 ----$/;"	m
+838,843	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 838,843 ----$/;"	m
+84,98	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 84,98 ----$/;"	m
+84,98	build/test-testfiles/config-crossref/07-3-tables.xetex.diff	/^--- 84,98 ----$/;"	m
+842,847	build/test-testfiles/config-bibtex/10-bibtex-author-year.xetex.diff	/^--- 842,847 ----$/;"	m
+843,848	build/test-testfiles/config-nomencl/08-notation-nomencl.xetex.diff	/^--- 843,848 ----$/;"	m
+8515,8520	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 8515,8520 ----$/;"	m
+8547,8552	build/test-testfiles/config-crossref/09-main.xetex.diff	/^--- 8547,8552 ----$/;"	m
+8570,8578	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 8570,8578 ----$/;"	m
+8594,8599	build/test-testfiles/config-crossref/09-main.xetex.diff	/^--- 8594,8599 ----$/;"	m
+86,103	build/test-testfiles/config-biblatex/10-biblatex-inline.xetex.diff	/^--- 86,103 ----$/;"	m
+86,91	build/test/package-amsthm.xetex.diff	/^--- 86,91 ----$/;"	m
+861,866	build/test/08-notation.xetex.diff	/^--- 861,866 ----$/;"	m
+863,868	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 863,868 ----$/;"	m
+8691,8697	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 8691,8697 ----$/;"	m
+8699,8704	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 8699,8704 ----$/;"	m
+87,103	build/test-testfiles/config-biblatex/10-biblatex-author-year.xetex.diff	/^--- 87,103 ----$/;"	m
+870,873	build/test/04-abstract.xetex.diff	/^--- 870,873 ----$/;"	m
+8712,8717	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 8712,8717 ----$/;"	m
+8725,8733	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 8725,8733 ----$/;"	m
+873,878	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 873,878 ----$/;"	m
+874,879	build/test-testfiles/config-crossref/07-3-tables.xetex.diff	/^--- 874,879 ----$/;"	m
+876,881	build/test-testfiles/config-crossref/07-1-figures-tables.xetex.diff	/^--- 876,881 ----$/;"	m
+8785,8790	build/test-testfiles/config-crossref/09-main.xetex.diff	/^--- 8785,8790 ----$/;"	m
+879,884	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 879,884 ----$/;"	m
+88,93	build/test-testfiles/config-bibtex/10-bibtex-numeric.xetex.diff	/^--- 88,93 ----$/;"	m
+88,93	build/test/package-ntheorem.xetex.diff	/^--- 88,93 ----$/;"	m
+882,887	build/test-testfiles/config-bibtex/10-bibtex-numeric.xetex.diff	/^--- 882,887 ----$/;"	m
+8836,8841	build/test-testfiles/config-crossref/09-main.xetex.diff	/^--- 8836,8841 ----$/;"	m
+8865,8870	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 8865,8870 ----$/;"	m
+888,891	build/test/05-abstract-en.xetex.diff	/^--- 888,891 ----$/;"	m
+8888,8893	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 8888,8893 ----$/;"	m
+8898,8909	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 8898,8909 ----$/;"	m
+890,895	build/test-testfiles/config-bibtex/10-bibtex-author-year.xetex.diff	/^--- 890,895 ----$/;"	m
+895,900	build/test-testfiles/config-nomencl/08-notation-nomencl.xetex.diff	/^--- 895,900 ----$/;"	m
 9	.vscode/settings.json	/^        "**\/*.enc",$/;"	s	array:latex-workshop.latex.watch.files.ignore
+9037,9043	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 9037,9043 ----$/;"	m
+9047,9052	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 9047,9052 ----$/;"	m
+905,910	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 905,910 ----$/;"	m
+9074,9079	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 9074,9079 ----$/;"	m
+9084,9095	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 9084,9095 ----$/;"	m
+909,914	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 909,914 ----$/;"	m
+915,920	build/test/08-notation.xetex.diff	/^--- 915,920 ----$/;"	m
+918,923	build/test/14-resume.xetex.diff	/^--- 918,923 ----$/;"	m
+92,97	build/test/05-abstract-en.xetex.diff	/^--- 92,97 ----$/;"	m
+928,933	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 928,933 ----$/;"	m
+93,106	build/test-testfiles/config-crossref/07-1-figures-tables.xetex.diff	/^--- 93,106 ----$/;"	m
+93,111	build/test/13-statement.xetex.diff	/^--- 93,111 ----$/;"	m
+93,98	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 93,98 ----$/;"	m
+930,935	build/test-testfiles/config-bibtex/10-bibtex-author-year.xetex.diff	/^--- 930,935 ----$/;"	m
+939,944	build/test/14-resume.xetex.diff	/^--- 939,944 ----$/;"	m
+943,948	build/test/package-amsthm.xetex.diff	/^--- 943,948 ----$/;"	m
+949,954	build/test-testfiles/config-bibtex/10-bibtex-author-year.xetex.diff	/^--- 949,954 ----$/;"	m
+949,954	build/test-testfiles/config-crossref/07-3-tables.xetex.diff	/^--- 949,954 ----$/;"	m
+95,100	build/test-testfiles/config-crossref/09-main-postdoc.xetex.diff	/^--- 95,100 ----$/;"	m
+951,956	build/test-testfiles/config-crossref/07-1-figures-tables.xetex.diff	/^--- 951,956 ----$/;"	m
+955,960	build/test-testfiles/config-nomencl/08-notation-nomencl.xetex.diff	/^--- 955,960 ----$/;"	m
+9663,9668	build/test-testfiles/config-crossref/09-main.xetex.diff	/^--- 9663,9668 ----$/;"	m
+967,972	build/test/08-notation.xetex.diff	/^--- 967,972 ----$/;"	m
+97,102	build/test/04-abstract.xetex.diff	/^--- 97,102 ----$/;"	m
+971,976	build/test-testfiles/config-bibtex/10-bibtex-author-year.xetex.diff	/^--- 971,976 ----$/;"	m
+9719,9724	build/test-testfiles/config-crossref/09-main.xetex.diff	/^--- 9719,9724 ----$/;"	m
+973,978	build/test/package-ntheorem.xetex.diff	/^--- 973,978 ----$/;"	m
+977,982	build/test-testfiles/config-crossref/07-2-figures.xetex.diff	/^--- 977,982 ----$/;"	m
+977,982	build/test-testfiles/config-crossref/09-main-en.xetex.diff	/^--- 977,982 ----$/;"	m
+982,987	build/test-testfiles/config-crossref/06-contents.xetex.diff	/^--- 982,987 ----$/;"	m
+998,1003	build/test-testfiles/config-bibtex/10-bibtex-author-year.xetex.diff	/^--- 998,1003 ----$/;"	m
+Abrams2004mirror	build/test-testfiles/config-biblatex/refs-mla.bib	/^@book{Abrams2004mirror,$/;"	b
+Abrams2004mirror	build/test-testfiles/config-bibtex/refs-mla.bib	/^@book{Abrams2004mirror,$/;"	b
+Abrams2004mirror	build/test-testfiles/config-crossref/refs-mla.bib	/^@book{Abrams2004mirror,$/;"	b
+Abrams2004mirror	build/test/refs-mla.bib	/^@book{Abrams2004mirror,$/;"	b
 Abrams2004mirror	testfiles/support/refs-mla.bib	/^@book{Abrams2004mirror,$/;"	b
 Beamer	wiki/做slides.md	/^## Beamer$/;"	s
 CLSFILE	Makefile	/^CLSFILE = dtx-style.sty $(PACKAGE).cls$/;"	m
 CTeX 2.9.2 明明版本号比 CTeX 2.2 要高，为什么是「旧版本」呢？	wiki/FAQ.md	/^### CTeX 2.9.2 明明版本号比 CTeX 2.2 要高，为什么是「旧版本」呢？ $/;"	S
-Citations	data/appendix-survey.tex	/^\\section{Citations}$/;"	s	chapter:Title
+Citations	data/appendix-survey.tex	/^\\section{Citations}$/;"	s	chapter:Nomenclatures
+DWF 设计原则对污水系统性能评估结果的影响	build/test-testfiles/config-crossref/06-contents.tex	/^\\subsection{DWF 设计原则对污水系统性能评估结果的影响}$/;"	u	section:不确定条件下城市排水系统设计规律识别与分析""污水系统
 DWF 设计原则对污水系统性能评估结果的影响	testfiles/06-contents.tex	/^\\subsection{DWF 设计原则对污水系统性能评估结果的影响}$/;"	u	section:不确定条件下城市排水系统设计规律识别与分析""污水系统
 EOH	wiki/update-tlmgr-latest.sh	/^    cat << EOH >&2$/;"	h
 EOLSM	wiki/update-tlmgr-latest.sh	/^cat << EOLSM$/;"	h
-Equations	data/appendix-survey.tex	/^\\section{Equations}$/;"	s	chapter:Title
-Figures	data/appendix-survey.tex	/^\\subsection{Figures}$/;"	u	section:Title""Figures and Tables
-Figures and Tables	data/appendix-survey.tex	/^\\section{Figures and Tables}$/;"	s	chapter:Title
+Equations	data/appendix-survey.tex	/^\\section{Equations}$/;"	s	chapter:Nomenclatures
+Figures	data/appendix-survey.tex	/^\\subsection{Figures}$/;"	u	section:Nomenclatures""Figures and Tables
+Figures and Tables	data/appendix-survey.tex	/^\\section{Figures and Tables}$/;"	s	chapter:Nomenclatures
+Grady层裂模型	build/test-testfiles/config-crossref/09-main-postdoc.tex	/^\\subsection{Grady层裂模型}$/;"	u	section:材料动态断裂研究概述""动态损伤理论
 Grady层裂模型	testfiles/09-main-postdoc.tex	/^\\subsection{Grady层裂模型}$/;"	u	section:材料动态断裂研究概述""动态损伤理论
 LATEXMK	Makefile	/^LATEXMK = latexmk$/;"	m
 MS_Check	wiki/update-tlmgr-latest.sh	/^MS_Check()$/;"	f
@@ -85,11 +1122,14 @@ MS_dd	wiki/update-tlmgr-latest.sh	/^MS_dd()$/;"	f
 MS_dd_Progress	wiki/update-tlmgr-latest.sh	/^MS_dd_Progress()$/;"	f
 MS_diskspace	wiki/update-tlmgr-latest.sh	/^MS_diskspace()$/;"	f
 Makefile的用法	README.md	/^## Makefile的用法$/;"	s	chapter:ThuThesis
+NAG统计断裂力学模型	build/test-testfiles/config-crossref/09-main-postdoc.tex	/^\\subsection{NAG统计断裂力学模型}$/;"	u	section:材料动态断裂研究概述""动态损伤理论
 NAG统计断裂力学模型	testfiles/09-main-postdoc.tex	/^\\subsection{NAG统计断裂力学模型}$/;"	u	section:材料动态断裂研究概述""动态损伤理论
 NPM	Makefile	/^NPM    ?= npm$/;"	m
+Nomenclatures	build/test-testfiles/config-nomencl/08-notation-nomencl.tex	/^\\chapter{Nomenclatures}$/;"	c
 Nomenclatures	testfiles/08-notation-nomencl/08-notation-nomencl.tex	/^\\chapter{Nomenclatures}$/;"	c
 Overleaf	wiki/新手指南.md	/^# Overleaf$/;"	c
 PACKAGE	Makefile	/^PACKAGE = thuthesis$/;"	m
+Perzyna过应力损伤模型	build/test-testfiles/config-crossref/09-main-postdoc.tex	/^\\subsection{Perzyna过应力损伤模型}$/;"	u	section:材料动态断裂研究概述""动态损伤理论
 Perzyna过应力损伤模型	testfiles/09-main-postdoc.tex	/^\\subsection{Perzyna过应力损伤模型}$/;"	u	section:材料动态断裂研究概述""动态损伤理论
 RM	Makefile	/^	RM = del \/Q$/;"	m
 RM	Makefile	/^	RM = rm -f$/;"	m
@@ -97,26 +1137,38 @@ SHELL	Makefile	/^SHELL  := \/bin\/bash$/;"	m
 SOURCES	Makefile	/^SOURCES = $(PACKAGE).ins $(PACKAGE).dtx$/;"	m
 SPINE	Makefile	/^SPINE   = spine$/;"	m
 THESIS	Makefile	/^THESIS  = thuthesis-example$/;"	m
-Tables	data/appendix-survey.tex	/^\\subsection{Tables}$/;"	u	section:Title""Figures and Tables
+Tables	data/appendix-survey.tex	/^\\subsection{Tables}$/;"	u	section:Nomenclatures""Figures and Tables
 TeX Live	wiki/新手指南.md	/^## TeX Live$/;"	s	chapter:安装 LaTeX 发行版
 ThuThesis	README.md	/^# ThuThesis$/;"	c
+Title	build/test-testfiles/config-crossref/09-main-en.tex	/^\\chapter{Title}$/;"	c
+Title	build/test-testfiles/config-crossref/09-main-en.tex	/^\\section{Title}$/;"	s	chapter:Title
+Title	build/test-testfiles/config-crossref/09-main-en.tex	/^\\subsection{Title}$/;"	u	section:Title""Title
 Title	testfiles/09-main-en.tex	/^\\chapter{Title}$/;"	c
 Title	testfiles/09-main-en.tex	/^\\section{Title}$/;"	s	chapter:Title
 Title	testfiles/09-main-en.tex	/^\\subsection{Title}$/;"	u	section:Title""Title
 UnTAR	wiki/update-tlmgr-latest.sh	/^UnTAR()$/;"	f
+\\BWmaintain	build/test-testfiles/config-crossref/09-main.tex	/^\\newcommand\\BWmaintain{\\mathit{BW}_{\\text{maintain}}}$/;"	C
 \\BWmaintain	testfiles/09-main.tex	/^\\newcommand\\BWmaintain{\\mathit{BW}_{\\text{maintain}}}$/;"	C
+\\BWsearch	build/test-testfiles/config-crossref/09-main.tex	/^\\newcommand\\BWsearch{\\mathit{BW}_{\\text{search}}}$/;"	C
 \\BWsearch	testfiles/09-main.tex	/^\\newcommand\\BWsearch{\\mathit{BW}_{\\text{search}}}$/;"	C
+\\BWtotal	build/test-testfiles/config-crossref/09-main.tex	/^\\newcommand\\BWtotal{\\mathit{BW}_{\\text{total}}}$/;"	C
 \\BWtotal	testfiles/09-main.tex	/^\\newcommand\\BWtotal{\\mathit{BW}_{\\text{total}}}$/;"	C
 \\algorithmicensure	data/chap02.tex	/^\\renewcommand{\\algorithmicensure}{\\textbf{输出：}\\unskip}$/;"	C
 \\algorithmicrequire	data/chap02.tex	/^\\renewcommand{\\algorithmicrequire}{\\textbf{输入：}\\unskip}$/;"	C
+\\bwpeer	build/test-testfiles/config-crossref/09-main.tex	/^\\newcommand\\bwpeer{\\mathit{bw}_{\\text{peer}}}$/;"	C
 \\bwpeer	testfiles/09-main.tex	/^\\newcommand\\bwpeer{\\mathit{bw}_{\\text{peer}}}$/;"	C
 \\dif	thusetup.tex	/^\\newcommand\\dif{%  % 微分符号$/;"	C
+\\dummy	build/test-testfiles/config-crossref/09-main.tex	/^\\newcommand\\dummy{%$/;"	C
+\\dummy	build/test-testfiles/config-crossref/09-main.tex	/^\\renewcommand\\dummy{%$/;"	C
 \\dummy	testfiles/09-main.tex	/^\\newcommand\\dummy{%$/;"	C
 \\dummy	testfiles/09-main.tex	/^\\renewcommand\\dummy{%$/;"	C
+\\test	build/test/package-longtable.tex	/^\\newcommand\\test{%$/;"	C
+\\test	build/test/package-siunitx.tex	/^\\newcommand\\test{\\par$/;"	C
 \\test	testfiles/package-longtable.tex	/^\\newcommand\\test{%$/;"	C
 \\test	testfiles/package-siunitx.tex	/^\\newcommand\\test{\\par$/;"	C
 _default	gulpfile.js	/^function _default(callback) {$/;"	f
 abrahams99tex	ref/appendix.bib	/^@book{abrahams99tex,$/;"	b
+alg1	build/test/package-algorithms.tex	/^  \\label{alg1}$/;"	l
 alg1	data/chap02.tex	/^  \\label{alg1}$/;"	l
 alg1	testfiles/package-algorithms.tex	/^  \\label{alg1}$/;"	l
 all	Makefile	/^all: thesis spine$/;"	t
@@ -126,27 +1178,62 @@ args	.vscode/settings.json	/^            "args": [$/;"	a	object:latex-workshop.l
 args	.vscode/settings.json	/^            "args": [$/;"	a	object:latex-workshop.latex.tools.1
 args	.vscode/settings.json	/^            "args": [],$/;"	a	object:latex-workshop.latex.tools.2
 argv	gulpfile.js	/^const argv = require('minimist')(process.argv.slice(2));$/;"	C
+atkinson1982experimental	build/test-testfiles/config-biblatex/refs-numeric.bib	/^@article{atkinson1982experimental,$/;"	a
+atkinson1982experimental	build/test-testfiles/config-bibtex/refs-numeric.bib	/^@article{atkinson1982experimental,$/;"	a
+atkinson1982experimental	build/test-testfiles/config-crossref/refs-numeric.bib	/^@article{atkinson1982experimental,$/;"	a
+atkinson1982experimental	build/test/refs-numeric.bib	/^@article{atkinson1982experimental,$/;"	a
 atkinson1982experimental	ref/refs.bib	/^@article{atkinson1982experimental,$/;"	a
 atkinson1982experimental	testfiles/support/refs-numeric.bib	/^@article{atkinson1982experimental,$/;"	a
 author	package.json	/^  "author": "Tsinghua University TUNA Association",$/;"	s
+baishunong1998zhiwu	build/test-testfiles/config-biblatex/refs-numeric.bib	/^@incollection{baishunong1998zhiwu,$/;"	I
+baishunong1998zhiwu	build/test-testfiles/config-bibtex/refs-numeric.bib	/^@incollection{baishunong1998zhiwu,$/;"	I
+baishunong1998zhiwu	build/test-testfiles/config-crossref/refs-numeric.bib	/^@incollection{baishunong1998zhiwu,$/;"	I
+baishunong1998zhiwu	build/test/refs-numeric.bib	/^@incollection{baishunong1998zhiwu,$/;"	I
 baishunong1998zhiwu	ref/refs.bib	/^@incollection{baishunong1998zhiwu,$/;"	I
 baishunong1998zhiwu	testfiles/support/refs-numeric.bib	/^@incollection{baishunong1998zhiwu,$/;"	I
+baker1995future	build/test-testfiles/config-biblatex/refs-author-year.bib	/^@book{baker1995future,$/;"	b
+baker1995future	build/test-testfiles/config-bibtex/refs-author-year.bib	/^@book{baker1995future,$/;"	b
+baker1995future	build/test-testfiles/config-crossref/refs-author-year.bib	/^@book{baker1995future,$/;"	b
+baker1995future	build/test/refs-author-year.bib	/^@book{baker1995future,$/;"	b
 baker1995future	testfiles/support/refs-author-year.bib	/^@book{baker1995future,$/;"	b
+bib1	build/test-testfiles/config-crossref/09-main-en.tex	/^  \\bibitem{bib1} Lin S D. Water and wastewater calculations manual[M]. New York: McGraw-Hill, 2/;"	B
 bib1	testfiles/09-main-en.tex	/^  \\bibitem{bib1} Lin S D. Water and wastewater calculations manual[M]. New York: McGraw-Hill, 2/;"	B
+bib10	build/test-testfiles/config-crossref/09-main-en.tex	/^  \\bibitem{bib10} U.S. Environmental Protection Agency. Environment Fluid Dynamics Code: EPA ve/;"	B
 bib10	testfiles/09-main-en.tex	/^  \\bibitem{bib10} U.S. Environmental Protection Agency. Environment Fluid Dynamics Code: EPA ve/;"	B
+bib11	build/test-testfiles/config-crossref/09-main-en.tex	/^  \\bibitem{bib11} Environment Agency, Department for Environment, Food \\& Rural Affairs. Disch/;"	B
 bib11	testfiles/09-main-en.tex	/^  \\bibitem{bib11} Environment Agency, Department for Environment, Food \\& Rural Affairs. Disch/;"	B
+bib2	build/test-testfiles/config-crossref/09-main-en.tex	/^  \\bibitem{bib2} Nath R, Jain R. Insulin chart prediction for diabetic patients using hidden Ma/;"	B
 bib2	testfiles/09-main-en.tex	/^  \\bibitem{bib2} Nath R, Jain R. Insulin chart prediction for diabetic patients using hidden Ma/;"	B
+bib3	build/test-testfiles/config-crossref/09-main-en.tex	/^  \\bibitem{bib3} Gao H, Gallagher K P. World needs stronger financial safety net[N\/OL]. China /;"	B
 bib3	testfiles/09-main-en.tex	/^  \\bibitem{bib3} Gao H, Gallagher K P. World needs stronger financial safety net[N\/OL]. China /;"	B
+bib4	build/test-testfiles/config-crossref/09-main-en.tex	/^  \\bibitem{bib4} Jha M, Gassman P W, Secchi S, et al. Effect of watershed subdivision on SWAT f/;"	B
 bib4	testfiles/09-main-en.tex	/^  \\bibitem{bib4} Jha M, Gassman P W, Secchi S, et al. Effect of watershed subdivision on SWAT f/;"	B
+bib5	build/test-testfiles/config-crossref/09-main-en.tex	/^  \\bibitem{bib5} Koechling M T. Assessment and modeling of chlorine reactions with natural orga/;"	B
 bib5	testfiles/09-main-en.tex	/^  \\bibitem{bib5} Koechling M T. Assessment and modeling of chlorine reactions with natural orga/;"	B
+bib6	build/test-testfiles/config-crossref/09-main-en.tex	/^  \\bibitem{bib6} U.S. Environmental Protection Agency. Guidelines for ecological risk assessmen/;"	B
 bib6	testfiles/09-main-en.tex	/^  \\bibitem{bib6} U.S. Environmental Protection Agency. Guidelines for ecological risk assessmen/;"	B
+bib7	build/test-testfiles/config-crossref/09-main-en.tex	/^  \\bibitem{bib7} U.S. Environmental Protection Agency. 2018 Edition of the drinking water stand/;"	B
 bib7	testfiles/09-main-en.tex	/^  \\bibitem{bib7} U.S. Environmental Protection Agency. 2018 Edition of the drinking water stand/;"	B
+bib8	build/test-testfiles/config-crossref/09-main-en.tex	/^  \\bibitem{bib8} Rowland G, Clinton A. Waste water treatment plant: US, 4526685[P\/OL]. 1985-07/;"	B
 bib8	testfiles/09-main-en.tex	/^  \\bibitem{bib8} Rowland G, Clinton A. Waste water treatment plant: US, 4526685[P\/OL]. 1985-07/;"	B
+bib9	build/test-testfiles/config-crossref/09-main-en.tex	/^  \\bibitem{bib9} U.S. Environmental Protection Agency. ECOTOX Knowledgebase[DB\/OL]. Washington/;"	B
 bib9	testfiles/09-main-en.tex	/^  \\bibitem{bib9} U.S. Environmental Protection Agency. ECOTOX Knowledgebase[DB\/OL]. Washington/;"	B
+bixon1996dynamics	build/test-testfiles/config-biblatex/refs-numeric.bib	/^@article{bixon1996dynamics,$/;"	a
+bixon1996dynamics	build/test-testfiles/config-bibtex/refs-numeric.bib	/^@article{bixon1996dynamics,$/;"	a
+bixon1996dynamics	build/test-testfiles/config-crossref/refs-numeric.bib	/^@article{bixon1996dynamics,$/;"	a
+bixon1996dynamics	build/test/refs-numeric.bib	/^@article{bixon1996dynamics,$/;"	a
 bixon1996dynamics	ref/refs.bib	/^@article{bixon1996dynamics,$/;"	a
 bixon1996dynamics	testfiles/support/refs-numeric.bib	/^@article{bixon1996dynamics,$/;"	a
+boethius1918theological	build/test-testfiles/config-biblatex/refs-mla.bib	/^@book{boethius1918theological,$/;"	b
+boethius1918theological	build/test-testfiles/config-bibtex/refs-mla.bib	/^@book{boethius1918theological,$/;"	b
+boethius1918theological	build/test-testfiles/config-crossref/refs-mla.bib	/^@book{boethius1918theological,$/;"	b
+boethius1918theological	build/test/refs-mla.bib	/^@book{boethius1918theological,$/;"	b
 boethius1918theological	testfiles/support/refs-mla.bib	/^@book{boethius1918theological,$/;"	b
 bootstrap	gulpfile.js	/^function bootstrap(callback) {$/;"	f
+borthen2010we	build/test-testfiles/config-biblatex/refs-apa.bib	/^@article{borthen2010we,$/;"	a
+borthen2010we	build/test-testfiles/config-bibtex/refs-apa.bib	/^@article{borthen2010we,$/;"	a
+borthen2010we	build/test-testfiles/config-crossref/refs-apa.bib	/^@article{borthen2010we,$/;"	a
+borthen2010we	build/test/refs-apa.bib	/^@article{borthen2010we,$/;"	a
 borthen2010we	testfiles/support/refs-apa.bib	/^@article{borthen2010we,$/;"	a
 bugs	package.json	/^  "bugs": {$/;"	o
 build	gulpfile.js	/^        build: '',$/;"	p	class:config.dist
@@ -154,13 +1241,29 @@ build	gulpfile.js	/^const build = gulp.series(bootstrap, build_self);$/;"	C
 build	package.json	/^    "build": "gulp build"$/;"	s	object:scripts
 build_ctan	gulpfile.js	/^const build_ctan = gulp.series(init_ctan, copy, compress, cleanup);$/;"	C
 build_self	gulpfile.js	/^const build_self = gulp.series(init_self, copy, compress, cleanup);$/;"	C
+carlson1981two	build/test-testfiles/config-biblatex/refs-numeric.bib	/^@article{carlson1981two,$/;"	a
+carlson1981two	build/test-testfiles/config-bibtex/refs-numeric.bib	/^@article{carlson1981two,$/;"	a
+carlson1981two	build/test-testfiles/config-crossref/refs-numeric.bib	/^@article{carlson1981two,$/;"	a
+carlson1981two	build/test/refs-numeric.bib	/^@article{carlson1981two,$/;"	a
 carlson1981two	ref/refs.bib	/^@article{carlson1981two,$/;"	a
 carlson1981two	testfiles/support/refs-numeric.bib	/^@article{carlson1981two,$/;"	a
 cha:survey	data/appendix-survey.tex	/^\\label{cha:survey}$/;"	l
 cha:translation	data/appendix-translation.tex	/^\\label{cha:translation}$/;"	l
+chaucer1999canterbury	build/test-testfiles/config-biblatex/refs-mla.bib	/^@book{chaucer1999canterbury,$/;"	b
+chaucer1999canterbury	build/test-testfiles/config-bibtex/refs-mla.bib	/^@book{chaucer1999canterbury,$/;"	b
+chaucer1999canterbury	build/test-testfiles/config-crossref/refs-mla.bib	/^@book{chaucer1999canterbury,$/;"	b
+chaucer1999canterbury	build/test/refs-mla.bib	/^@book{chaucer1999canterbury,$/;"	b
 chaucer1999canterbury	testfiles/support/refs-mla.bib	/^@book{chaucer1999canterbury,$/;"	b
 check	Makefile	/^check: FORCE_MAKE$/;"	t
+chen2011less	build/test-testfiles/config-biblatex/refs-apa.bib	/^@article{chen2011less,$/;"	a
+chen2011less	build/test-testfiles/config-bibtex/refs-apa.bib	/^@article{chen2011less,$/;"	a
+chen2011less	build/test-testfiles/config-crossref/refs-apa.bib	/^@article{chen2011less,$/;"	a
+chen2011less	build/test/refs-apa.bib	/^@article{chen2011less,$/;"	a
 chen2011less	testfiles/support/refs-apa.bib	/^@article{chen2011less,$/;"	a
+chubanzhuanye2004	build/test-testfiles/config-biblatex/refs-numeric.bib	/^@book{chubanzhuanye2004,$/;"	b
+chubanzhuanye2004	build/test-testfiles/config-bibtex/refs-numeric.bib	/^@book{chubanzhuanye2004,$/;"	b
+chubanzhuanye2004	build/test-testfiles/config-crossref/refs-numeric.bib	/^@book{chubanzhuanye2004,$/;"	b
+chubanzhuanye2004	build/test/refs-numeric.bib	/^@book{chubanzhuanye2004,$/;"	b
 chubanzhuanye2004	ref/refs.bib	/^@book{chubanzhuanye2004,$/;"	b
 chubanzhuanye2004	testfiles/support/refs-numeric.bib	/^@book{chubanzhuanye2004,$/;"	b
 clean	Makefile	/^clean:$/;"	t
@@ -174,7 +1277,15 @@ command	.vscode/settings.json	/^            "command": "xetex",$/;"	s	object:lat
 compress	gulpfile.js	/^function compress(callback) {$/;"	f
 config	gulpfile.js	/^const config = {$/;"	c
 copy	gulpfile.js	/^function copy(callback) {$/;"	f
+crane1972invisible	build/test-testfiles/config-biblatex/refs-author-year.bib	/^@book{crane1972invisible,$/;"	b
+crane1972invisible	build/test-testfiles/config-bibtex/refs-author-year.bib	/^@book{crane1972invisible,$/;"	b
+crane1972invisible	build/test-testfiles/config-crossref/refs-author-year.bib	/^@book{crane1972invisible,$/;"	b
+crane1972invisible	build/test/refs-author-year.bib	/^@book{crane1972invisible,$/;"	b
 crane1972invisible	testfiles/support/refs-author-year.bib	/^@book{crane1972invisible,$/;"	b
+damrosch1999longman	build/test-testfiles/config-biblatex/refs-mla.bib	/^@book{damrosch1999longman,$/;"	b
+damrosch1999longman	build/test-testfiles/config-bibtex/refs-mla.bib	/^@book{damrosch1999longman,$/;"	b
+damrosch1999longman	build/test-testfiles/config-crossref/refs-mla.bib	/^@book{damrosch1999longman,$/;"	b
+damrosch1999longman	build/test/refs-mla.bib	/^@book{damrosch1999longman,$/;"	b
 damrosch1999longman	testfiles/support/refs-mla.bib	/^@book{damrosch1999longman,$/;"	b
 del	gulpfile.js	/^const del = require('del');$/;"	C
 del	package.json	/^    "del": "^6.0.0",$/;"	s	object:devDependencies
@@ -187,12 +1298,18 @@ distclean	Makefile	/^distclean: cleanall$/;"	t
 do_test	testfiles/test.sh	/^do_test () {$/;"	f
 doc	Makefile	/^doc: $(PACKAGE).pdf$/;"	t
 docinit_hook	build.lua	/^function docinit_hook()$/;"	f
+dupont1974bone	build/test-testfiles/config-biblatex/refs-numeric.bib	/^@inproceedings{dupont1974bone,$/;"	j
+dupont1974bone	build/test-testfiles/config-bibtex/refs-numeric.bib	/^@inproceedings{dupont1974bone,$/;"	j
+dupont1974bone	build/test-testfiles/config-crossref/refs-numeric.bib	/^@inproceedings{dupont1974bone,$/;"	j
+dupont1974bone	build/test/refs-numeric.bib	/^@inproceedings{dupont1974bone,$/;"	j
 dupont1974bone	ref/refs.bib	/^@inproceedings{dupont1974bone,$/;"	j
 dupont1974bone	testfiles/support/refs-numeric.bib	/^@inproceedings{dupont1974bone,$/;"	j
 env	.vscode/settings.json	/^            "env": {}$/;"	o	object:latex-workshop.latex.tools.0
 env	.vscode/settings.json	/^            "env": {}$/;"	o	object:latex-workshop.latex.tools.1
 env	.vscode/settings.json	/^            "env": {}$/;"	o	object:latex-workshop.latex.tools.2
+eq:1.1	build/test-testfiles/config-crossref/09-main-en.tex	/^  \\label{eq:1.1}$/;"	l
 eq:1.1	testfiles/09-main-en.tex	/^  \\label{eq:1.1}$/;"	l
+eq:A.1	build/test-testfiles/config-crossref/09-main-en.tex	/^  \\label{eq:A.1}$/;"	l
 eq:A.1	testfiles/09-main-en.tex	/^  \\label{eq:A.1}$/;"	l
 eq:appendix-equation	data/appendix.tex	/^  \\label{eq:appendix-equation}$/;"	l
 eq:appendix-survey-equation	data/appendix-survey.tex	/^  \\label{eq:appendix-survey-equation}$/;"	l
@@ -200,7 +1317,9 @@ eq:appendix-translation-equation	data/appendix-translation.tex	/^  \\label{eq:ap
 eq:example	data/chap03.tex	/^  \\label{eq:example}$/;"	l
 example	gulpfile.js	/^    example: {$/;"	c	class:config
 fancy-log	package.json	/^    "fancy-log": "^1.3.3",$/;"	s	object:devDependencies
+fig:1.1	build/test-testfiles/config-crossref/09-main-en.tex	/^  \\label{fig:1.1}$/;"	l
 fig:1.1	testfiles/09-main-en.tex	/^  \\label{fig:1.1}$/;"	l
+fig:A.1	build/test-testfiles/config-crossref/09-main-en.tex	/^  \\label{fig:A.1}$/;"	l
 fig:A.1	testfiles/09-main-en.tex	/^  \\label{fig:A.1}$/;"	l
 fig:appendix-figure	data/appendix.tex	/^  \\label{fig:appendix-figure}$/;"	l
 fig:appendix-survey-figure	data/appendix-survey.tex	/^  \\label{fig:appendix-survey-figure}$/;"	l
@@ -214,41 +1333,109 @@ files	gulpfile.js	/^        files: [$/;"	p	class:config.template
 files	gulpfile.js	/^        files: [],$/;"	p	class:config.dist
 fmK	wiki/update-tlmgr-latest.sh	/^~�Z��^k�N}{�yλ.O�jQ1�W̐͛RxM��o>?�������\\�������<<fmK�ףU$/;"	h
 generated	gulpfile.js	/^        generated: ['thuthesis.cls']$/;"	p	class:config.template
+greenblatt1997norton	build/test-testfiles/config-biblatex/refs-mla.bib	/^@book{greenblatt1997norton,$/;"	b
+greenblatt1997norton	build/test-testfiles/config-bibtex/refs-mla.bib	/^@book{greenblatt1997norton,$/;"	b
+greenblatt1997norton	build/test-testfiles/config-crossref/refs-mla.bib	/^@book{greenblatt1997norton,$/;"	b
+greenblatt1997norton	build/test/refs-mla.bib	/^@book{greenblatt1997norton,$/;"	b
 greenblatt1997norton	testfiles/support/refs-mla.bib	/^@book{greenblatt1997norton,$/;"	b
+guangxi1993	build/test-testfiles/config-biblatex/refs-numeric.bib	/^@book{guangxi1993,$/;"	b
+guangxi1993	build/test-testfiles/config-bibtex/refs-numeric.bib	/^@book{guangxi1993,$/;"	b
+guangxi1993	build/test-testfiles/config-crossref/refs-numeric.bib	/^@book{guangxi1993,$/;"	b
+guangxi1993	build/test/refs-numeric.bib	/^@book{guangxi1993,$/;"	b
 guangxi1993	ref/refs.bib	/^@book{guangxi1993,$/;"	b
 guangxi1993	testfiles/support/refs-numeric.bib	/^@book{guangxi1993,$/;"	b
 gulp	gulpfile.js	/^const gulp = require('gulp');$/;"	C
 gulp	package.json	/^    "gulp": "^4.0.2",$/;"	s	object:devDependencies
 gulp-zip	package.json	/^    "gulp-zip": "^5.0.1",$/;"	s	object:devDependencies
+hanjiren1985lun	build/test-testfiles/config-biblatex/refs-numeric.bib	/^@inproceedings{hanjiren1985lun,$/;"	j
+hanjiren1985lun	build/test-testfiles/config-bibtex/refs-numeric.bib	/^@inproceedings{hanjiren1985lun,$/;"	j
+hanjiren1985lun	build/test-testfiles/config-crossref/refs-numeric.bib	/^@inproceedings{hanjiren1985lun,$/;"	j
+hanjiren1985lun	build/test/refs-numeric.bib	/^@inproceedings{hanjiren1985lun,$/;"	j
 hanjiren1985lun	ref/refs.bib	/^@inproceedings{hanjiren1985lun,$/;"	j
 hanjiren1985lun	testfiles/support/refs-numeric.bib	/^@inproceedings{hanjiren1985lun,$/;"	j
+harwood2005nowhere	build/test-testfiles/config-biblatex/refs-apa.bib	/^@article{harwood2005nowhere,$/;"	a
+harwood2005nowhere	build/test-testfiles/config-bibtex/refs-apa.bib	/^@article{harwood2005nowhere,$/;"	a
+harwood2005nowhere	build/test-testfiles/config-crossref/refs-apa.bib	/^@article{harwood2005nowhere,$/;"	a
+harwood2005nowhere	build/test/refs-apa.bib	/^@article{harwood2005nowhere,$/;"	a
 harwood2005nowhere	testfiles/support/refs-apa.bib	/^@article{harwood2005nowhere,$/;"	a
+hieatt1978function	build/test-testfiles/config-biblatex/refs-mla.bib	/^@article{hieatt1978function,$/;"	a
+hieatt1978function	build/test-testfiles/config-bibtex/refs-mla.bib	/^@article{hieatt1978function,$/;"	a
+hieatt1978function	build/test-testfiles/config-crossref/refs-mla.bib	/^@article{hieatt1978function,$/;"	a
+hieatt1978function	build/test/refs-mla.bib	/^@article{hieatt1978function,$/;"	a
 hieatt1978function	testfiles/support/refs-mla.bib	/^@article{hieatt1978function,$/;"	a
 homepage	package.json	/^  "homepage": "https:\/\/github.com\/tuna\/thuthesis",$/;"	s
+housley2010we	build/test-testfiles/config-biblatex/refs-apa.bib	/^@article{housley2010we,$/;"	a
+housley2010we	build/test-testfiles/config-bibtex/refs-apa.bib	/^@article{housley2010we,$/;"	a
+housley2010we	build/test-testfiles/config-crossref/refs-apa.bib	/^@article{housley2010we,$/;"	a
+housley2010we	build/test/refs-apa.bib	/^@article{housley2010we,$/;"	a
 housley2010we	testfiles/support/refs-apa.bib	/^@article{housley2010we,$/;"	a
+hu2001lishi	build/test-testfiles/config-biblatex/refs-mla.bib	/^@book{hu2001lishi,$/;"	b
+hu2001lishi	build/test-testfiles/config-bibtex/refs-mla.bib	/^@book{hu2001lishi,$/;"	b
+hu2001lishi	build/test-testfiles/config-crossref/refs-mla.bib	/^@book{hu2001lishi,$/;"	b
+hu2001lishi	build/test/refs-mla.bib	/^@book{hu2001lishi,$/;"	b
 hu2001lishi	testfiles/support/refs-mla.bib	/^@book{hu2001lishi,$/;"	b
+huosini1989guwu	build/test-testfiles/config-biblatex/refs-numeric.bib	/^@book{huosini1989guwu,$/;"	b
+huosini1989guwu	build/test-testfiles/config-bibtex/refs-numeric.bib	/^@book{huosini1989guwu,$/;"	b
+huosini1989guwu	build/test-testfiles/config-crossref/refs-numeric.bib	/^@book{huosini1989guwu,$/;"	b
+huosini1989guwu	build/test/refs-numeric.bib	/^@book{huosini1989guwu,$/;"	b
 huosini1989guwu	ref/refs.bib	/^@book{huosini1989guwu,$/;"	b
 huosini1989guwu	testfiles/support/refs-numeric.bib	/^@book{huosini1989guwu,$/;"	b
 init_ctan	gulpfile.js	/^function init_ctan(callback) {$/;"	f
 init_self	gulpfile.js	/^function init_self(callback) {$/;"	f
+jha2004effect	build/test-testfiles/config-biblatex/refs-author-year.bib	/^@article{jha2004effect,$/;"	a
+jha2004effect	build/test-testfiles/config-bibtex/refs-author-year.bib	/^@article{jha2004effect,$/;"	a
+jha2004effect	build/test-testfiles/config-crossref/refs-author-year.bib	/^@article{jha2004effect,$/;"	a
+jha2004effect	build/test/refs-author-year.bib	/^@article{jha2004effect,$/;"	a
 jha2004effect	testfiles/support/refs-author-year.bib	/^@article{jha2004effect,$/;"	a
+kennedy1975chalks	build/test-testfiles/config-biblatex/refs-author-year.bib	/^@article{kennedy1975chalks,$/;"	a
+kennedy1975chalks	build/test-testfiles/config-bibtex/refs-author-year.bib	/^@article{kennedy1975chalks,$/;"	a
+kennedy1975chalks	build/test-testfiles/config-crossref/refs-author-year.bib	/^@article{kennedy1975chalks,$/;"	a
+kennedy1975chalks	build/test/refs-author-year.bib	/^@article{kennedy1975chalks,$/;"	a
 kennedy1975chalks	testfiles/support/refs-author-year.bib	/^@article{kennedy1975chalks,$/;"	a
 keywords	package.json	/^  "keywords": [$/;"	a
+kuo1999use	build/test-testfiles/config-biblatex/refs-apa.bib	/^@article{kuo1999use,$/;"	a
+kuo1999use	build/test-testfiles/config-bibtex/refs-apa.bib	/^@article{kuo1999use,$/;"	a
+kuo1999use	build/test-testfiles/config-crossref/refs-apa.bib	/^@article{kuo1999use,$/;"	a
+kuo1999use	build/test/refs-apa.bib	/^@article{kuo1999use,$/;"	a
 kuo1999use	testfiles/support/refs-apa.bib	/^@article{kuo1999use,$/;"	a
+kusch1975perturbations	build/test-testfiles/config-biblatex/refs-numeric.bib	/^@article{kusch1975perturbations,$/;"	a
+kusch1975perturbations	build/test-testfiles/config-bibtex/refs-numeric.bib	/^@article{kusch1975perturbations,$/;"	a
+kusch1975perturbations	build/test-testfiles/config-crossref/refs-numeric.bib	/^@article{kusch1975perturbations,$/;"	a
+kusch1975perturbations	build/test/refs-numeric.bib	/^@article{kusch1975perturbations,$/;"	a
 kusch1975perturbations	ref/refs.bib	/^@article{kusch1975perturbations,$/;"	a
 kusch1975perturbations	testfiles/support/refs-numeric.bib	/^@article{kusch1975perturbations,$/;"	a
 latex-workshop.latex.recipes	.vscode/settings.json	/^    "latex-workshop.latex.recipes": [$/;"	a
 latex-workshop.latex.tools	.vscode/settings.json	/^    "latex-workshop.latex.tools": [$/;"	a
 latex-workshop.latex.watch.files.ignore	.vscode/settings.json	/^    "latex-workshop.latex.watch.files.ignore": [$/;"	a
 license	package.json	/^  "license": "LPPL-1.3c",$/;"	s
+liu2005dangdai	build/test-testfiles/config-biblatex/refs-apa.bib	/^@book{liu2005dangdai,$/;"	b
+liu2005dangdai	build/test-testfiles/config-bibtex/refs-apa.bib	/^@book{liu2005dangdai,$/;"	b
+liu2005dangdai	build/test-testfiles/config-crossref/refs-apa.bib	/^@book{liu2005dangdai,$/;"	b
+liu2005dangdai	build/test/refs-apa.bib	/^@book{liu2005dangdai,$/;"	b
 liu2005dangdai	testfiles/support/refs-apa.bib	/^@book{liu2005dangdai,$/;"	b
 log	gulpfile.js	/^const log = require('fancy-log');$/;"	C
+lovejoy1964great	build/test-testfiles/config-biblatex/refs-mla.bib	/^@book{lovejoy1964great,$/;"	b
+lovejoy1964great	build/test-testfiles/config-bibtex/refs-mla.bib	/^@book{lovejoy1964great,$/;"	b
+lovejoy1964great	build/test-testfiles/config-crossref/refs-mla.bib	/^@book{lovejoy1964great,$/;"	b
+lovejoy1964great	build/test/refs-mla.bib	/^@book{lovejoy1964great,$/;"	b
 lovejoy1964great	testfiles/support/refs-mla.bib	/^@book{lovejoy1964great,$/;"	b
+mahui1995	build/test-testfiles/config-biblatex/refs-numeric.bib	/^@article{mahui1995,$/;"	a
+mahui1995	build/test-testfiles/config-bibtex/refs-numeric.bib	/^@article{mahui1995,$/;"	a
+mahui1995	build/test-testfiles/config-crossref/refs-numeric.bib	/^@article{mahui1995,$/;"	a
+mahui1995	build/test/refs-numeric.bib	/^@article{mahui1995,$/;"	a
 mahui1995	ref/refs.bib	/^@article{mahui1995,$/;"	a
 mahui1995	testfiles/support/refs-numeric.bib	/^@article{mahui1995,$/;"	a
 main	package.json	/^  "main": "gulpfile.js",$/;"	s
+mellinger1996laser	build/test-testfiles/config-biblatex/refs-numeric.bib	/^@article{mellinger1996laser,$/;"	a
+mellinger1996laser	build/test-testfiles/config-bibtex/refs-numeric.bib	/^@article{mellinger1996laser,$/;"	a
+mellinger1996laser	build/test-testfiles/config-crossref/refs-numeric.bib	/^@article{mellinger1996laser,$/;"	a
+mellinger1996laser	build/test/refs-numeric.bib	/^@article{mellinger1996laser,$/;"	a
 mellinger1996laser	ref/refs.bib	/^@article{mellinger1996laser,$/;"	a
 mellinger1996laser	testfiles/support/refs-numeric.bib	/^@article{mellinger1996laser,$/;"	a
+merkt1995rotational	build/test-testfiles/config-biblatex/refs-numeric.bib	/^@article{merkt1995rotational,$/;"	a
+merkt1995rotational	build/test-testfiles/config-bibtex/refs-numeric.bib	/^@article{merkt1995rotational,$/;"	a
+merkt1995rotational	build/test-testfiles/config-crossref/refs-numeric.bib	/^@article{merkt1995rotational,$/;"	a
+merkt1995rotational	build/test/refs-numeric.bib	/^@article{merkt1995rotational,$/;"	a
 merkt1995rotational	ref/refs.bib	/^@article{merkt1995rotational,$/;"	a
 merkt1995rotational	testfiles/support/refs-numeric.bib	/^@article{merkt1995rotational,$/;"	a
 minimist	package.json	/^    "minimist": "^1.2.5"$/;"	s	object:devDependencies
@@ -260,11 +1447,24 @@ name	.vscode/settings.json	/^            "name": "xetex-thuthesis",$/;"	s	object
 name	package.json	/^  "name": "thuthesis",$/;"	s
 packageName	gulpfile.js	/^const packageName = 'thuthesis';$/;"	C
 path	gulpfile.js	/^const path = require('path');$/;"	C
+peebles2001probability	build/test-testfiles/config-biblatex/refs-numeric.bib	/^@book{peebles2001probability,$/;"	b
+peebles2001probability	build/test-testfiles/config-bibtex/refs-numeric.bib	/^@book{peebles2001probability,$/;"	b
+peebles2001probability	build/test-testfiles/config-crossref/refs-numeric.bib	/^@book{peebles2001probability,$/;"	b
+peebles2001probability	build/test/refs-numeric.bib	/^@book{peebles2001probability,$/;"	b
 peebles2001probability	ref/refs.bib	/^@book{peebles2001probability,$/;"	b
 peebles2001probability	testfiles/support/refs-numeric.bib	/^@book{peebles2001probability,$/;"	b
 pref	gulpfile.js	/^	pref: [$/;"	p	class:config.example
+ptolemy2005tetrabiblos	build/test-testfiles/config-biblatex/refs-mla.bib	/^@book{ptolemy2005tetrabiblos,$/;"	b
+ptolemy2005tetrabiblos	build/test-testfiles/config-bibtex/refs-mla.bib	/^@book{ptolemy2005tetrabiblos,$/;"	b
+ptolemy2005tetrabiblos	build/test-testfiles/config-crossref/refs-mla.bib	/^@book{ptolemy2005tetrabiblos,$/;"	b
+ptolemy2005tetrabiblos	build/test/refs-mla.bib	/^@book{ptolemy2005tetrabiblos,$/;"	b
 ptolemy2005tetrabiblos	testfiles/support/refs-mla.bib	/^@book{ptolemy2005tetrabiblos,$/;"	b
 repository	package.json	/^  "repository": {$/;"	o
+requests	build/test-testfiles/config-biblatex/10-biblatex-apa.run.xml	/^<!DOCTYPE requests [$/;"	r
+requests	build/test-testfiles/config-biblatex/10-biblatex-author-year.run.xml	/^<!DOCTYPE requests [$/;"	r
+requests	build/test-testfiles/config-biblatex/10-biblatex-inline.run.xml	/^<!DOCTYPE requests [$/;"	r
+requests	build/test-testfiles/config-biblatex/10-biblatex-mla.run.xml	/^<!DOCTYPE requests [$/;"	r
+requests	build/test-testfiles/config-biblatex/10-biblatex-numeric.run.xml	/^<!DOCTYPE requests [$/;"	r
 root	gulpfile.js	/^        root: '.\/dist',$/;"	p	class:config.dist
 runtest_tasks	testfiles/config-biblatex.lua	/^function runtest_tasks(name, run)$/;"	f
 runtest_tasks	testfiles/config-bibtex.lua	/^function runtest_tasks(name, run)$/;"	f
@@ -274,21 +1474,40 @@ save	Makefile	/^save:$/;"	t
 save_config	testfiles/save.sh	/^save_config () {$/;"	f
 save_file	testfiles/save.sh	/^save_file () {$/;"	f
 scripts	package.json	/^  "scripts": {$/;"	o
+shimizu1983laser	build/test-testfiles/config-biblatex/refs-numeric.bib	/^@article{shimizu1983laser,$/;"	a
+shimizu1983laser	build/test-testfiles/config-bibtex/refs-numeric.bib	/^@article{shimizu1983laser,$/;"	a
+shimizu1983laser	build/test-testfiles/config-crossref/refs-numeric.bib	/^@article{shimizu1983laser,$/;"	a
+shimizu1983laser	build/test/refs-numeric.bib	/^@article{shimizu1983laser,$/;"	a
 shimizu1983laser	ref/refs.bib	/^@article{shimizu1983laser,$/;"	a
 shimizu1983laser	testfiles/support/refs-numeric.bib	/^@article{shimizu1983laser,$/;"	a
 spine	Makefile	/^spine: $(SPINE).pdf$/;"	t
+stieg1981information	build/test-testfiles/config-biblatex/refs-author-year.bib	/^@article{stieg1981information,$/;"	a
+stieg1981information	build/test-testfiles/config-bibtex/refs-author-year.bib	/^@article{stieg1981information,$/;"	a
+stieg1981information	build/test-testfiles/config-crossref/refs-author-year.bib	/^@article{stieg1981information,$/;"	a
+stieg1981information	build/test/refs-author-year.bib	/^@article{stieg1981information,$/;"	a
 stieg1981information	testfiles/support/refs-author-year.bib	/^@article{stieg1981information,$/;"	a
+tab:1.1	build/test-testfiles/config-crossref/09-main-en.tex	/^  \\label{tab:1.1}$/;"	l
 tab:1.1	testfiles/09-main-en.tex	/^  \\label{tab:1.1}$/;"	l
+tab:A.1	build/test-testfiles/config-crossref/09-main-en.tex	/^  \\label{tab:A.1}$/;"	l
 tab:A.1	testfiles/09-main-en.tex	/^  \\label{tab:A.1}$/;"	l
 tab:appendix-survey-table	data/appendix-survey.tex	/^  \\label{tab:appendix-survey-table}$/;"	l
 tab:appendix-table	data/appendix.tex	/^  \\label{tab:appendix-table}$/;"	l
 tab:appendix-translation-table	data/appendix-translation.tex	/^  \\label{tab:appendix-translation-table}$/;"	l
 tab:longtable	data/chap02.tex	/^    \\label{tab:longtable} \\\\$/;"	l
+tab:notations	build/test-testfiles/config-crossref/09-main.tex	/^  \\label{tab:notations}$/;"	l
 tab:notations	testfiles/09-main.tex	/^  \\label{tab:notations}$/;"	l
 tab:three-line	data/chap02.tex	/^  \\label{tab:three-line}$/;"	l
 tab:three-part-table	data/chap02.tex	/^    \\label{tab:three-part-table}$/;"	l
+taylor1981study	build/test-testfiles/config-biblatex/refs-numeric.bib	/^@article{taylor1981study,$/;"	a
+taylor1981study	build/test-testfiles/config-bibtex/refs-numeric.bib	/^@article{taylor1981study,$/;"	a
+taylor1981study	build/test-testfiles/config-crossref/refs-numeric.bib	/^@article{taylor1981study,$/;"	a
+taylor1981study	build/test/refs-numeric.bib	/^@article{taylor1981study,$/;"	a
 taylor1981study	ref/refs.bib	/^@article{taylor1981study,$/;"	a
 taylor1981study	testfiles/support/refs-numeric.bib	/^@article{taylor1981study,$/;"	a
+taylor1983scanning	build/test-testfiles/config-biblatex/refs-numeric.bib	/^@article{taylor1983scanning,$/;"	a
+taylor1983scanning	build/test-testfiles/config-bibtex/refs-numeric.bib	/^@article{taylor1983scanning,$/;"	a
+taylor1983scanning	build/test-testfiles/config-crossref/refs-numeric.bib	/^@article{taylor1983scanning,$/;"	a
+taylor1983scanning	build/test/refs-numeric.bib	/^@article{taylor1983scanning,$/;"	a
 taylor1983scanning	ref/refs.bib	/^@article{taylor1983scanning,$/;"	a
 taylor1983scanning	testfiles/support/refs-numeric.bib	/^@article{taylor1983scanning,$/;"	a
 template	gulpfile.js	/^    template: {$/;"	c	class:config
@@ -305,79 +1524,165 @@ version	package.json	/^  "version": "7.2.4",$/;"	s
 viewdoc	Makefile	/^viewdoc: doc$/;"	t
 viewspine	Makefile	/^viewspine: spine$/;"	t
 viewthesis	Makefile	/^viewthesis: thesis$/;"	t
+wang2010hanyu	build/test-testfiles/config-biblatex/refs-apa.bib	/^@article{wang2010hanyu,$/;"	a
+wang2010hanyu	build/test-testfiles/config-bibtex/refs-apa.bib	/^@article{wang2010hanyu,$/;"	a
+wang2010hanyu	build/test-testfiles/config-crossref/refs-apa.bib	/^@article{wang2010hanyu,$/;"	a
+wang2010hanyu	build/test/refs-apa.bib	/^@article{wang2010hanyu,$/;"	a
 wang2010hanyu	testfiles/support/refs-apa.bib	/^@article{wang2010hanyu,$/;"	a
+wangbing1997dianzi	build/test-testfiles/config-biblatex/refs-author-year.bib	/^@book{wangbing1997dianzi,$/;"	b
+wangbing1997dianzi	build/test-testfiles/config-bibtex/refs-author-year.bib	/^@book{wangbing1997dianzi,$/;"	b
+wangbing1997dianzi	build/test-testfiles/config-crossref/refs-author-year.bib	/^@book{wangbing1997dianzi,$/;"	b
+wangbing1997dianzi	build/test/refs-author-year.bib	/^@book{wangbing1997dianzi,$/;"	b
 wangbing1997dianzi	testfiles/support/refs-author-year.bib	/^@book{wangbing1997dianzi,$/;"	b
+wangfuzhi1865songlun	build/test-testfiles/config-biblatex/refs-numeric.bib	/^@book{wangfuzhi1865songlun,$/;"	b
+wangfuzhi1865songlun	build/test-testfiles/config-bibtex/refs-numeric.bib	/^@book{wangfuzhi1865songlun,$/;"	b
+wangfuzhi1865songlun	build/test-testfiles/config-crossref/refs-numeric.bib	/^@book{wangfuzhi1865songlun,$/;"	b
+wangfuzhi1865songlun	build/test/refs-numeric.bib	/^@book{wangfuzhi1865songlun,$/;"	b
 wangfuzhi1865songlun	ref/refs.bib	/^@book{wangfuzhi1865songlun,$/;"	b
 wangfuzhi1865songlun	testfiles/support/refs-numeric.bib	/^@book{wangfuzhi1865songlun,$/;"	b
+weinstein1974pathogenic	build/test-testfiles/config-biblatex/refs-numeric.bib	/^@incollection{weinstein1974pathogenic,$/;"	I
+weinstein1974pathogenic	build/test-testfiles/config-bibtex/refs-numeric.bib	/^@incollection{weinstein1974pathogenic,$/;"	I
+weinstein1974pathogenic	build/test-testfiles/config-crossref/refs-numeric.bib	/^@incollection{weinstein1974pathogenic,$/;"	I
+weinstein1974pathogenic	build/test/refs-numeric.bib	/^@incollection{weinstein1974pathogenic,$/;"	I
 weinstein1974pathogenic	ref/refs.bib	/^@incollection{weinstein1974pathogenic,$/;"	I
 weinstein1974pathogenic	testfiles/support/refs-numeric.bib	/^@incollection{weinstein1974pathogenic,$/;"	I
+who1970factors	build/test-testfiles/config-biblatex/refs-numeric.bib	/^@techreport{who1970factors,$/;"	t
+who1970factors	build/test-testfiles/config-bibtex/refs-numeric.bib	/^@techreport{who1970factors,$/;"	t
+who1970factors	build/test-testfiles/config-crossref/refs-numeric.bib	/^@techreport{who1970factors,$/;"	t
+who1970factors	build/test/refs-numeric.bib	/^@techreport{who1970factors,$/;"	t
 who1970factors	ref/refs.bib	/^@techreport{who1970factors,$/;"	t
 who1970factors	testfiles/support/refs-numeric.bib	/^@techreport{who1970factors,$/;"	t
 y	wiki/update-tlmgr-latest.sh	/^�tq�v��{�滗���O��������o�{����p�i�"\/�7i�zY�S���(��#�6��b�-D��������	�g��"+߾x�|����<�/;"	h
+yangzongying1996dianzi	build/test-testfiles/config-biblatex/refs-author-year.bib	/^@article{yangzongying1996dianzi,$/;"	a
+yangzongying1996dianzi	build/test-testfiles/config-bibtex/refs-author-year.bib	/^@article{yangzongying1996dianzi,$/;"	a
+yangzongying1996dianzi	build/test-testfiles/config-crossref/refs-author-year.bib	/^@article{yangzongying1996dianzi,$/;"	a
+yangzongying1996dianzi	build/test/refs-author-year.bib	/^@article{yangzongying1996dianzi,$/;"	a
 yangzongying1996dianzi	testfiles/support/refs-author-year.bib	/^@article{yangzongying1996dianzi,$/;"	a
+zhangkun1994	build/test-testfiles/config-biblatex/refs-numeric.bib	/^@article{zhangkun1994,$/;"	a
+zhangkun1994	build/test-testfiles/config-bibtex/refs-numeric.bib	/^@article{zhangkun1994,$/;"	a
+zhangkun1994	build/test-testfiles/config-crossref/refs-numeric.bib	/^@article{zhangkun1994,$/;"	a
+zhangkun1994	build/test/refs-numeric.bib	/^@article{zhangkun1994,$/;"	a
 zhangkun1994	ref/refs.bib	/^@article{zhangkun1994,$/;"	a
 zhangkun1994	testfiles/support/refs-numeric.bib	/^@article{zhangkun1994,$/;"	a
+zhaoyaodong1998xinshidai	build/test-testfiles/config-biblatex/refs-numeric.bib	/^@book{zhaoyaodong1998xinshidai,$/;"	b
+zhaoyaodong1998xinshidai	build/test-testfiles/config-bibtex/refs-numeric.bib	/^@book{zhaoyaodong1998xinshidai,$/;"	b
+zhaoyaodong1998xinshidai	build/test-testfiles/config-crossref/refs-numeric.bib	/^@book{zhaoyaodong1998xinshidai,$/;"	b
+zhaoyaodong1998xinshidai	build/test/refs-numeric.bib	/^@book{zhaoyaodong1998xinshidai,$/;"	b
 zhaoyaodong1998xinshidai	ref/refs.bib	/^@book{zhaoyaodong1998xinshidai,$/;"	b
 zhaoyaodong1998xinshidai	testfiles/support/refs-numeric.bib	/^@book{zhaoyaodong1998xinshidai,$/;"	b
+zhengkaiqing1987	build/test-testfiles/config-biblatex/refs-numeric.bib	/^@mastersthesis{zhengkaiqing1987,$/;"	M
+zhengkaiqing1987	build/test-testfiles/config-bibtex/refs-numeric.bib	/^@mastersthesis{zhengkaiqing1987,$/;"	M
+zhengkaiqing1987	build/test-testfiles/config-crossref/refs-numeric.bib	/^@mastersthesis{zhengkaiqing1987,$/;"	M
+zhengkaiqing1987	build/test/refs-numeric.bib	/^@mastersthesis{zhengkaiqing1987,$/;"	M
 zhengkaiqing1987	ref/refs.bib	/^@mastersthesis{zhengkaiqing1987,$/;"	M
 zhengkaiqing1987	testfiles/support/refs-numeric.bib	/^@mastersthesis{zhengkaiqing1987,$/;"	M
+zhukezhen1973	build/test-testfiles/config-biblatex/refs-numeric.bib	/^@book{zhukezhen1973,$/;"	b
+zhukezhen1973	build/test-testfiles/config-bibtex/refs-numeric.bib	/^@book{zhukezhen1973,$/;"	b
+zhukezhen1973	build/test-testfiles/config-crossref/refs-numeric.bib	/^@book{zhukezhen1973,$/;"	b
+zhukezhen1973	build/test/refs-numeric.bib	/^@book{zhukezhen1973,$/;"	b
 zhukezhen1973	ref/refs.bib	/^@book{zhukezhen1973,$/;"	b
 zhukezhen1973	testfiles/support/refs-numeric.bib	/^@book{zhukezhen1973,$/;"	b
 zip	gulpfile.js	/^        zip: ''$/;"	p	class:config.dist
 zip	gulpfile.js	/^const zip = require('gulp-zip');$/;"	C
 �oȉ�aĖ2RjCϫ4��^\vm�b�1m6[�w%~H䄤�^�ĵᭀF�S�m͵z�Ɗ��1\b|	wiki/update-tlmgr-latest.sh	/^B�p[I������	T*(�M�0m�5u�����]C�ȍ��MPT�9�O�EA��Du)�Aoeڽ����]�������Z��Z[<�oȉ�aĖ2Rj/;"	f
+“网+厂”的传统规划	build/test-testfiles/config-crossref/06-contents.tex	/^\\subsection{“网+厂”的传统规划}$/;"	u	section:文献综述""城市排水系统规划设计内容的研究进展综述
 “网+厂”的传统规划	testfiles/06-contents.tex	/^\\subsection{“网+厂”的传统规划}$/;"	u	section:文献综述""城市排水系统规划设计内容的研究进展综述
+“网+厂”的传统规划方法和模型	build/test-testfiles/config-crossref/06-contents.tex	/^\\subsection{“网+厂”的传统规划方法和模型}$/;"	u	section:文献综述""城市排水系统设计方法和模型的应用综述
 “网+厂”的传统规划方法和模型	testfiles/06-contents.tex	/^\\subsection{“网+厂”的传统规划方法和模型}$/;"	u	section:文献综述""城市排水系统设计方法和模型的应用综述
+“网”的简单构建	build/test-testfiles/config-crossref/06-contents.tex	/^\\subsection{“网”的简单构建}$/;"	u	section:文献综述""城市排水系统规划设计内容的研究进展综述
 “网”的简单构建	testfiles/06-contents.tex	/^\\subsection{“网”的简单构建}$/;"	u	section:文献综述""城市排水系统规划设计内容的研究进展综述
+“面+网+厂”的空间设计	build/test-testfiles/config-crossref/06-contents.tex	/^\\subsection{“面+网+厂”的空间设计}$/;"	u	section:文献综述""城市排水系统规划设计内容的研究进展综述
 “面+网+厂”的空间设计	testfiles/06-contents.tex	/^\\subsection{“面+网+厂”的空间设计}$/;"	u	section:文献综述""城市排水系统规划设计内容的研究进展综述
+“面+网+厂”的空间设计方法和模型	build/test-testfiles/config-crossref/06-contents.tex	/^\\subsection{“面+网+厂”的空间设计方法和模型}$/;"	u	section:文献综述""城市排水系统设计方法和模型的应用综述
 “面+网+厂”的空间设计方法和模型	testfiles/06-contents.tex	/^\\subsection{“面+网+厂”的空间设计方法和模型}$/;"	u	section:文献综述""城市排水系统设计方法和模型的应用综述
+一维层裂数值模拟	build/test-testfiles/config-crossref/09-main-postdoc.tex	/^\\section{一维层裂数值模拟}$/;"	s	chapter:延性材料一维二维层裂数值模拟
 一维层裂数值模拟	testfiles/09-main-postdoc.tex	/^\\section{一维层裂数值模拟}$/;"	s	chapter:延性材料一维二维层裂数值模拟
+一般应力作用下的孔洞演化	build/test-testfiles/config-crossref/09-main-postdoc.tex	/^\\section{一般应力作用下的孔洞演化}$/;"	s	chapter:延性动态断裂模型
 一般应力作用下的孔洞演化	testfiles/09-main-postdoc.tex	/^\\section{一般应力作用下的孔洞演化}$/;"	s	chapter:延性动态断裂模型
+不确定性评估情景集合	build/test-testfiles/config-crossref/06-contents.tex	/^\\subsection{不确定性评估情景集合}$/;"	u	section:案例研究：昆明市城北片区排水系统设计""设计输入信息
 不确定性评估情景集合	testfiles/06-contents.tex	/^\\subsection{不确定性评估情景集合}$/;"	u	section:案例研究：昆明市城北片区排水系统设计""设计输入信息
+不确定条件下分流制城市排水系统优化设计方法研究	build/test-testfiles/config-crossref/06-contents.tex	/^\\chapter{不确定条件下分流制城市排水系统优化设计方法研究}$/;"	c
+不确定条件下分流制城市排水系统优化设计方法研究	build/test-testfiles/config-crossref/07-1-figures-tables.tex	/^\\chapter{不确定条件下分流制城市排水系统优化设计方法研究}$/;"	c
+不确定条件下分流制城市排水系统优化设计方法研究	build/test-testfiles/config-crossref/07-2-figures.tex	/^\\chapter{不确定条件下分流制城市排水系统优化设计方法研究}$/;"	c
+不确定条件下分流制城市排水系统优化设计方法研究	build/test-testfiles/config-crossref/07-3-tables.tex	/^\\chapter{不确定条件下分流制城市排水系统优化设计方法研究}$/;"	c
 不确定条件下分流制城市排水系统优化设计方法研究	testfiles/06-contents.tex	/^\\chapter{不确定条件下分流制城市排水系统优化设计方法研究}$/;"	c
 不确定条件下分流制城市排水系统优化设计方法研究	testfiles/07-1-figures-tables.tex	/^\\chapter{不确定条件下分流制城市排水系统优化设计方法研究}$/;"	c
 不确定条件下分流制城市排水系统优化设计方法研究	testfiles/07-2-figures.tex	/^\\chapter{不确定条件下分流制城市排水系统优化设计方法研究}$/;"	c
 不确定条件下分流制城市排水系统优化设计方法研究	testfiles/07-3-tables.tex	/^\\chapter{不确定条件下分流制城市排水系统优化设计方法研究}$/;"	c
+不确定条件下城市排水系统设计规律识别与分析	build/test-testfiles/config-crossref/06-contents.tex	/^\\chapter{不确定条件下城市排水系统设计规律识别与分析}$/;"	c
+不确定条件下城市排水系统设计规律识别与分析	build/test-testfiles/config-crossref/07-2-figures.tex	/^\\chapter{不确定条件下城市排水系统设计规律识别与分析}$/;"	c
+不确定条件下城市排水系统设计规律识别与分析	build/test-testfiles/config-crossref/07-3-tables.tex	/^\\chapter{不确定条件下城市排水系统设计规律识别与分析}$/;"	c
 不确定条件下城市排水系统设计规律识别与分析	testfiles/06-contents.tex	/^\\chapter{不确定条件下城市排水系统设计规律识别与分析}$/;"	c
 不确定条件下城市排水系统设计规律识别与分析	testfiles/07-2-figures.tex	/^\\chapter{不确定条件下城市排水系统设计规律识别与分析}$/;"	c
 不确定条件下城市排水系统设计规律识别与分析	testfiles/07-3-tables.tex	/^\\chapter{不确定条件下城市排水系统设计规律识别与分析}$/;"	c
+不确定条件下的系统性能评估	build/test-testfiles/config-crossref/06-contents.tex	/^\\section{不确定条件下的系统性能评估}$/;"	s	chapter:案例研究：昆明市城北片区排水系统设计
 不确定条件下的系统性能评估	testfiles/06-contents.tex	/^\\section{不确定条件下的系统性能评估}$/;"	s	chapter:案例研究：昆明市城北片区排水系统设计
+不确定条件下系统性能评估	build/test-testfiles/config-crossref/06-contents.tex	/^\\section{不确定条件下系统性能评估}$/;"	s	chapter:不确定条件下分流制城市排水系统优化设计方法研究
 不确定条件下系统性能评估	testfiles/06-contents.tex	/^\\section{不确定条件下系统性能评估}$/;"	s	chapter:不确定条件下分流制城市排水系统优化设计方法研究
+不确定条件量化预测生成评估情景集合	build/test-testfiles/config-crossref/06-contents.tex	/^\\subsection{不确定条件量化预测生成评估情景集合}$/;"	u	section:不确定条件下分流制城市排水系统优化设计方法研究""数据收集和不确定条件量化预测
 不确定条件量化预测生成评估情景集合	testfiles/06-contents.tex	/^\\subsection{不确定条件量化预测生成评估情景集合}$/;"	u	section:不确定条件下分流制城市排水系统优化设计方法研究""数据收集和不确定条件量化预测
+与城北片区现状系统的性能比较	build/test-testfiles/config-crossref/06-contents.tex	/^\\section{与城北片区现状系统的性能比较}$/;"	s	chapter:案例研究：昆明市城北片区排水系统设计
 与城北片区现状系统的性能比较	testfiles/06-contents.tex	/^\\section{与城北片区现状系统的性能比较}$/;"	s	chapter:案例研究：昆明市城北片区排水系统设计
+与温度相关的孔洞演化方程	build/test-testfiles/config-crossref/09-main-postdoc.tex	/^\\subsection{与温度相关的孔洞演化方程}$/;"	u	section:延性动态断裂模型""温度效应对孔洞动态演化的影响
 与温度相关的孔洞演化方程	testfiles/09-main-postdoc.tex	/^\\subsection{与温度相关的孔洞演化方程}$/;"	u	section:延性动态断裂模型""温度效应对孔洞动态演化的影响
-专利	data/resume.tex	/^  \\subsection*{专利}$/;"	u	section:Title""在学期间完成的相关学术成果
+专利	build/test/14-resume.tex	/^  \\subsection*{专利}$/;"	u	section:定理""在学期间完成的相关学术成果
+专利	data/resume.tex	/^  \\subsection*{专利}$/;"	u	section:Nomenclatures""在学期间完成的相关学术成果
 专利	testfiles/14-resume.tex	/^  \\subsection*{专利}$/;"	u	section:定理""在学期间完成的相关学术成果
-个人简历	data/resume.tex	/^  \\section*{个人简历}$/;"	s	chapter:Title
+个人简历	build/test-testfiles/config-crossref/09-main-postdoc.tex	/^\\chapter{个人简历}$/;"	c
+个人简历	build/test/14-resume.tex	/^  \\section*{个人简历}$/;"	s	chapter:定理
+个人简历	data/resume.tex	/^  \\section*{个人简历}$/;"	s	chapter:Nomenclatures
 个人简历	testfiles/09-main-postdoc.tex	/^\\chapter{个人简历}$/;"	c
 个人简历	testfiles/14-resume.tex	/^  \\section*{个人简历}$/;"	s	chapter:定理
 为什么我使用 CTeX 2.9.2 套件无法编译？	wiki/FAQ.md	/^### 为什么我使用 CTeX 2.9.2 套件无法编译？$/;"	S
 为何更新了模板后编译出的结果还是旧版的格式？	wiki/FAQ.md	/^### 为何更新了模板后编译出的结果还是旧版的格式？$/;"	S
 为何编译出的文档中字体跟官方 Word 模板中的不一样？	wiki/FAQ.md	/^### 为何编译出的文档中字体跟官方 Word 模板中的不一样？$/;"	S
+二维层裂数值模拟	build/test-testfiles/config-crossref/09-main-postdoc.tex	/^\\section{二维层裂数值模拟}$/;"	s	chapter:延性材料一维二维层裂数值模拟
 二维层裂数值模拟	testfiles/09-main-postdoc.tex	/^\\section{二维层裂数值模拟}$/;"	s	chapter:延性材料一维二维层裂数值模拟
+产流拟合参数数据	build/test-testfiles/config-crossref/06-contents.tex	/^\\subsection{产流拟合参数数据}$/;"	u	section:含有不确定性参数的城市排水系统优化设计模型""模型输入
 产流拟合参数数据	testfiles/06-contents.tex	/^\\subsection{产流拟合参数数据}$/;"	u	section:含有不确定性参数的城市排水系统优化设计模型""模型输入
+传统规划方法的局限与不足	build/test-testfiles/config-crossref/06-contents.tex	/^\\subsection{传统规划方法的局限与不足}$/;"	u	section:引言""研究背景
 传统规划方法的局限与不足	testfiles/06-contents.tex	/^\\subsection{传统规划方法的局限与不足}$/;"	u	section:引言""研究背景
 入门资料	wiki/新手指南.md	/^# 入门资料$/;"	c
+公开评阅人名单	build/test/02-committee.tex	/^  \\section*{公开评阅人名单}$/;"	s	chapter:标题
 公开评阅人名单	data/committee.tex	/^  \\section*{公开评阅人名单}$/;"	s	chapter:补充内容
 公开评阅人名单	testfiles/02-committee.tex	/^  \\section*{公开评阅人名单}$/;"	s	chapter:Title
+关于基体塑性不可压假设	build/test-testfiles/config-crossref/09-main-postdoc.tex	/^\\subsection{关于基体塑性不可压假设}$/;"	u	section:延性动态断裂模型""动态拉伸应力作用下的孔洞演化
 关于基体塑性不可压假设	testfiles/09-main-postdoc.tex	/^\\subsection{关于基体塑性不可压假设}$/;"	u	section:延性动态断裂模型""动态拉伸应力作用下的孔洞演化
+其他基本假设	build/test-testfiles/config-crossref/06-contents.tex	/^\\subsection{其他基本假设}$/;"	u	section:含有不确定性参数的城市排水系统优化设计模型""基本假设
 其他基本假设	testfiles/06-contents.tex	/^\\subsection{其他基本假设}$/;"	u	section:含有不确定性参数的城市排水系统优化设计模型""基本假设
+其它模型	build/test-testfiles/config-crossref/09-main-postdoc.tex	/^\\subsection{其它模型}$/;"	u	section:材料动态断裂研究概述""动态损伤理论
 其它模型	testfiles/09-main-postdoc.tex	/^\\subsection{其它模型}$/;"	u	section:材料动态断裂研究概述""动态损伤理论
+前言	build/test-testfiles/config-crossref/09-main-postdoc.tex	/^\\section{前言}$/;"	s	chapter:延性动态断裂模型
+前言	build/test-testfiles/config-crossref/09-main-postdoc.tex	/^\\section{前言}$/;"	s	chapter:延性材料一维二维层裂数值模拟
+前言	build/test-testfiles/config-crossref/09-main-postdoc.tex	/^\\section{前言}$/;"	s	chapter:材料动态断裂研究概述
+前言	build/test-testfiles/config-crossref/09-main-postdoc.tex	/^\\section{前言}$/;"	s	chapter:脆性动态断裂模型
+前言	build/test-testfiles/config-crossref/09-main-postdoc.tex	/^\\section{前言}$/;"	s	chapter:金属材料动态断裂实验研究
 前言	testfiles/09-main-postdoc.tex	/^\\section{前言}$/;"	s	chapter:延性动态断裂模型
 前言	testfiles/09-main-postdoc.tex	/^\\section{前言}$/;"	s	chapter:延性材料一维二维层裂数值模拟
 前言	testfiles/09-main-postdoc.tex	/^\\section{前言}$/;"	s	chapter:材料动态断裂研究概述
 前言	testfiles/09-main-postdoc.tex	/^\\section{前言}$/;"	s	chapter:脆性动态断裂模型
 前言	testfiles/09-main-postdoc.tex	/^\\section{前言}$/;"	s	chapter:金属材料动态断裂实验研究
+动态拉伸应力作用下的孔洞演化	build/test-testfiles/config-crossref/09-main-postdoc.tex	/^\\section{动态拉伸应力作用下的孔洞演化}$/;"	s	chapter:延性动态断裂模型
 动态拉伸应力作用下的孔洞演化	testfiles/09-main-postdoc.tex	/^\\section{动态拉伸应力作用下的孔洞演化}$/;"	s	chapter:延性动态断裂模型
+动态损伤理论	build/test-testfiles/config-crossref/09-main-postdoc.tex	/^\\section{动态损伤理论}$/;"	s	chapter:材料动态断裂研究概述
 动态损伤理论	testfiles/09-main-postdoc.tex	/^\\section{动态损伤理论}$/;"	s	chapter:材料动态断裂研究概述
 升级	README.md	/^## 升级$/;"	s	chapter:ThuThesis
+单次搜索的带宽开销以及系统总带宽开销	build/test-testfiles/config-crossref/09-main.tex	/^\\subsection{单次搜索的带宽开销以及系统总带宽开销}$/;"	u	section:对等网络中宽松约束的一般性搜索的理论模型""宽松约束的一般性搜索性能理论模型
 单次搜索的带宽开销以及系统总带宽开销	testfiles/09-main.tex	/^\\subsection{单次搜索的带宽开销以及系统总带宽开销}$/;"	u	section:对等网络中宽松约束的一般性搜索的理论模型""宽松约束的一般性搜索性能理论模型
+博士后期间发表的学术论文，专著	build/test-testfiles/config-crossref/09-main-postdoc.tex	/^\\chapter{博士后期间发表的学术论文，专著}$/;"	c
 博士后期间发表的学术论文，专著	testfiles/09-main-postdoc.tex	/^\\chapter{博士后期间发表的学术论文，专著}$/;"	c
+博士生期间发表的学术论文，专著	build/test-testfiles/config-crossref/09-main-postdoc.tex	/^\\chapter{博士生期间发表的学术论文，专著}$/;"	c
 博士生期间发表的学术论文，专著	testfiles/09-main-postdoc.tex	/^\\chapter{博士生期间发表的学术论文，专著}$/;"	c
+参考文献	build/test-testfiles/config-crossref/09-main-postdoc.tex	/^\\chapter{参考文献}$/;"	c
 参考文献	testfiles/09-main-postdoc.tex	/^\\chapter{参考文献}$/;"	c
 参考文献出错之后怎么改都不对了	wiki/FAQ.md	/^### 参考文献出错之后怎么改都不对了$/;"	S
 发布版	README.md	/^#### 发布版$/;"	t	section:ThuThesis""升级
+含损伤的宏观本构关系	build/test-testfiles/config-crossref/09-main-postdoc.tex	/^\\section{含损伤的宏观本构关系}$/;"	s	chapter:脆性动态断裂模型
 含损伤的宏观本构关系	testfiles/09-main-postdoc.tex	/^\\section{含损伤的宏观本构关系}$/;"	s	chapter:脆性动态断裂模型
+含有不确定性参数的城市排水系统优化设计模型	build/test-testfiles/config-crossref/06-contents.tex	/^\\chapter{含有不确定性参数的城市排水系统优化设计模型}$/;"	c
+含有不确定性参数的城市排水系统优化设计模型	build/test-testfiles/config-crossref/07-1-figures-tables.tex	/^\\chapter{含有不确定性参数的城市排水系统优化设计模型}$/;"	c
+含有不确定性参数的城市排水系统优化设计模型	build/test-testfiles/config-crossref/07-2-figures.tex	/^\\chapter{含有不确定性参数的城市排水系统优化设计模型}$/;"	c
+含有不确定性参数的城市排水系统优化设计模型	build/test-testfiles/config-crossref/07-3-tables.tex	/^\\chapter{含有不确定性参数的城市排水系统优化设计模型}$/;"	c
 含有不确定性参数的城市排水系统优化设计模型	testfiles/06-contents.tex	/^\\chapter{含有不确定性参数的城市排水系统优化设计模型}$/;"	c
 含有不确定性参数的城市排水系统优化设计模型	testfiles/07-1-figures-tables.tex	/^\\chapter{含有不确定性参数的城市排水系统优化设计模型}$/;"	c
 含有不确定性参数的城市排水系统优化设计模型	testfiles/07-2-figures.tex	/^\\chapter{含有不确定性参数的城市排水系统优化设计模型}$/;"	c
@@ -387,59 +1692,106 @@ zip	gulpfile.js	/^const zip = require('gulp-zip');$/;"	C
 图表示例	data/appendix-translation.tex	/^\\section{图表示例}$/;"	s	chapter:数学符号和公式
 图表示例	data/appendix.tex	/^\\section{图表示例}$/;"	s	chapter:补充内容
 图表示例	data/chap02.tex	/^\\chapter{图表示例}$/;"	c
-在学期间完成的相关学术成果	data/resume.tex	/^  \\section*{在学期间完成的相关学术成果}$/;"	s	chapter:Title
+在学期间完成的相关学术成果	build/test/14-resume.tex	/^  \\section*{在学期间完成的相关学术成果}$/;"	s	chapter:定理
+在学期间完成的相关学术成果	data/resume.tex	/^  \\section*{在学期间完成的相关学术成果}$/;"	s	chapter:Nomenclatures
 在学期间完成的相关学术成果	testfiles/14-resume.tex	/^  \\section*{在学期间完成的相关学术成果}$/;"	s	chapter:定理
+城市地块与设计单元	build/test-testfiles/config-crossref/06-contents.tex	/^\\subsection{城市地块与设计单元}$/;"	u	section:含有不确定性参数的城市排水系统优化设计模型""基本假设
 城市地块与设计单元	testfiles/06-contents.tex	/^\\subsection{城市地块与设计单元}$/;"	u	section:含有不确定性参数的城市排水系统优化设计模型""基本假设
+城市排水系统的复杂性	build/test-testfiles/config-crossref/06-contents.tex	/^\\subsection{城市排水系统的复杂性}$/;"	u	section:引言""研究背景
 城市排水系统的复杂性	testfiles/06-contents.tex	/^\\subsection{城市排水系统的复杂性}$/;"	u	section:引言""研究背景
+城市排水系统规划设计内容的研究进展综述	build/test-testfiles/config-crossref/06-contents.tex	/^\\section{城市排水系统规划设计内容的研究进展综述}$/;"	s	chapter:文献综述
 城市排水系统规划设计内容的研究进展综述	testfiles/06-contents.tex	/^\\section{城市排水系统规划设计内容的研究进展综述}$/;"	s	chapter:文献综述
+城市排水系统设计中考虑不确定性的实践综述	build/test-testfiles/config-crossref/06-contents.tex	/^\\section{城市排水系统设计中考虑不确定性的实践综述}$/;"	s	chapter:文献综述
 城市排水系统设计中考虑不确定性的实践综述	testfiles/06-contents.tex	/^\\section{城市排水系统设计中考虑不确定性的实践综述}$/;"	s	chapter:文献综述
+城市排水系统设计方法和模型的应用综述	build/test-testfiles/config-crossref/06-contents.tex	/^\\section{城市排水系统设计方法和模型的应用综述}$/;"	s	chapter:文献综述
 城市排水系统设计方法和模型的应用综述	testfiles/06-contents.tex	/^\\section{城市排水系统设计方法和模型的应用综述}$/;"	s	chapter:文献综述
+城市精细化管理对城市排水系统设计提出新要求	build/test-testfiles/config-crossref/06-contents.tex	/^\\subsection{城市精细化管理对城市排水系统设计提出新要求}$/;"	u	section:引言""研究背景
 城市精细化管理对城市排水系统设计提出新要求	testfiles/06-contents.tex	/^\\subsection{城市精细化管理对城市排水系统设计提出新要求}$/;"	u	section:引言""研究背景
+基准条件下多目标优化	build/test-testfiles/config-crossref/06-contents.tex	/^\\section{基准条件下多目标优化}$/;"	s	chapter:不确定条件下分流制城市排水系统优化设计方法研究
 基准条件下多目标优化	testfiles/06-contents.tex	/^\\section{基准条件下多目标优化}$/;"	s	chapter:不确定条件下分流制城市排水系统优化设计方法研究
+基准条件下的系统设计输出	build/test-testfiles/config-crossref/06-contents.tex	/^\\section{基准条件下的系统设计输出}$/;"	s	chapter:案例研究：昆明市城北片区排水系统设计
 基准条件下的系统设计输出	testfiles/06-contents.tex	/^\\section{基准条件下的系统设计输出}$/;"	s	chapter:案例研究：昆明市城北片区排水系统设计
+基准设计条件	build/test-testfiles/config-crossref/06-contents.tex	/^\\subsection{基准设计条件}$/;"	u	section:案例研究：昆明市城北片区排水系统设计""设计输入信息
 基准设计条件	testfiles/06-contents.tex	/^\\subsection{基准设计条件}$/;"	u	section:案例研究：昆明市城北片区排水系统设计""设计输入信息
+基本假设	build/test-testfiles/config-crossref/06-contents.tex	/^\\section{基本假设}$/;"	s	chapter:含有不确定性参数的城市排水系统优化设计模型
 基本假设	testfiles/06-contents.tex	/^\\section{基本假设}$/;"	s	chapter:含有不确定性参数的城市排水系统优化设计模型
+基础数据收集和不确定条件量化预测	build/test-testfiles/config-crossref/06-contents.tex	/^\\subsection{基础数据收集和不确定条件量化预测}$/;"	u	section:案例研究：昆明市城北片区排水系统设计""研究区域概化及数据收集
 基础数据收集和不确定条件量化预测	testfiles/06-contents.tex	/^\\subsection{基础数据收集和不确定条件量化预测}$/;"	u	section:案例研究：昆明市城北片区排水系统设计""研究区域概化及数据收集
+孔洞准静态增长和压缩关系	build/test-testfiles/config-crossref/09-main-postdoc.tex	/^\\subsection{孔洞准静态增长和压缩关系}$/;"	u	section:延性动态断裂模型""动态拉伸应力作用下的孔洞演化
 孔洞准静态增长和压缩关系	testfiles/09-main-postdoc.tex	/^\\subsection{孔洞准静态增长和压缩关系}$/;"	u	section:延性动态断裂模型""动态拉伸应力作用下的孔洞演化
+孔洞动态增长和压缩关系	build/test-testfiles/config-crossref/09-main-postdoc.tex	/^\\subsection{孔洞动态增长和压缩关系}$/;"	u	section:延性动态断裂模型""动态拉伸应力作用下的孔洞演化
 孔洞动态增长和压缩关系	testfiles/09-main-postdoc.tex	/^\\subsection{孔洞动态增长和压缩关系}$/;"	u	section:延性动态断裂模型""动态拉伸应力作用下的孔洞演化
+孔洞的形核	build/test-testfiles/config-crossref/09-main-postdoc.tex	/^\\section{孔洞的形核}$/;"	s	chapter:延性动态断裂模型
 孔洞的形核	testfiles/09-main-postdoc.tex	/^\\section{孔洞的形核}$/;"	s	chapter:延性动态断裂模型
-学术论文	data/resume.tex	/^  \\subsection*{学术论文}$/;"	u	section:Title""在学期间完成的相关学术成果
+学术论文	build/test/14-resume.tex	/^  \\subsection*{学术论文}$/;"	u	section:定理""在学期间完成的相关学术成果
+学术论文	data/resume.tex	/^  \\subsection*{学术论文}$/;"	u	section:Nomenclatures""在学期间完成的相关学术成果
 学术论文	testfiles/14-resume.tex	/^  \\subsection*{学术论文}$/;"	u	section:定理""在学期间完成的相关学术成果
 安装 LaTeX 发行版	wiki/新手指南.md	/^# 安装 LaTeX 发行版$/;"	c
+定理	build/test/package-amsthm.tex	/^\\chapter{定理}$/;"	c
+定理	build/test/package-ntheorem.tex	/^\\chapter{定理}$/;"	c
 定理	testfiles/package-amsthm.tex	/^\\chapter{定理}$/;"	c
 定理	testfiles/package-ntheorem.tex	/^\\chapter{定理}$/;"	c
+宽松约束的一般性搜索性能理论模型	build/test-testfiles/config-crossref/09-main.tex	/^\\section{宽松约束的一般性搜索性能理论模型}$/;"	s	chapter:对等网络中宽松约束的一般性搜索的理论模型
 宽松约束的一般性搜索性能理论模型	testfiles/09-main.tex	/^\\section{宽松约束的一般性搜索性能理论模型}$/;"	s	chapter:对等网络中宽松约束的一般性搜索的理论模型
+对等网络中宽松约束的一般性搜索的理论模型	build/test-testfiles/config-crossref/09-main.tex	/^\\chapter{对等网络中宽松约束的一般性搜索的理论模型}$/;"	c
 对等网络中宽松约束的一般性搜索的理论模型	testfiles/09-main.tex	/^\\chapter{对等网络中宽松约束的一般性搜索的理论模型}$/;"	c
+层裂实验	build/test-testfiles/config-crossref/09-main-postdoc.tex	/^\\section{层裂实验}$/;"	s	chapter:金属材料动态断裂实验研究
 层裂实验	testfiles/09-main-postdoc.tex	/^\\section{层裂实验}$/;"	s	chapter:金属材料动态断裂实验研究
+层裂破坏数值模型	build/test-testfiles/config-crossref/09-main-postdoc.tex	/^\\subsection{层裂破坏数值模型}$/;"	u	section:材料动态断裂研究概述""本文工作简介
 层裂破坏数值模型	testfiles/09-main-postdoc.tex	/^\\subsection{层裂破坏数值模型}$/;"	u	section:材料动态断裂研究概述""本文工作简介
+工程领导力调查问卷	build/test/11-appendix.tex	/^\\chapter{工程领导力调查问卷}$/;"	c
 工程领导力调查问卷	testfiles/11-appendix.tex	/^\\chapter{工程领导力调查问卷}$/;"	c
+延性动态断裂模型	build/test-testfiles/config-crossref/09-main-postdoc.tex	/^\\chapter{延性动态断裂模型}$/;"	c
 延性动态断裂模型	testfiles/09-main-postdoc.tex	/^\\chapter{延性动态断裂模型}$/;"	c
+延性动态断裂细观分析模型	build/test-testfiles/config-crossref/09-main-postdoc.tex	/^\\subsection{延性动态断裂细观分析模型}$/;"	u	section:材料动态断裂研究概述""动态损伤理论
 延性动态断裂细观分析模型	testfiles/09-main-postdoc.tex	/^\\subsection{延性动态断裂细观分析模型}$/;"	u	section:材料动态断裂研究概述""动态损伤理论
+延性和脆性动态断裂理论模型的建立	build/test-testfiles/config-crossref/09-main-postdoc.tex	/^\\subsection{延性和脆性动态断裂理论模型的建立}$/;"	u	section:材料动态断裂研究概述""本文工作简介
 延性和脆性动态断裂理论模型的建立	testfiles/09-main-postdoc.tex	/^\\subsection{延性和脆性动态断裂理论模型的建立}$/;"	u	section:材料动态断裂研究概述""本文工作简介
+延性材料一维二维层裂数值模拟	build/test-testfiles/config-crossref/09-main-postdoc.tex	/^\\chapter{延性材料一维二维层裂数值模拟}$/;"	c
 延性材料一维二维层裂数值模拟	testfiles/09-main-postdoc.tex	/^\\chapter{延性材料一维二维层裂数值模拟}$/;"	c
+延性细观损伤模型	build/test-testfiles/config-crossref/09-main-postdoc.tex	/^\\subsection{延性细观损伤模型}$/;"	u	section:材料动态断裂研究概述""静态损伤理论
 延性细观损伤模型	testfiles/09-main-postdoc.tex	/^\\subsection{延性细观损伤模型}$/;"	u	section:材料动态断裂研究概述""静态损伤理论
+建议	build/test-testfiles/config-crossref/06-contents.tex	/^\\section{建议}$/;"	s	chapter:结论与建议
 建议	testfiles/06-contents.tex	/^\\section{建议}$/;"	s	chapter:结论与建议
 开发版	README.md	/^#### 开发版$/;"	t	section:ThuThesis""升级
 引用文献的标注	data/chap04.tex	/^\\chapter{引用文献的标注}$/;"	c
+引言	build/test-testfiles/config-crossref/06-contents.tex	/^\\chapter{引言}$/;"	c
+引言	build/test-testfiles/config-crossref/07-1-figures-tables.tex	/^\\chapter{引言}$/;"	c
+引言	build/test-testfiles/config-crossref/07-2-figures.tex	/^\\chapter{引言}$/;"	c
+引言	build/test-testfiles/config-crossref/07-3-tables.tex	/^\\chapter{引言}$/;"	c
 引言	testfiles/06-contents.tex	/^\\chapter{引言}$/;"	c
 引言	testfiles/07-1-figures-tables.tex	/^\\chapter{引言}$/;"	c
 引言	testfiles/07-2-figures.tex	/^\\chapter{引言}$/;"	c
 引言	testfiles/07-3-tables.tex	/^\\chapter{引言}$/;"	c
 引言的写法	data/chap01.tex	/^\\section{引言的写法}$/;"	s	chapter:论文主要部分的写法
+影响城市排水系统设计的不确定性因素及其分类	build/test-testfiles/config-crossref/06-contents.tex	/^\\subsection{影响城市排水系统设计的不确定性因素及其分类}$/;"	u	section:文献综述""城市排水系统设计中考虑不确定性的实践综述
 影响城市排水系统设计的不确定性因素及其分类	testfiles/06-contents.tex	/^\\subsection{影响城市排水系统设计的不确定性因素及其分类}$/;"	u	section:文献综述""城市排水系统设计中考虑不确定性的实践综述
+径流调蓄设施的能力及其空间分布	build/test-testfiles/config-crossref/06-contents.tex	/^\\subsection{径流调蓄设施的能力及其空间分布}$/;"	u	section:含有不确定性参数的城市排水系统优化设计模型""基本假设
 径流调蓄设施的能力及其空间分布	testfiles/06-contents.tex	/^\\subsection{径流调蓄设施的能力及其空间分布}$/;"	u	section:含有不确定性参数的城市排水系统优化设计模型""基本假设
+微损伤的增长	build/test-testfiles/config-crossref/09-main-postdoc.tex	/^\\subsection{微损伤的增长}$/;"	u	section:材料动态断裂研究概述""材料断裂的微观机制
 微损伤的增长	testfiles/09-main-postdoc.tex	/^\\subsection{微损伤的增长}$/;"	u	section:材料动态断裂研究概述""材料断裂的微观机制
+微损伤的形核	build/test-testfiles/config-crossref/09-main-postdoc.tex	/^\\subsection{微损伤的形核}$/;"	u	section:材料动态断裂研究概述""材料断裂的微观机制
 微损伤的形核	testfiles/09-main-postdoc.tex	/^\\subsection{微损伤的形核}$/;"	u	section:材料动态断裂研究概述""材料断裂的微观机制
+微损伤的聚合	build/test-testfiles/config-crossref/09-main-postdoc.tex	/^\\subsection{微损伤的聚合}$/;"	u	section:材料动态断裂研究概述""材料断裂的微观机制
 微损伤的聚合	testfiles/09-main-postdoc.tex	/^\\subsection{微损伤的聚合}$/;"	u	section:材料动态断裂研究概述""材料断裂的微观机制
+微损伤系统演化统计模型	build/test-testfiles/config-crossref/09-main-postdoc.tex	/^\\subsection{微损伤系统演化统计模型}$/;"	u	section:材料动态断裂研究概述""动态损伤理论
 微损伤系统演化统计模型	testfiles/09-main-postdoc.tex	/^\\subsection{微损伤系统演化统计模型}$/;"	u	section:材料动态断裂研究概述""动态损伤理论
+微裂纹的动态增长	build/test-testfiles/config-crossref/09-main-postdoc.tex	/^\\subsection{微裂纹的动态增长}$/;"	u	section:脆性动态断裂模型""微裂纹的动态演化方程
 微裂纹的动态增长	testfiles/09-main-postdoc.tex	/^\\subsection{微裂纹的动态增长}$/;"	u	section:脆性动态断裂模型""微裂纹的动态演化方程
+微裂纹的动态演化方程	build/test-testfiles/config-crossref/09-main-postdoc.tex	/^\\section{微裂纹的动态演化方程}$/;"	s	chapter:脆性动态断裂模型
 微裂纹的动态演化方程	testfiles/09-main-postdoc.tex	/^\\section{微裂纹的动态演化方程}$/;"	s	chapter:脆性动态断裂模型
+微裂纹的形核及断裂准则	build/test-testfiles/config-crossref/09-main-postdoc.tex	/^\\subsection{微裂纹的形核及断裂准则}$/;"	u	section:脆性动态断裂模型""微裂纹的动态演化方程
 微裂纹的形核及断裂准则	testfiles/09-main-postdoc.tex	/^\\subsection{微裂纹的形核及断裂准则}$/;"	u	section:脆性动态断裂模型""微裂纹的动态演化方程
+成本属性数据	build/test-testfiles/config-crossref/06-contents.tex	/^\\subsection{成本属性数据}$/;"	u	section:含有不确定性参数的城市排水系统优化设计模型""模型输入
 成本属性数据	testfiles/06-contents.tex	/^\\subsection{成本属性数据}$/;"	u	section:含有不确定性参数的城市排水系统优化设计模型""模型输入
+指导小组名单	build/test/02-committee.tex	/^  \\section*{指导小组名单}$/;"	s	chapter:标题
 指导小组名单	data/committee.tex	/^  \\section*{指导小组名单}$/;"	s	chapter:补充内容
 指导小组名单	testfiles/02-committee.tex	/^  \\section*{指导小组名单}$/;"	s	chapter:Title
+损伤的显微观察及分析	build/test-testfiles/config-crossref/09-main-postdoc.tex	/^\\section{损伤的显微观察及分析}$/;"	s	chapter:金属材料动态断裂实验研究
 损伤的显微观察及分析	testfiles/09-main-postdoc.tex	/^\\section{损伤的显微观察及分析}$/;"	s	chapter:金属材料动态断裂实验研究
+排水和再生水数据	build/test-testfiles/config-crossref/06-contents.tex	/^\\subsection{排水和再生水数据}$/;"	u	section:含有不确定性参数的城市排水系统优化设计模型""模型输入
 排水和再生水数据	testfiles/06-contents.tex	/^\\subsection{排水和再生水数据}$/;"	u	section:含有不确定性参数的城市排水系统优化设计模型""模型输入
+推荐方案集合	build/test-testfiles/config-crossref/06-contents.tex	/^\\section{推荐方案集合}$/;"	s	chapter:案例研究：昆明市城北片区排水系统设计
 推荐方案集合	testfiles/06-contents.tex	/^\\section{推荐方案集合}$/;"	s	chapter:案例研究：昆明市城北片区排水系统设计
 提问	README.md	/^## 提问$/;"	s	chapter:ThuThesis
 插图	data/chap02.tex	/^\\section{插图}$/;"	s	chapter:图表示例
@@ -451,116 +1803,212 @@ zip	gulpfile.js	/^const zip = require('gulp-zip');$/;"	C
 数学定理	data/chap03.tex	/^\\section{数学定理}$/;"	s	chapter:数学符号和公式
 数学符号	data/chap03.tex	/^\\section{数学符号}$/;"	s	chapter:数学符号和公式
 数学符号和公式	data/chap03.tex	/^\\chapter{数学符号和公式}$/;"	c
+数据收集和不确定条件量化预测	build/test-testfiles/config-crossref/06-contents.tex	/^\\section{数据收集和不确定条件量化预测}$/;"	s	chapter:不确定条件下分流制城市排水系统优化设计方法研究
 数据收集和不确定条件量化预测	testfiles/06-contents.tex	/^\\section{数据收集和不确定条件量化预测}$/;"	s	chapter:不确定条件下分流制城市排水系统优化设计方法研究
+数据收集生成基准设计条件	build/test-testfiles/config-crossref/06-contents.tex	/^\\subsection{数据收集生成基准设计条件}$/;"	u	section:不确定条件下分流制城市排水系统优化设计方法研究""数据收集和不确定条件量化预测
 数据收集生成基准设计条件	testfiles/06-contents.tex	/^\\subsection{数据收集生成基准设计条件}$/;"	u	section:不确定条件下分流制城市排水系统优化设计方法研究""数据收集和不确定条件量化预测
+整体框架	build/test-testfiles/config-crossref/06-contents.tex	/^\\section{整体框架}$/;"	s	chapter:含有不确定性参数的城市排水系统优化设计模型
 整体框架	testfiles/06-contents.tex	/^\\section{整体框架}$/;"	s	chapter:含有不确定性参数的城市排水系统优化设计模型
+整体设计思路	build/test-testfiles/config-crossref/06-contents.tex	/^\\subsection{整体设计思路}$/;"	u	section:含有不确定性参数的城市排水系统优化设计模型""算法设计
 整体设计思路	testfiles/06-contents.tex	/^\\subsection{整体设计思路}$/;"	u	section:含有不确定性参数的城市排水系统优化设计模型""算法设计
 文献引用	data/appendix-translation.tex	/^\\section{文献引用}$/;"	s	chapter:数学符号和公式
+文献综述	build/test-testfiles/config-crossref/06-contents.tex	/^\\chapter{文献综述}$/;"	c
+文献综述	build/test-testfiles/config-crossref/07-1-figures-tables.tex	/^\\chapter{文献综述}$/;"	c
+文献综述	build/test-testfiles/config-crossref/07-2-figures.tex	/^\\chapter{文献综述}$/;"	c
+文献综述	build/test-testfiles/config-crossref/07-3-tables.tex	/^\\chapter{文献综述}$/;"	c
 文献综述	testfiles/06-contents.tex	/^\\chapter{文献综述}$/;"	c
 文献综述	testfiles/07-1-figures-tables.tex	/^\\chapter{文献综述}$/;"	c
 文献综述	testfiles/07-2-figures.tex	/^\\chapter{文献综述}$/;"	c
 文献综述	testfiles/07-3-tables.tex	/^\\chapter{文献综述}$/;"	c
+方案优选与最优集合推荐	build/test-testfiles/config-crossref/06-contents.tex	/^\\section{方案优选与最优集合推荐}$/;"	s	chapter:不确定条件下分流制城市排水系统优化设计方法研究
 方案优选与最优集合推荐	testfiles/06-contents.tex	/^\\section{方案优选与最优集合推荐}$/;"	s	chapter:不确定条件下分流制城市排水系统优化设计方法研究
+方法框架	build/test-testfiles/config-crossref/06-contents.tex	/^\\section{方法框架}$/;"	s	chapter:不确定条件下分流制城市排水系统优化设计方法研究
 方法框架	testfiles/06-contents.tex	/^\\section{方法框架}$/;"	s	chapter:不确定条件下分流制城市排水系统优化设计方法研究
+无偏向性搜索	build/test-testfiles/config-crossref/09-main.tex	/^\\subsection{无偏向性搜索}$/;"	u	section:对等网络中宽松约束的一般性搜索的理论模型""模型基本假设
 无偏向性搜索	testfiles/09-main.tex	/^\\subsection{无偏向性搜索}$/;"	u	section:对等网络中宽松约束的一般性搜索的理论模型""模型基本假设
+昆明市城北片区概况	build/test-testfiles/config-crossref/06-contents.tex	/^\\section{昆明市城北片区概况}$/;"	s	chapter:案例研究：昆明市城北片区排水系统设计
 昆明市城北片区概况	testfiles/06-contents.tex	/^\\section{昆明市城北片区概况}$/;"	s	chapter:案例研究：昆明市城北片区排水系统设计
 更新宏包	wiki/新手指南.md	/^# 更新宏包$/;"	c
 更新日志	README.md	/^## 更新日志$/;"	s	chapter:ThuThesis
+本文工作简介	build/test-testfiles/config-crossref/09-main-postdoc.tex	/^\\section{本文工作简介}$/;"	s	chapter:材料动态断裂研究概述
 本文工作简介	testfiles/09-main-postdoc.tex	/^\\section{本文工作简介}$/;"	s	chapter:材料动态断裂研究概述
+本章小结	build/test-testfiles/config-crossref/06-contents.tex	/^\\section{本章小结}$/;"	s	chapter:不确定条件下分流制城市排水系统优化设计方法研究
+本章小结	build/test-testfiles/config-crossref/06-contents.tex	/^\\section{本章小结}$/;"	s	chapter:不确定条件下城市排水系统设计规律识别与分析
+本章小结	build/test-testfiles/config-crossref/06-contents.tex	/^\\section{本章小结}$/;"	s	chapter:含有不确定性参数的城市排水系统优化设计模型
+本章小结	build/test-testfiles/config-crossref/06-contents.tex	/^\\section{本章小结}$/;"	s	chapter:文献综述
+本章小结	build/test-testfiles/config-crossref/06-contents.tex	/^\\section{本章小结}$/;"	s	chapter:案例研究：昆明市城北片区排水系统设计
 本章小结	testfiles/06-contents.tex	/^\\section{本章小结}$/;"	s	chapter:不确定条件下分流制城市排水系统优化设计方法研究
 本章小结	testfiles/06-contents.tex	/^\\section{本章小结}$/;"	s	chapter:不确定条件下城市排水系统设计规律识别与分析
 本章小结	testfiles/06-contents.tex	/^\\section{本章小结}$/;"	s	chapter:含有不确定性参数的城市排水系统优化设计模型
 本章小结	testfiles/06-contents.tex	/^\\section{本章小结}$/;"	s	chapter:文献综述
 本章小结	testfiles/06-contents.tex	/^\\section{本章小结}$/;"	s	chapter:案例研究：昆明市城北片区排水系统设计
+本章引论	build/test-testfiles/config-crossref/09-main.tex	/^\\section{本章引论}$/;"	s	chapter:对等网络中宽松约束的一般性搜索的理论模型
 本章引论	testfiles/09-main.tex	/^\\section{本章引论}$/;"	s	chapter:对等网络中宽松约束的一般性搜索的理论模型
+材料动态断裂实验研究	build/test-testfiles/config-crossref/09-main-postdoc.tex	/^\\subsection{材料动态断裂实验研究}$/;"	u	section:材料动态断裂研究概述""本文工作简介
 材料动态断裂实验研究	testfiles/09-main-postdoc.tex	/^\\subsection{材料动态断裂实验研究}$/;"	u	section:材料动态断裂研究概述""本文工作简介
+材料动态断裂研究概述	build/test-testfiles/config-crossref/09-main-postdoc.tex	/^\\chapter{材料动态断裂研究概述}$/;"	c
 材料动态断裂研究概述	testfiles/09-main-postdoc.tex	/^\\chapter{材料动态断裂研究概述}$/;"	c
+材料断裂的微观机制	build/test-testfiles/config-crossref/09-main-postdoc.tex	/^\\section{材料断裂的微观机制}$/;"	s	chapter:材料动态断裂研究概述
 材料断裂的微观机制	testfiles/09-main-postdoc.tex	/^\\section{材料断裂的微观机制}$/;"	s	chapter:材料动态断裂研究概述
+材料的微结构和工艺处理对损伤的影响	build/test-testfiles/config-crossref/09-main-postdoc.tex	/^\\subsection{材料的微结构和工艺处理对损伤的影响}$/;"	u	section:材料动态断裂研究概述""材料断裂的微观机制
 材料的微结构和工艺处理对损伤的影响	testfiles/09-main-postdoc.tex	/^\\subsection{材料的微结构和工艺处理对损伤的影响}$/;"	u	section:材料动态断裂研究概述""材料断裂的微观机制
+标题	build/test/package-algorithms.tex	/^\\chapter{标题}$/;"	c
+标题	build/test/package-longtable.tex	/^\\chapter{标题}$/;"	c
 标题	testfiles/package-algorithms.tex	/^\\chapter{标题}$/;"	c
 标题	testfiles/package-longtable.tex	/^\\chapter{标题}$/;"	c
+案例研究：昆明市城北片区排水系统设计	build/test-testfiles/config-crossref/06-contents.tex	/^\\chapter{案例研究：昆明市城北片区排水系统设计}$/;"	c
+案例研究：昆明市城北片区排水系统设计	build/test-testfiles/config-crossref/07-1-figures-tables.tex	/^\\chapter{案例研究：昆明市城北片区排水系统设计}$/;"	c
+案例研究：昆明市城北片区排水系统设计	build/test-testfiles/config-crossref/07-2-figures.tex	/^\\chapter{案例研究：昆明市城北片区排水系统设计}$/;"	c
+案例研究：昆明市城北片区排水系统设计	build/test-testfiles/config-crossref/07-3-tables.tex	/^\\chapter{案例研究：昆明市城北片区排水系统设计}$/;"	c
 案例研究：昆明市城北片区排水系统设计	testfiles/06-contents.tex	/^\\chapter{案例研究：昆明市城北片区排水系统设计}$/;"	c
 案例研究：昆明市城北片区排水系统设计	testfiles/07-1-figures-tables.tex	/^\\chapter{案例研究：昆明市城北片区排水系统设计}$/;"	c
 案例研究：昆明市城北片区排水系统设计	testfiles/07-2-figures.tex	/^\\chapter{案例研究：昆明市城北片区排水系统设计}$/;"	c
 案例研究：昆明市城北片区排水系统设计	testfiles/07-3-tables.tex	/^\\chapter{案例研究：昆明市城北片区排水系统设计}$/;"	c
+概况	build/test-testfiles/config-crossref/09-main-postdoc.tex	/^\\subsection{概况}$/;"	u	section:材料动态断裂研究概述""动态损伤理论
+概况	build/test-testfiles/config-crossref/09-main-postdoc.tex	/^\\subsection{概况}$/;"	u	section:材料动态断裂研究概述""静态损伤理论
 概况	testfiles/09-main-postdoc.tex	/^\\subsection{概况}$/;"	u	section:材料动态断裂研究概述""动态损伤理论
 概况	testfiles/09-main-postdoc.tex	/^\\subsection{概况}$/;"	u	section:材料动态断裂研究概述""静态损伤理论
+模型假设的总体叙述	build/test-testfiles/config-crossref/09-main.tex	/^\\subsection{模型假设的总体叙述}$/;"	u	section:对等网络中宽松约束的一般性搜索的理论模型""模型基本假设
 模型假设的总体叙述	testfiles/09-main.tex	/^\\subsection{模型假设的总体叙述}$/;"	u	section:对等网络中宽松约束的一般性搜索的理论模型""模型基本假设
+模型基本假设	build/test-testfiles/config-crossref/09-main.tex	/^\\section{模型基本假设}$/;"	s	chapter:对等网络中宽松约束的一般性搜索的理论模型
 模型基本假设	testfiles/09-main.tex	/^\\section{模型基本假设}$/;"	s	chapter:对等网络中宽松约束的一般性搜索的理论模型
+模型构建	build/test-testfiles/config-crossref/06-contents.tex	/^\\section{模型构建}$/;"	s	chapter:含有不确定性参数的城市排水系统优化设计模型
 模型构建	testfiles/06-contents.tex	/^\\section{模型构建}$/;"	s	chapter:含有不确定性参数的城市排水系统优化设计模型
+模型的数值分析	build/test-testfiles/config-crossref/09-main-postdoc.tex	/^\\subsection{模型的数值分析}$/;"	u	section:延性动态断裂模型""温度效应对孔洞动态演化的影响
 模型的数值分析	testfiles/09-main-postdoc.tex	/^\\subsection{模型的数值分析}$/;"	u	section:延性动态断裂模型""温度效应对孔洞动态演化的影响
+模型输入	build/test-testfiles/config-crossref/06-contents.tex	/^\\section{模型输入}$/;"	s	chapter:含有不确定性参数的城市排水系统优化设计模型
 模型输入	testfiles/06-contents.tex	/^\\section{模型输入}$/;"	s	chapter:含有不确定性参数的城市排水系统优化设计模型
+模型输出	build/test-testfiles/config-crossref/06-contents.tex	/^\\section{模型输出}$/;"	s	chapter:含有不确定性参数的城市排水系统优化设计模型
 模型输出	testfiles/06-contents.tex	/^\\section{模型输出}$/;"	s	chapter:含有不确定性参数的城市排水系统优化设计模型
+模拟降雨数据	build/test-testfiles/config-crossref/06-contents.tex	/^\\subsection{模拟降雨数据}$/;"	u	section:含有不确定性参数的城市排水系统优化设计模型""模型输入
 模拟降雨数据	testfiles/06-contents.tex	/^\\subsection{模拟降雨数据}$/;"	u	section:含有不确定性参数的城市排水系统优化设计模型""模型输入
 正文的写法	data/chap01.tex	/^\\section{正文的写法}$/;"	s	chapter:论文主要部分的写法
+永久通信地址	build/test-testfiles/config-crossref/09-main-postdoc.tex	/^\\chapter{永久通信地址}$/;"	c
 永久通信地址	testfiles/09-main-postdoc.tex	/^\\chapter{永久通信地址}$/;"	c
+污水系统	build/test-testfiles/config-crossref/06-contents.tex	/^\\section{污水系统}$/;"	s	chapter:不确定条件下城市排水系统设计规律识别与分析
 污水系统	testfiles/06-contents.tex	/^\\section{污水系统}$/;"	s	chapter:不确定条件下城市排水系统设计规律识别与分析
+污水系统性能评估	build/test-testfiles/config-crossref/06-contents.tex	/^\\subsection{污水系统性能评估}$/;"	u	section:不确定条件下分流制城市排水系统优化设计方法研究""不确定条件下系统性能评估
+污水系统性能评估	build/test-testfiles/config-crossref/06-contents.tex	/^\\subsection{污水系统性能评估}$/;"	u	section:案例研究：昆明市城北片区排水系统设计""不确定条件下的系统性能评估
 污水系统性能评估	testfiles/06-contents.tex	/^\\subsection{污水系统性能评估}$/;"	u	section:不确定条件下分流制城市排水系统优化设计方法研究""不确定条件下系统性能评估
 污水系统性能评估	testfiles/06-contents.tex	/^\\subsection{污水系统性能评估}$/;"	u	section:案例研究：昆明市城北片区排水系统设计""不确定条件下的系统性能评估
+污水系统推荐方案	build/test-testfiles/config-crossref/06-contents.tex	/^\\subsection{污水系统推荐方案}$/;"	u	section:案例研究：昆明市城北片区排水系统设计""推荐方案集合
 污水系统推荐方案	testfiles/06-contents.tex	/^\\subsection{污水系统推荐方案}$/;"	u	section:案例研究：昆明市城北片区排水系统设计""推荐方案集合
+污水系统模型构建	build/test-testfiles/config-crossref/06-contents.tex	/^\\subsection{污水系统模型构建}$/;"	u	section:含有不确定性参数的城市排水系统优化设计模型""模型构建
 污水系统模型构建	testfiles/06-contents.tex	/^\\subsection{污水系统模型构建}$/;"	u	section:含有不确定性参数的城市排水系统优化设计模型""模型构建
+污水系统算法设计	build/test-testfiles/config-crossref/06-contents.tex	/^\\subsection{污水系统算法设计}$/;"	u	section:含有不确定性参数的城市排水系统优化设计模型""算法设计
 污水系统算法设计	testfiles/06-contents.tex	/^\\subsection{污水系统算法设计}$/;"	u	section:含有不确定性参数的城市排水系统优化设计模型""算法设计
+污水系统设计	build/test-testfiles/config-crossref/06-contents.tex	/^\\subsection{污水系统设计}$/;"	u	section:不确定条件下分流制城市排水系统优化设计方法研究""基准条件下多目标优化
 污水系统设计	testfiles/06-contents.tex	/^\\subsection{污水系统设计}$/;"	u	section:不确定条件下分流制城市排水系统优化设计方法研究""基准条件下多目标优化
+污水系统设计方案	build/test-testfiles/config-crossref/06-contents.tex	/^\\subsection{污水系统设计方案}$/;"	u	section:案例研究：昆明市城北片区排水系统设计""基准条件下的系统设计输出
 污水系统设计方案	testfiles/06-contents.tex	/^\\subsection{污水系统设计方案}$/;"	u	section:案例研究：昆明市城北片区排水系统设计""基准条件下的系统设计输出
+温度效应对孔洞动态演化的影响	build/test-testfiles/config-crossref/09-main-postdoc.tex	/^\\section{温度效应对孔洞动态演化的影响}$/;"	s	chapter:延性动态断裂模型
 温度效应对孔洞动态演化的影响	testfiles/09-main-postdoc.tex	/^\\section{温度效应对孔洞动态演化的影响}$/;"	s	chapter:延性动态断裂模型
+短时稳态性	build/test-testfiles/config-crossref/09-main.tex	/^\\subsection{短时稳态性}$/;"	u	section:对等网络中宽松约束的一般性搜索的理论模型""模型基本假设
 短时稳态性	testfiles/09-main.tex	/^\\subsection{短时稳态性}$/;"	u	section:对等网络中宽松约束的一般性搜索的理论模型""模型基本假设
+研究内容	build/test-testfiles/config-crossref/06-contents.tex	/^\\subsection{研究内容}$/;"	u	section:引言""研究目的、内容与意义
 研究内容	testfiles/06-contents.tex	/^\\subsection{研究内容}$/;"	u	section:引言""研究目的、内容与意义
+研究区域概化	build/test-testfiles/config-crossref/06-contents.tex	/^\\subsection{研究区域概化}$/;"	u	section:案例研究：昆明市城北片区排水系统设计""研究区域概化及数据收集
 研究区域概化	testfiles/06-contents.tex	/^\\subsection{研究区域概化}$/;"	u	section:案例研究：昆明市城北片区排水系统设计""研究区域概化及数据收集
+研究区域概化及数据收集	build/test-testfiles/config-crossref/06-contents.tex	/^\\section{研究区域概化及数据收集}$/;"	s	chapter:案例研究：昆明市城北片区排水系统设计
 研究区域概化及数据收集	testfiles/06-contents.tex	/^\\section{研究区域概化及数据收集}$/;"	s	chapter:案例研究：昆明市城北片区排水系统设计
+研究意义	build/test-testfiles/config-crossref/06-contents.tex	/^\\subsection{研究意义}$/;"	u	section:引言""研究目的、内容与意义
 研究意义	testfiles/06-contents.tex	/^\\subsection{研究意义}$/;"	u	section:引言""研究目的、内容与意义
+研究目的	build/test-testfiles/config-crossref/06-contents.tex	/^\\subsection{研究目的}$/;"	u	section:引言""研究目的、内容与意义
 研究目的	testfiles/06-contents.tex	/^\\subsection{研究目的}$/;"	u	section:引言""研究目的、内容与意义
+研究目的、内容与意义	build/test-testfiles/config-crossref/06-contents.tex	/^\\section{研究目的、内容与意义}$/;"	s	chapter:引言
 研究目的、内容与意义	testfiles/06-contents.tex	/^\\section{研究目的、内容与意义}$/;"	s	chapter:引言
+研究背景	build/test-testfiles/config-crossref/06-contents.tex	/^\\section{研究背景}$/;"	s	chapter:引言
 研究背景	testfiles/06-contents.tex	/^\\section{研究背景}$/;"	s	chapter:引言
+空间信息数据	build/test-testfiles/config-crossref/06-contents.tex	/^\\subsection{空间信息数据}$/;"	u	section:含有不确定性参数的城市排水系统优化设计模型""模型输入
 空间信息数据	testfiles/06-contents.tex	/^\\subsection{空间信息数据}$/;"	u	section:含有不确定性参数的城市排水系统优化设计模型""模型输入
+空间降尺度和时间降尺度模型结构与主要程序一览表	build/test-testfiles/config-crossref/06-contents.tex	/^\\chapter{空间降尺度和时间降尺度模型结构与主要程序一览表}$/;"	c
 空间降尺度和时间降尺度模型结构与主要程序一览表	testfiles/06-contents.tex	/^\\chapter{空间降尺度和时间降尺度模型结构与主要程序一览表}$/;"	c
+答辩委员会名单	build/test/02-committee.tex	/^  \\section*{答辩委员会名单}$/;"	s	chapter:标题
 答辩委员会名单	data/committee.tex	/^  \\section*{答辩委员会名单}$/;"	s	chapter:补充内容
 答辩委员会名单	testfiles/02-committee.tex	/^  \\section*{答辩委员会名单}$/;"	s	chapter:Title
 算法	data/chap02.tex	/^\\section{算法}$/;"	s	chapter:图表示例
+算法性能	build/test-testfiles/config-crossref/06-contents.tex	/^\\subsection{算法性能}$/;"	u	section:含有不确定性参数的城市排水系统优化设计模型""算法设计
 算法性能	testfiles/06-contents.tex	/^\\subsection{算法性能}$/;"	u	section:含有不确定性参数的城市排水系统优化设计模型""算法设计
+算法设计	build/test-testfiles/config-crossref/06-contents.tex	/^\\section{算法设计}$/;"	s	chapter:含有不确定性参数的城市排水系统优化设计模型
 算法设计	testfiles/06-contents.tex	/^\\section{算法设计}$/;"	s	chapter:含有不确定性参数的城市排水系统优化设计模型
+管道设计重现期与径流空间调蓄的协调关系	build/test-testfiles/config-crossref/06-contents.tex	/^\\subsection{管道设计重现期与径流空间调蓄的协调关系}$/;"	u	section:不确定条件下城市排水系统设计规律识别与分析""雨水系统
 管道设计重现期与径流空间调蓄的协调关系	testfiles/06-contents.tex	/^\\subsection{管道设计重现期与径流空间调蓄的协调关系}$/;"	u	section:不确定条件下城市排水系统设计规律识别与分析""雨水系统
+系统分散/集中程度对雨水系统性能的影响	build/test-testfiles/config-crossref/06-contents.tex	/^\\subsection{系统分散\/集中程度对雨水系统性能的影响}$/;"	u	section:不确定条件下城市排水系统设计规律识别与分析""雨水系统
 系统分散/集中程度对雨水系统性能的影响	testfiles/06-contents.tex	/^\\subsection{系统分散\/集中程度对雨水系统性能的影响}$/;"	u	section:不确定条件下城市排水系统设计规律识别与分析""雨水系统
+索引分布与搜索开销的关系	build/test-testfiles/config-crossref/09-main.tex	/^\\subsection{索引分布与搜索开销的关系}$/;"	u	section:对等网络中宽松约束的一般性搜索的理论模型""宽松约束的一般性搜索性能理论模型
 索引分布与搜索开销的关系	testfiles/09-main.tex	/^\\subsection{索引分布与搜索开销的关系}$/;"	u	section:对等网络中宽松约束的一般性搜索的理论模型""宽松约束的一般性搜索性能理论模型
+结点特性	build/test-testfiles/config-crossref/09-main.tex	/^\\subsection{结点特性}$/;"	u	section:对等网络中宽松约束的一般性搜索的理论模型""模型基本假设
 结点特性	testfiles/09-main.tex	/^\\subsection{结点特性}$/;"	u	section:对等网络中宽松约束的一般性搜索的理论模型""模型基本假设
+结论	build/test-testfiles/config-crossref/06-contents.tex	/^\\section{结论}$/;"	s	chapter:结论与建议
+结论	build/test-testfiles/config-crossref/09-main-postdoc.tex	/^\\chapter{结论}$/;"	c
 结论	testfiles/06-contents.tex	/^\\section{结论}$/;"	s	chapter:结论与建议
 结论	testfiles/09-main-postdoc.tex	/^\\chapter{结论}$/;"	c
+结论与建议	build/test-testfiles/config-crossref/06-contents.tex	/^\\chapter{结论与建议}$/;"	c
 结论与建议	testfiles/06-contents.tex	/^\\chapter{结论与建议}$/;"	c
 结论的写法	data/chap01.tex	/^\\section{结论的写法}$/;"	s	chapter:论文主要部分的写法
+考虑不确定性因素的城市排水系统设计实践	build/test-testfiles/config-crossref/06-contents.tex	/^\\subsection{考虑不确定性因素的城市排水系统设计实践}$/;"	u	section:文献综述""城市排水系统设计中考虑不确定性的实践综述
 考虑不确定性因素的城市排水系统设计实践	testfiles/06-contents.tex	/^\\subsection{考虑不确定性因素的城市排水系统设计实践}$/;"	u	section:文献综述""城市排水系统设计中考虑不确定性的实践综述
+脆性动态断裂模型	build/test-testfiles/config-crossref/09-main-postdoc.tex	/^\\chapter{脆性动态断裂模型}$/;"	c
 脆性动态断裂模型	testfiles/09-main-postdoc.tex	/^\\chapter{脆性动态断裂模型}$/;"	c
+脆性细观损伤模型	build/test-testfiles/config-crossref/09-main-postdoc.tex	/^\\subsection{脆性细观损伤模型}$/;"	u	section:材料动态断裂研究概述""静态损伤理论
 脆性细观损伤模型	testfiles/09-main-postdoc.tex	/^\\subsection{脆性细观损伤模型}$/;"	u	section:材料动态断裂研究概述""静态损伤理论
+致谢	build/test-testfiles/config-crossref/09-main-postdoc.tex	/^\\chapter{致谢}$/;"	c
 致谢	testfiles/09-main-postdoc.tex	/^\\chapter{致谢}$/;"	c
 著者-出版年制	data/chap04.tex	/^\\section{著者-出版年制}$/;"	s	chapter:引用文献的标注
 补充内容	data/appendix.tex	/^\\chapter{补充内容}$/;"	c
 表格	data/appendix-translation.tex	/^\\subsection{表格}$/;"	u	section:数学符号和公式""图表示例
 表格	data/appendix.tex	/^\\subsection{表格}$/;"	u	section:补充内容""图表示例
 表格	data/chap02.tex	/^\\section{表格}$/;"	s	chapter:图表示例
+讨论及总结	build/test-testfiles/config-crossref/09-main-postdoc.tex	/^\\section{讨论及总结}$/;"	s	chapter:脆性动态断裂模型
 讨论及总结	testfiles/09-main-postdoc.tex	/^\\section{讨论及总结}$/;"	s	chapter:脆性动态断裂模型
+讨论及结论	build/test-testfiles/config-crossref/09-main-postdoc.tex	/^\\section{讨论及结论}$/;"	s	chapter:延性动态断裂模型
 讨论及结论	testfiles/09-main-postdoc.tex	/^\\section{讨论及结论}$/;"	s	chapter:延性动态断裂模型
 论文主要部分的写法	data/chap01.tex	/^\\chapter{论文主要部分的写法}$/;"	c
 论文的语言及表述	data/chap01.tex	/^\\section{论文的语言及表述}$/;"	s	chapter:论文主要部分的写法
+论文结构	build/test-testfiles/config-crossref/06-contents.tex	/^\\section{论文结构}$/;"	s	chapter:引言
 论文结构	testfiles/06-contents.tex	/^\\section{论文结构}$/;"	s	chapter:引言
 论文题目的写法	data/chap01.tex	/^\\section{论文题目的写法}$/;"	s	chapter:论文主要部分的写法
+设施参考数据	build/test-testfiles/config-crossref/06-contents.tex	/^\\subsection{设施参考数据}$/;"	u	section:含有不确定性参数的城市排水系统优化设计模型""模型输入
 设施参考数据	testfiles/06-contents.tex	/^\\subsection{设施参考数据}$/;"	u	section:含有不确定性参数的城市排水系统优化设计模型""模型输入
+设施空间位置的选择原则	build/test-testfiles/config-crossref/06-contents.tex	/^\\subsection{设施空间位置的选择原则}$/;"	u	section:含有不确定性参数的城市排水系统优化设计模型""基本假设
 设施空间位置的选择原则	testfiles/06-contents.tex	/^\\subsection{设施空间位置的选择原则}$/;"	u	section:含有不确定性参数的城市排水系统优化设计模型""基本假设
+设计单元属性数据	build/test-testfiles/config-crossref/06-contents.tex	/^\\subsection{设计单元属性数据}$/;"	u	section:含有不确定性参数的城市排水系统优化设计模型""模型输入
 设计单元属性数据	testfiles/06-contents.tex	/^\\subsection{设计单元属性数据}$/;"	u	section:含有不确定性参数的城市排水系统优化设计模型""模型输入
+设计输入信息	build/test-testfiles/config-crossref/06-contents.tex	/^\\section{设计输入信息}$/;"	s	chapter:案例研究：昆明市城北片区排水系统设计
 设计输入信息	testfiles/06-contents.tex	/^\\section{设计输入信息}$/;"	s	chapter:案例研究：昆明市城北片区排水系统设计
+设计输入条件变化对污水系统最优解集的影响	build/test-testfiles/config-crossref/06-contents.tex	/^\\subsection{设计输入条件变化对污水系统最优解集的影响}$/;"	u	section:不确定条件下城市排水系统设计规律识别与分析""污水系统
 设计输入条件变化对污水系统最优解集的影响	testfiles/06-contents.tex	/^\\subsection{设计输入条件变化对污水系统最优解集的影响}$/;"	u	section:不确定条件下城市排水系统设计规律识别与分析""污水系统
+评 述	build/test-testfiles/config-crossref/09-main-postdoc.tex	/^\\section{评  述}$/;"	s	chapter:材料动态断裂研究概述
 评 述	testfiles/09-main-postdoc.tex	/^\\section{评  述}$/;"	s	chapter:材料动态断裂研究概述
+金属材料动态断裂实验研究	build/test-testfiles/config-crossref/09-main-postdoc.tex	/^\\chapter{金属材料动态断裂实验研究}$/;"	c
 金属材料动态断裂实验研究	testfiles/09-main-postdoc.tex	/^\\chapter{金属材料动态断裂实验研究}$/;"	c
+问题的提出	build/test-testfiles/config-crossref/06-contents.tex	/^\\section{问题的提出}$/;"	s	chapter:引言
 问题的提出	testfiles/06-contents.tex	/^\\section{问题的提出}$/;"	s	chapter:引言
+问题识别	build/test-testfiles/config-crossref/06-contents.tex	/^\\section{问题识别}$/;"	s	chapter:不确定条件下分流制城市排水系统优化设计方法研究
 问题识别	testfiles/06-contents.tex	/^\\section{问题识别}$/;"	s	chapter:不确定条件下分流制城市排水系统优化设计方法研究
 附录	data/appendix-translation.tex	/^\\section{附录}$/;"	s	chapter:数学符号和公式
+雨水系统	build/test-testfiles/config-crossref/06-contents.tex	/^\\section{雨水系统}$/;"	s	chapter:不确定条件下城市排水系统设计规律识别与分析
 雨水系统	testfiles/06-contents.tex	/^\\section{雨水系统}$/;"	s	chapter:不确定条件下城市排水系统设计规律识别与分析
+雨水系统和污水系统设计模型的程序文件一览表	build/test-testfiles/config-crossref/06-contents.tex	/^\\chapter{雨水系统和污水系统设计模型的程序文件一览表}$/;"	c
 雨水系统和污水系统设计模型的程序文件一览表	testfiles/06-contents.tex	/^\\chapter{雨水系统和污水系统设计模型的程序文件一览表}$/;"	c
+雨水系统和污水系统输入数据一览表	build/test-testfiles/config-crossref/06-contents.tex	/^\\subsection{雨水系统和污水系统输入数据一览表}$/;"	u	section:含有不确定性参数的城市排水系统优化设计模型""模型输入
 雨水系统和污水系统输入数据一览表	testfiles/06-contents.tex	/^\\subsection{雨水系统和污水系统输入数据一览表}$/;"	u	section:含有不确定性参数的城市排水系统优化设计模型""模型输入
+雨水系统性能评估	build/test-testfiles/config-crossref/06-contents.tex	/^\\subsection{雨水系统性能评估}$/;"	u	section:不确定条件下分流制城市排水系统优化设计方法研究""不确定条件下系统性能评估
+雨水系统性能评估	build/test-testfiles/config-crossref/06-contents.tex	/^\\subsection{雨水系统性能评估}$/;"	u	section:案例研究：昆明市城北片区排水系统设计""不确定条件下的系统性能评估
 雨水系统性能评估	testfiles/06-contents.tex	/^\\subsection{雨水系统性能评估}$/;"	u	section:不确定条件下分流制城市排水系统优化设计方法研究""不确定条件下系统性能评估
 雨水系统性能评估	testfiles/06-contents.tex	/^\\subsection{雨水系统性能评估}$/;"	u	section:案例研究：昆明市城北片区排水系统设计""不确定条件下的系统性能评估
+雨水系统推荐方案	build/test-testfiles/config-crossref/06-contents.tex	/^\\subsection{雨水系统推荐方案}$/;"	u	section:案例研究：昆明市城北片区排水系统设计""推荐方案集合
 雨水系统推荐方案	testfiles/06-contents.tex	/^\\subsection{雨水系统推荐方案}$/;"	u	section:案例研究：昆明市城北片区排水系统设计""推荐方案集合
+雨水系统模型构建	build/test-testfiles/config-crossref/06-contents.tex	/^\\subsection{雨水系统模型构建}$/;"	u	section:含有不确定性参数的城市排水系统优化设计模型""模型构建
 雨水系统模型构建	testfiles/06-contents.tex	/^\\subsection{雨水系统模型构建}$/;"	u	section:含有不确定性参数的城市排水系统优化设计模型""模型构建
+雨水系统算法设计	build/test-testfiles/config-crossref/06-contents.tex	/^\\subsection{雨水系统算法设计}$/;"	u	section:含有不确定性参数的城市排水系统优化设计模型""算法设计
 雨水系统算法设计	testfiles/06-contents.tex	/^\\subsection{雨水系统算法设计}$/;"	u	section:含有不确定性参数的城市排水系统优化设计模型""算法设计
+雨水系统设计	build/test-testfiles/config-crossref/06-contents.tex	/^\\subsection{雨水系统设计}$/;"	u	section:不确定条件下分流制城市排水系统优化设计方法研究""基准条件下多目标优化
 雨水系统设计	testfiles/06-contents.tex	/^\\subsection{雨水系统设计}$/;"	u	section:不确定条件下分流制城市排水系统优化设计方法研究""基准条件下多目标优化
+雨水系统设计方案	build/test-testfiles/config-crossref/06-contents.tex	/^\\subsection{雨水系统设计方案}$/;"	u	section:案例研究：昆明市城北片区排水系统设计""基准条件下的系统设计输出
 雨水系统设计方案	testfiles/06-contents.tex	/^\\subsection{雨水系统设计方案}$/;"	u	section:案例研究：昆明市城北片区排水系统设计""基准条件下的系统设计输出
+静态损伤理论	build/test-testfiles/config-crossref/09-main-postdoc.tex	/^\\section{静态损伤理论}$/;"	s	chapter:材料动态断裂研究概述
 静态损伤理论	testfiles/09-main-postdoc.tex	/^\\section{静态损伤理论}$/;"	s	chapter:材料动态断裂研究概述
+非平衡统计断裂力学	build/test-testfiles/config-crossref/09-main-postdoc.tex	/^\\subsection{非平衡统计断裂力学}$/;"	u	section:材料动态断裂研究概述""静态损伤理论
 非平衡统计断裂力学	testfiles/09-main-postdoc.tex	/^\\subsection{非平衡统计断裂力学}$/;"	u	section:材料动态断裂研究概述""静态损伤理论
 顺序编码制	data/chap04.tex	/^\\section{顺序编码制}$/;"	s	chapter:引用文献的标注
